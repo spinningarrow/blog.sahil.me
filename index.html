@@ -3,11 +3,12 @@ layout: default
 ---
 <section class="content">
 	<ul class="listing home">
-		{% for page in site.posts limit:3 %}
+		{% for page in site.posts limit:5 %}
+		{% capture disqus_identifier %}http://sahil.me/blog{{ page.url }}{% endcapture %}
 		<li>
 			<a href="{{ site.baseurl }}{{ page.url }}" class="post-title">{{ page.title }}</a>
 			<time datetime="{{ page.date }}">{{ page.date | date: "%A, %e %B %Y" }}</time>
-			<a href="{{ site.baseurl }}{{ page.url }}#disqus_thread" class="post-comment-count" data-disqus-identifier="{{ page.id }}"></a>
+			<a href="{{ site.baseurl }}{{ page.url }}#disqus_thread" class="post-comment-count" data-disqus-identifier="{{ disqus_identifier }}"></a>
 		</li>
 		{% endfor %}
 	</ul>
