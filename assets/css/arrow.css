@@ -204,6 +204,9 @@ article a:link {
 article a:visited {
   border-bottom-color: #cce0aa;
 }
+article header {
+  margin-bottom: 1em;
+}
 article header h1 {
   font-family: Raleway, 'Raleway Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
