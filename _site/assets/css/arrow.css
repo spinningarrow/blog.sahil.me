@@ -1,0 +1,246 @@
+#disqus_thread {
+  margin-top: -65px;
+}
+#dsq-comments-title {
+  display: none !important;
+}
+#dsq-content {
+  font-size: 1em !important;
+}
+#dsq-content .dsq-options {
+  font-size: 0.8em;
+}
+#dsq-content .dsq-options img {
+  display: none;
+}
+#dsq-content .dsq-comment {
+  border-top: 1px solid #f6f6f6;
+  padding-top: 1em;
+}
+#dsq-content .dsq-comment-header {
+  background: none !important;
+  border: 0 !important;
+}
+#dsq-content .dsq-comment-header .dsq-comment-header-meta {
+  padding: 0;
+}
+#dsq-content .dsq-comment-header cite {
+  float: left;
+}
+#dsq-content .dsq-comment-header .dsq-comment-header-time {
+  float: right;
+  padding: 0;
+}
+#dsq-content .dsq-comment-header .dsq-comment-header-time a {
+  font-style: italic;
+}
+#dsq-content .dsq-full-comment:hover .dsq-comment-header-meta-wrapper .dsq-comment-hide-thread {
+  display: none;
+}
+#dsq-content .dsq-comment-footer {
+  display: none;
+}
+#dsq-content .dsq-header-avatar {
+  display: none;
+}
+#dsq-content .dsq-pagination {
+  display: none;
+}
+#dsq-content .dsq-post-area {
+  border-top: 1px solid #f6f6f6;
+}
+#dsq-content .dsq-request-user-info .dsq-request-user-name,
+#dsq-content .dsq-request-user-info .dsq-request-user-stats {
+  padding: 0;
+}
+body {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  color: #333;
+  font-family: 'Fanwood Text', Fanwood, Perpetua, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 0 auto;
+  width: 600px;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.1s ease;
+  -moz-transition: color 0.1s ease;
+  -ms-transition: color 0.1s ease;
+  -o-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+a:link {
+  color: #e50000;
+}
+a:visited {
+  color: #e50000;
+}
+a:hover {
+  color: #bf0000;
+}
+header {
+  text-align: center;
+}
+body > header {
+  text-transform: uppercase;
+}
+body > header h1 {
+  font-size: 22px;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin: 50px 0 0;
+  word-spacing: 5px;
+}
+body > header h1 i {
+  font-size: 36px;
+  text-transform: none;
+}
+body > header a:link,
+body > header a:visited {
+  color: #333;
+}
+body > header p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+body > footer {
+  font-size: 18px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+body > footer:before {
+  border-top: 1px solid #ccc;
+  content: '';
+  display: block;
+  margin-bottom: 60px;
+  z-index: -1;
+}
+body > footer:after {
+  background: #fff;
+  content: '❄';
+  font-size: 28px;
+  left: 48.5%;
+  line-height: 1;
+  padding: 0 15px;
+  position: absolute;
+  top: -10px;
+}
+body > footer p {
+  margin-bottom: 0;
+}
+body > footer blockquote {
+  font-style: italic;
+  margin: 0;
+}
+body > footer blockquote a:link {
+  font-style: normal;
+}
+nav.main {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: lowercase;
+}
+nav.main:before {
+  border-top: 1px solid #ccc;
+  content: '';
+  display: block;
+  position: relative;
+  top: 0.5em;
+  z-index: -1;
+}
+nav.main ul {
+  background: #fff;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+}
+nav.main li {
+  display: inline-block;
+  margin-left: 1em;
+}
+nav.main li:first-child {
+  margin-left: 0;
+}
+nav.main a {
+  border: 0;
+}
+.home.listing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home.listing li {
+  border-top: 1px solid #f6f6f6;
+  clear: both;
+  padding: 20px 0;
+}
+.home.listing li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.home.listing li .post-title {
+  display: block;
+}
+.home.listing li time {
+  font-style: italic;
+}
+.home.listing li .post-comment-count {
+  color: #7ab317;
+  display: inline-block;
+  float: right;
+  font-style: italic;
+}
+article a:link {
+  border-bottom: 1px solid #7ab317;
+}
+article a:visited {
+  border-bottom-color: #cce0aa;
+}
+article header h1 {
+  font-family: Raleway, 'Raleway Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+article header time {
+  font-size: 20px;
+}
+article img {
+  max-width: 100%;
+}
+article figure {
+  text-align: center;
+}
+article figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+}
+article figcaption em {
+  font-style: normal;
+}
+article code {
+  font-family: $monospaceFont;
+}
+article pre code {
+  border-left: 0.5em solid #f6f6f6;
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  padding-left: 2em;
+}
+.comments {
+  min-height: 100px;
+}
+.comments h2 a {
+  border-bottom: 0;
+  color: #333;
+  cursor: default;
+}
+

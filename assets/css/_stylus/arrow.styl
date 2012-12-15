@@ -1,0 +1,209 @@
+@import "mixins"
+@import "colours"
+@import "type"
+@import "disqus"
+
+// Basic styles
+// ====================================================================
+body
+	border-top 2px solid
+	border-bottom 2px solid
+	color $textColor
+	font-family $bodyFont
+	font-size 22px
+	line-height 1.6
+	margin 0 auto
+	width 600px
+
+a
+	text-decoration none
+	transition color 0.1s ease
+
+	&:link
+		color $linkColor
+
+	&:visited
+		color $linkColor
+
+	&:hover
+		color $hoveredLinkColor
+
+header
+	text-align center
+
+// Main site elements
+// ====================================================================
+
+// Header
+body > header
+	text-transform uppercase
+
+	h1
+		font-size 22px
+		letter-spacing -1px
+		line-height 1
+		margin 50px 0 0
+		word-spacing 5px
+
+		i
+			font-size 36px
+			text-transform none
+
+	a:link, a:visited
+		color $textColor
+
+	p
+		font-size 12px
+		letter-spacing 2px
+		margin-bottom 50px
+
+// Footer
+body > footer
+	font-size 18px
+	margin-top 40px
+	padding-bottom 50px
+	position relative
+	text-align center
+
+	&:before
+		border-top 1px solid $accentColor
+		content ''
+		display block
+		margin-bottom 60px
+		z-index -1
+
+	&:after
+		background $backgroundColor
+		content '❄'
+		font-size 28px
+		left 48.5%
+		line-height 1
+		padding 0 15px
+		position absolute
+		top -10px
+
+	p
+		margin-bottom 0
+
+	blockquote
+		font-style italic
+		margin 0
+
+		a:link
+			font-style normal
+
+// Nav
+nav.main
+	font-size 16px
+	line-height 1
+	margin-bottom 40px
+	text-align center
+	text-transform lowercase
+
+	&:before
+		border-top 1px solid $accentColor
+		content ''
+		display block
+		position relative
+		top 0.5em
+		z-index -1
+
+	ul
+		background $backgroundColor
+		display inline-block
+		list-style none
+		margin 0
+		padding 0 1em
+
+	li
+		display inline-block
+		margin-left 1em
+
+		&:first-child
+			margin-left 0
+
+	a
+		border 0
+
+// Home
+// ====================================================================
+
+.home.listing
+	list-style none
+	margin 0
+	padding 0
+
+	li
+		border-top 1px solid $lightAccentColor
+		clear both
+		padding 20px 0
+
+		&:first-child
+			border-top 0
+			padding-top 0
+
+		.post-title
+			display block
+
+		time
+			font-style italic
+
+		.post-comment-count
+			color $linkBorderColor
+			display inline-block
+			float right
+			font-style italic
+
+// Posts
+// ====================================================================
+
+article
+	a
+		&:link
+			border-bottom 1px solid $linkBorderColor
+
+		&:visited
+			border-bottom-color $visitedLinkBorderColor
+
+	header
+		h1
+			font-family $displayFont
+			font-weight 300
+			margin-bottom 0
+
+		time
+			font-size 20px
+
+	img
+		max-width 100%
+
+	figure
+		text-align center
+
+	figcaption
+		font-size 0.8em
+		font-style italic
+
+		em
+			font-style normal
+
+	code
+		font-family $monospaceFont
+
+	pre code
+		border-left 0.5em solid $lightAccentColor
+		display block
+		font-size 18px
+		line-height 1.2
+		padding-left 2em
+
+// Comments
+// ====================================================================
+
+.comments
+	min-height 100px
+
+	h2 a
+		border-bottom 0
+		color $textColor
+		cursor default

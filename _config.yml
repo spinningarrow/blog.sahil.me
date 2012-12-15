@@ -1,0 +1,8 @@
+# Jekyll configuration
+auto: true
+baseurl: /blog
+pygments: true
+permalink: /posts/:title
+
+# Site configuration
+title: The Spinning Arrow
