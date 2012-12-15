@@ -16,4 +16,4 @@ The result, you ask? Witness my *magnum opus* (for the day, that is):
 
 The GameBoy obsessions of my younger self are purely coincidental, but yes, I spent my day playing old Nintendo GBA games on a not-so-old Sony PSP. The mind, it *boggles*.
 
-**PS**. Does anyone know how to incinerate mould so I may never again have to groan in irked displeasure every time I see something of mine that I haven't used in a while?
+**PS**: Does anyone know how to incinerate mould so I may never again have to groan in irked displeasure every time I see something of mine that I haven't used in a while?
