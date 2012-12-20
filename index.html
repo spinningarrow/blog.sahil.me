@@ -2,6 +2,7 @@
 layout: default
 ---
 <section class="content">
+	<h2>Latest Posts</h2>
 	<ul class="listing home">
 		{% for page in site.posts limit:5 %}
 		{% capture disqus_identifier %}http://sahil.me/blog{{ page.url }}{% endcapture %}
@@ -12,4 +13,5 @@ layout: default
 		</li>
 		{% endfor %}
 	</ul>
+	<p>To see all posts, take a look at the <a href="archives.html">archives</a>.</p>
 </section>
