@@ -231,6 +231,11 @@ article figcaption {
 article figcaption em {
   font-style: normal;
 }
+article blockquote {
+  border-left: 0.5em solid #f6f6f6;
+  margin: 0;
+  padding-left: 1em;
+}
 article code {
   font-family: $monospaceFont;
 }
