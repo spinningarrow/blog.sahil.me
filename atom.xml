@@ -14,16 +14,21 @@ layout: nil
 
 	<author>
 		<name>Sahil Bajaj</name>
-		<email>sahil@sahil.me</email>
+		<email>mail@sahil.me</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for post in site.posts limit:1 %}
 	<entry>
 		<title>{{ post.title }}</title>
 		<link href="http://sahil.me/{{ site.baseurl }}{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://sahil.me/{{ site.baseurl }}{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
+		<author>
+			<name>Sahil</name>
+			<uri>sahil.me</uri>
+			<email>mail@sahil.me</email>
+		</author>
 	</entry>
 	{% endfor %}
 
