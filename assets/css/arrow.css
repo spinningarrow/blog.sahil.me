@@ -83,6 +83,9 @@ a:hover {
 header {
   text-align: center;
 }
+em em {
+  font-style: normal;
+}
 body > header {
   text-transform: uppercase;
 }
