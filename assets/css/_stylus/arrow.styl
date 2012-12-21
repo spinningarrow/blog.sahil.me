@@ -63,23 +63,17 @@ body > header
 // Footer
 body > footer
 	font-size 18px
+	border-top 1px solid $accentColor
 	margin-top 40px
-	padding-bottom 50px
+	padding 60px 0 50px
 	position relative
 	text-align center
 
 	&:before
-		border-top 1px solid $accentColor
-		content ''
-		display block
-		margin-bottom 60px
-		z-index -1
-
-	&:after
 		background $backgroundColor
 		content '❄'
 		font-size 28px
-		left 48.5%
+		left 46%
 		line-height 1
 		padding 0 15px
 		position absolute
@@ -212,6 +206,12 @@ article
 
 .comments
 	min-height 100px
+
+	&:before
+		color $accentColor
+		content '↯'
+		display block
+		text-align center
 
 	h2 a
 		border-bottom 0

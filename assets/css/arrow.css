@@ -14,7 +14,7 @@
   display: none;
 }
 #dsq-content .dsq-comment {
-  border-top: 1px solid #f6f6f6;
+  border-top: 1px solid #f2f2f2;
   padding-top: 1em;
 }
 #dsq-content .dsq-comment-header {
@@ -47,7 +47,7 @@
   display: none;
 }
 #dsq-content .dsq-post-area {
-  border-top: 1px solid #f6f6f6;
+  border-top: 1px solid #f2f2f2;
 }
 #dsq-content .dsq-request-user-info .dsq-request-user-name,
 #dsq-content .dsq-request-user-info .dsq-request-user-stats {
@@ -111,23 +111,17 @@ body > header p {
 }
 body > footer {
   font-size: 18px;
+  border-top: 1px solid #ccc;
   margin-top: 40px;
-  padding-bottom: 50px;
+  padding: 60px 0 50px;
   position: relative;
   text-align: center;
 }
 body > footer:before {
-  border-top: 1px solid #ccc;
-  content: '';
-  display: block;
-  margin-bottom: 60px;
-  z-index: -1;
-}
-body > footer:after {
   background: #fff;
   content: '❄';
   font-size: 28px;
-  left: 48.5%;
+  left: 46%;
   line-height: 1;
   padding: 0 15px;
   position: absolute;
@@ -181,7 +175,7 @@ nav.main a {
   padding: 0;
 }
 .home.listing li {
-  border-top: 1px solid #f6f6f6;
+  border-top: 1px solid #f2f2f2;
   clear: both;
   padding: 20px 0;
 }
@@ -232,7 +226,7 @@ article figcaption em {
   font-style: normal;
 }
 article blockquote {
-  border-left: 0.5em solid #f6f6f6;
+  border-left: 0.5em solid #f2f2f2;
   margin: 0;
   padding-left: 1em;
 }
@@ -240,7 +234,7 @@ article code {
   font-family: $monospaceFont;
 }
 article pre code {
-  border-left: 0.5em solid #f6f6f6;
+  border-left: 0.5em solid #f2f2f2;
   display: block;
   font-size: 18px;
   line-height: 1.2;
@@ -248,6 +242,12 @@ article pre code {
 }
 .comments {
   min-height: 100px;
+}
+.comments:before {
+  color: #ccc;
+  content: '↯';
+  display: block;
+  text-align: center;
 }
 .comments h2 a {
   border-bottom: 0;
