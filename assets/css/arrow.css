@@ -54,14 +54,13 @@
   padding: 0;
 }
 body {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
   color: #333;
   font-family: 'Fanwood Text', Fanwood, Perpetua, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
   font-size: 22px;
   line-height: 1.6;
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
+  padding: 0 20px;
 }
 a {
   text-decoration: none;
@@ -86,18 +85,36 @@ header {
 em em {
   font-style: normal;
 }
+ul.listing-stylish {
+  margin: 0;
+  padding: 0;
+}
+ul.listing-stylish > li {
+  list-style-type: none;
+}
+ul.listing-stylish > li:before {
+  color: #cce0aa;
+  content: '•';
+  display: inline-block;
+  width: 1em;
+}
+li time {
+  font-family: Raleway, 'Raleway Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.7em;
+}
 body > header {
+  border-top: 2px solid;
   text-transform: uppercase;
 }
 body > header h1 {
-  font-size: 22px;
+  font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
   margin: 50px 0 0;
-  word-spacing: 5px;
+  word-spacing: 0.25em;
 }
 body > header h1 i {
-  font-size: 36px;
+  font-size: 1.63em;
   text-transform: none;
 }
 body > header a:link,
@@ -110,8 +127,9 @@ body > header p {
   margin-bottom: 50px;
 }
 body > footer {
-  font-size: 18px;
   border-top: 1px solid #ccc;
+  border-bottom: 2px solid;
+  font-size: 18px;
   margin-top: 40px;
   padding: 60px 0 50px;
   position: relative;
@@ -169,6 +187,12 @@ nav.main li:first-child {
 nav.main a {
   border: 0;
 }
+.main-content a:link {
+  border-bottom: 1px solid #7ab317;
+}
+.main-content a:visited {
+  border-bottom-color: #cce0aa;
+}
 .home.listing {
   list-style: none;
   margin: 0;
@@ -186,20 +210,14 @@ nav.main a {
 .home.listing li .post-title {
   display: block;
 }
-.home.listing li time {
-  font-style: italic;
-}
 .home.listing li .post-comment-count {
   color: #7ab317;
   display: inline-block;
   float: right;
   font-style: italic;
 }
-article a:link {
-  border-bottom: 1px solid #7ab317;
-}
-article a:visited {
-  border-bottom-color: #cce0aa;
+.home.listing a {
+  border: 0;
 }
 article header {
   margin-bottom: 1em;
@@ -259,4 +277,3 @@ article pre code {
   font-size: 0.8em;
   padding: 0.5em;
 }
-

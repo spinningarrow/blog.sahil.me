@@ -19,12 +19,12 @@ title: Archives
 				</ul>
 			{% endif %}
 			<h2>{{ current_post_year }}</h2>
-			<ul class="listing">
+			<ul class="listing listing-stylish">
 			{% assign previous_post_year = current_post_year %}
 		{% endif %}
 
 		<li>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %e, %Y" }}</span>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date }}">{{ post.date | date: "%B %e, %Y" }}</time>
 		</li>
 	{% endfor %}
 	</ul>

@@ -6,14 +6,13 @@
 // Basic styles
 // ====================================================================
 body
-	border-top 2px solid
-	border-bottom 2px solid
 	color $textColor
 	font-family $bodyFont
 	font-size 22px
 	line-height 1.6
 	margin 0 auto
-	width 600px
+	max-width 600px
+	padding 0 20px
 
 a
 	text-decoration none
@@ -34,22 +33,40 @@ header
 em em
 	font-style normal
 
+ul.listing-stylish
+	margin 0
+	padding 0
+
+	> li
+		list-style-type none
+
+		&:before
+			color $visitedLinkBorderColor
+			content '•'
+			display inline-block
+			width 1em
+
+li time
+	font-family $displayFont
+	font-size 0.7em
+
 // Main site elements
 // ====================================================================
 
 // Header
 body > header
+	border-top 2px solid
 	text-transform uppercase
 
 	h1
-		font-size 22px
+		font-size 24px
 		letter-spacing -1px
 		line-height 1
 		margin 50px 0 0
-		word-spacing 5px
+		word-spacing 0.25em
 
 		i
-			font-size 36px
+			font-size 1.63em
 			text-transform none
 
 	a:link, a:visited
@@ -62,8 +79,9 @@ body > header
 
 // Footer
 body > footer
-	font-size 18px
 	border-top 1px solid $accentColor
+	border-bottom 2px solid
+	font-size 18px
 	margin-top 40px
 	padding 60px 0 50px
 	position relative
@@ -122,6 +140,14 @@ nav.main
 	a
 		border 0
 
+// Links
+.main-content a
+	&:link
+		border-bottom 1px solid $linkBorderColor
+
+	&:visited
+		border-bottom-color $visitedLinkBorderColor
+
 // Home
 // ====================================================================
 
@@ -142,26 +168,19 @@ nav.main
 		.post-title
 			display block
 
-		time
-			font-style italic
-
 		.post-comment-count
 			color $linkBorderColor
 			display inline-block
 			float right
 			font-style italic
 
+	a
+		border 0
+
 // Posts
 // ====================================================================
 
 article
-	a
-		&:link
-			border-bottom 1px solid $linkBorderColor
-
-		&:visited
-			border-bottom-color $visitedLinkBorderColor
-
 	header
 		margin-bottom 1em
 
