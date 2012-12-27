@@ -243,6 +243,15 @@ article figcaption {
 article figcaption em {
   font-style: normal;
 }
+article hr {
+  border: 0;
+}
+article hr:after {
+  color: #ccc;
+  content: '* * *';
+  display: block;
+  text-align: center;
+}
 article blockquote {
   border-left: 0.5em solid #f2f2f2;
   margin: 0;
@@ -267,7 +276,8 @@ article pre code {
   display: block;
   text-align: center;
 }
-.comments h2 a {
+.comments h2 a:link,
+.comments h2 a:visited {
   border-bottom: 0;
   color: #333;
   cursor: default;
