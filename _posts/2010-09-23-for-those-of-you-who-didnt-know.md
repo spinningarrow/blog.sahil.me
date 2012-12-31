@@ -8,7 +8,7 @@ title: For those of you who didn't know ...
 
 And *damn*, is college life hectic!
 
-<hr>
+***
 
 > The Road goes ever on and on<br>
 > Down from the door where it began.<br>
