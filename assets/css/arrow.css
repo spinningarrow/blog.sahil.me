@@ -102,6 +102,9 @@ li time {
   font-family: Raleway, 'Raleway Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 0.7em;
 }
+.acronym {
+  font-size: 0.8em;
+}
 body > header {
   border-top: 2px solid;
   text-transform: uppercase;
