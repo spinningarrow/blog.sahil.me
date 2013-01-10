@@ -237,18 +237,27 @@ article
 // ====================================================================
 
 .comments
+	margin-top 1em
 	min-height 100px
 
 	&:before
 		color $accentColor
 		content '↯'
 		display block
+		margin-bottom -1em
 		text-align center
 
-	h2 a:link, h2 a:visited
-		border-bottom 0
-		color $textColor
-		cursor default
+	// Show title infront of disqus loading graphic (overlay occurs
+	// because of the negative margin on #disqus_thread)
+	h2
+		background #fff
+		position relative
+		z-index 1
+
+		a:link, a:visited
+			border-bottom 0
+			color $textColor
+			cursor default
 
 // Other design elements
 // ====================================================================

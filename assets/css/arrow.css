@@ -272,13 +272,20 @@ article pre code {
   padding-left: 2em;
 }
 .comments {
+  margin-top: 1em;
   min-height: 100px;
 }
 .comments:before {
   color: #ccc;
   content: '↯';
   display: block;
+  margin-bottom: -1em;
   text-align: center;
+}
+.comments h2 {
+  background: #fff;
+  position: relative;
+  z-index: 1;
 }
 .comments h2 a:link,
 .comments h2 a:visited {
