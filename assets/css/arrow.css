@@ -282,16 +282,14 @@ article pre code {
   margin-bottom: -1em;
   text-align: center;
 }
-.comments h2 {
-  background: #fff;
-  position: relative;
-  z-index: 1;
-}
 .comments h2 a:link,
 .comments h2 a:visited {
+  background: #fff;
   border-bottom: 0;
   color: #333;
   cursor: default;
+  position: relative;
+  z-index: 1;
 }
 .alert {
   background-color: #ffd;
