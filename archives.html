@@ -3,6 +3,7 @@ layout: default
 title: Archives
 ---
 <section class="content">
+	<h2>Archives</h2>
 	<p class="alert"><strong>Note</strong>: This is an incomplete list of past posts as I'm still
 		working on importing all the posts from my <a href="http://sahilb.blogspot.com">previous blog.</a></p>
 
@@ -18,7 +19,7 @@ title: Archives
 			{% else %}
 				</ul>
 			{% endif %}
-			<h2>{{ current_post_year }}</h2>
+			<h3>{{ current_post_year }}</h3>
 			<ul class="listing listing-stylish">
 			{% assign previous_post_year = current_post_year %}
 		{% endif %}
