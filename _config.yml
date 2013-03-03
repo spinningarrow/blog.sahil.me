@@ -1,6 +1,7 @@
 # Jekyll configuration
 auto: true
 baseurl: /blog
+markdown: kramdown
 pygments: true
 permalink: /posts/:title
 
