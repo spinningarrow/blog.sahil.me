@@ -7,10 +7,10 @@ layout: nil
 	<title>The Spinning Arrow</title>
 
 	<link href="http://sahil.me/blog/atom.xml" rel="self"/>
-	<link href="http://sahil.me/blog"/>
+	<link href="http://sahil.me/blog/"/>
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://sahil.me/blog</id>
+	<id>http://sahil.me/blog/</id>
 
 	<author>
 		<name>Sahil Bajaj</name>
@@ -20,9 +20,9 @@ layout: nil
 	{% for post in site.posts limit:2 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://sahil.me/{{ site.baseurl }}{{ post.url }}"/>
+		<link href="http://sahil.me{{ site.baseurl }}{{ post.url }}/"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://sahil.me/{{ site.baseurl }}{{ post.id }}</id>
+		<id>http://sahil.me{{ site.baseurl }}{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 		<author>
 			<name>Sahil</name>
