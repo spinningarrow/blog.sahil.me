@@ -8,7 +8,7 @@ With that — and my love for the *The Adventures of Sherlock Holmes* — put ou
 
 I <del>arrived late</del> arrived quite early but entered the cinema hall late (gallantry should be outlawed) consequently missing a whole minute of cinematography, but considerably lesser of significance (or so I tell myself). The good thing about the story is that the main plot has been completely pulled out of thin air — and it's pretty good. Thankfully, they didn't try to adapt one of Arthur Conan Doyle's stories, which would've been disastrous given all the reinventions, to say the least.
 
-{% image http://2.bp.blogspot.com/_eJimuJOoqL4/S1GCv10faUI/AAAAAAAAAJU/ciKRYrckkNg/s1600-h/holmesadler.jpg "Ah, yes. <em>The</em> woman." %}
+{% image https://lh5.googleusercontent.com/-dg7rR6YXzNI/UT9xY-z6dDI/AAAAAAAAAew/LFzhHSP62AM/s1600/holmesadler.jpg "Ah, yes. <em>The</em> woman." %}
 
 Oh just by the way, I did *not* like whoever plays Mary Morstan. Don't ask me why.
 
