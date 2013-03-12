@@ -32,6 +32,8 @@ Recess Week showed up for a few moments, but it didn't attract much attention ex
 
 I went for the [Singapore Grand Prix](http://www.singaporegp.sg/) – for free! I signed up as a First Aid volunteer, which meant that I actually didn't see much of the race, but just being in the middle of all the Australian acrobats, Singapore artists, famous acts like Rick Astley and Shaggy (neither of whom I could care much about), women on stilts dancing to records played by a guy who looked strangely like Jimi Hendrix (!), and the noise of engines roaring past every few seconds (after a while, earplugs began to look like a natural part of everybody's heads) was quite an experience. I did lose my phone on my way back after the second day, though.
 
-More quizzes, a tottering pile of academic work that could easily substitute most skyscrapers, signing up for a part time work-study thing, giving my name for the [Hall 13 Production](http://sahilb.blogspot.com/2011/04/post-production.html) again (they're doing a musical and I can't sing to save your life, so I wonder how I got pulled in at all), and what do you know – this semester is nearly over.
+More quizzes, a tottering pile of academic work that could easily substitute most skyscrapers, signing up for a part time work-study thing, giving my name for the [Hall 13 Production][1] again (they're doing a musical and I can't sing to save your life, so I wonder how I got pulled in at all), and what do you know – this semester is nearly over.
 
 Exams are in *two weeks*.
+
+[1]: {{ site.baseurl }}/posts/post-production/
