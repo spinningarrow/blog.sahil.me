@@ -86,7 +86,7 @@ em em {
   font-style: normal;
 }
 ul.listing-stylish {
-  margin: 0;
+  margin: 0 0 0 1em;
   padding: 0;
 }
 ul.listing-stylish > li {
@@ -96,6 +96,7 @@ ul.listing-stylish > li:before {
   color: #f3f0dd;
   content: '•';
   display: inline-block;
+  margin-left: -1em;
   width: 1em;
 }
 li time {
