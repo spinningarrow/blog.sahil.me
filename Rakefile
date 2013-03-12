@@ -58,6 +58,7 @@ task :post do
   end
 
   puts "Creating new post: #{filename}"
+  if !ENV['date'] then puts "\nNOTE: Remember to increase the limit in atom.xml!" end
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
