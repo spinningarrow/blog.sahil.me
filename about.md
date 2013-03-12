@@ -8,6 +8,8 @@ title: About
 
 Hello, and welcome to my blog!
 
-My name is Sahil. I'm a 22 year old from New Delhi studying Computer Science at Nanyang Technological University in <del>sunny</del> rainy Singapore.
+My name is Sahil. I'm a 22 year old from New Delhi studying Computer Science at [NTU][] in <del>sunny</del> rainy Singapore.
 
 I read all comments posted on this blog (on both new and old posts). You can also email me at <mail@sahil.me>.
+
+[NTU]: http://www.ntu.edu.sg/
