@@ -102,6 +102,8 @@ task :preview do
 end # task :preview
 
 desc "Compile Stylus files to CSS"
-task :stylus do
-  system "stylus assets/css/_stylus/arrow.styl --out assets/css/"
-end # task :css
+task :stylus, [:nowatch] do |t, args|
+  args.with_defaults(:nowatch => '')
+  command = args.nowatch == 'nowatch' ? 'stylus' : 'stylus --watch'
+  system "#{command} assets/css/_stylus/arrow.styl --out assets/css/"
+end # task :stylus
