@@ -1,6 +1,7 @@
 # Jekyll configuration
 auto: false
 baseurl: /blog
+exclude: ["Rakefile"]
 markdown: kramdown
 pygments: true
 permalink: /posts/:title
