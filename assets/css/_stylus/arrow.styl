@@ -9,7 +9,7 @@ body
 	background-color $backgroundColor
 	color $textColor
 	font-family $bodyFont
-	font-size 22px
+	font-size $bodyFontSize
 	line-height 1.6
 	margin 0 auto
 	max-width 600px
@@ -221,6 +221,9 @@ article
 			content '* * *'
 			display block
 			text-align center
+
+	strong
+		font-family $boldFonts
 
 	blockquote
 		border-left 0.5em solid $lightAccentColor
