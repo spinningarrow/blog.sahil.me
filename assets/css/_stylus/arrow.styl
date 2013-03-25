@@ -69,12 +69,13 @@ li time
 // Header
 body > header
 	border-top 4px solid
+	padding $baseLineHeight 0
 	text-transform uppercase
 
 	h1
 		font-size 25px
 		line-height 1
-		margin 50px 0 0
+		margin 0
 		word-spacing 0.15em
 
 		i
@@ -87,15 +88,15 @@ body > header
 	p
 		font-size 12px
 		letter-spacing 2px
-		margin-bottom 50px
+		margin 0
 
 // Footer
 body > footer
 	border-top 1px solid $accentColor
 	border-bottom 4px solid
 	font-size 18px
-	margin-top 40px
-	padding 60px 0 50px
+	margin-top $baseLineHeight
+	padding $baseLineHeight 0
 	position relative
 	text-align center
 
@@ -111,6 +112,7 @@ body > footer
 
 	p
 		margin-bottom 0
+		margin-top 0
 
 	blockquote
 		font-style italic
