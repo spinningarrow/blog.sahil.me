@@ -10,13 +10,18 @@ body
 	color $textColor
 	font-family $bodyFont
 	font-size $bodyFontSize
-	line-height 1.6
+	line-height $baseLineHeight
 	margin 0 auto
 	max-width 600px
 	padding 0 20px
 
 h1, h2, h3, h4, h5, h6
 	font-weight normal
+	margin $baseLineHeight auto
+
+p
+	margin-bottom $baseLineHeight
+	margin-top 0
 
 a
 	text-decoration none
