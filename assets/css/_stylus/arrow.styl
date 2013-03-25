@@ -247,19 +247,23 @@ article
 // ====================================================================
 
 .comments
-	margin-top 1em
+	margin-top $baseLineHeight
 	min-height 100px
 
 	&:before
 		color $accentColor
 		content '↯'
 		display block
-		margin-bottom -1em
+		margin-bottom -$baseLineHeight
 		text-align center
 
-	// Show title infront of disqus loading graphic (overlay occurs
+	// Show title in front of disqus loading graphic (overlay occurs
 	// because of the negative margin on #disqus_thread)
-	h2 a:link, h2 a:visited
+	h2
+		margin-bottom $baseLineHeight
+		margin-top $baseLineHeight
+
+		a:link, a:visited
 			background $backgroundColor
 			border-bottom 0
 			color $textColor
