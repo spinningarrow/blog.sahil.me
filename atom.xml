@@ -17,7 +17,7 @@ layout: nil
 		<email>mail@sahil.me</email>
 	</author>
 
-	{% for post in site.posts limit:3 %}
+	{% for post in site.posts limit:4 %}
 	<entry>
 		<title>{{ post.title }}</title>
 		<link href="http://sahil.me{{ site.baseurl }}{{ post.url }}/"/>
