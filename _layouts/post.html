@@ -3,16 +3,16 @@ layout: default
 ---
 {% capture disqus_identifier %}http://sahil.me/blog{{ page.url }}{% endcapture %}
 <article>
-	<header>
-		<h1>{{ page.title }}</h1>
-		<p><time datetime="{{ page.date }}">{{ page.date | date: "%e.%m.%Y" }}</time></p>
+	<header class="header-post">
+		<h1 class="title-post">{{ page.title }}</h1>
+		<p class="meta-post">
+			<time datetime="{{ page.date }}">{{ page.date | date: "%e.%m.%Y" }}</time>
+		</p>
 	</header>
 
 	{{ content }}
 
 	<section class="comments">
-		<h2><a href="#disqus_thread" data-disqus-identifier="{{ disqus_identifier }}">Comments</a></h2>
-
 		<!-- Disqus comments -->
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
