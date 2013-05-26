@@ -16,41 +16,39 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/arrow.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/highlight.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/arrow_v2.css">
 
 	<!-- Fonts -->
-	<link href="http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic|Lato:300" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic|Galdeano" rel="stylesheet" type="text/css">
 	<script src="http://use.edgefonts.net/m-1m.js"></script>
 </head>
 
 <body>
-	<header>
-		<h1><a href="{{ site.baseurl }}/">The <i>Spinning</i> Arrow</a></h1>
-		<p>Not all those who wander are lost</p>
+	<header class="header-main">
+		<h1 class="title-main">
+			<a href="{{ site.baseurl }}/">The Spinning Arrow</a>
+		</h1>
+
+		<p class="description-main">Not all those who wander are lost</p>
+
+		<nav class="nav-main">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="{{ site.baseurl }}/">Blog</a></li>
+				<li><a href="{{ site.baseurl }}/about/">About</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<nav>
-		<ul>
-			<li><a href="{{ site.baseurl }}/">Home</a></li>
-			<li><a href="{{ site.baseurl }}/archives/">Archives</a></li>
-			<li><a href="{{ site.baseurl }}/links/">Links</a></li>
-			<li><a href="{{ site.baseurl }}/about/">About</a></li>
-		</ul>
-	</nav>
-
-	<div class="main-content">
+	<div class="content-main">
 	{{ content }}
 	</div>
 
-	<footer>
-		<blockquote>But we're not trying to find North, are we?
-			<a href="http://www.imdb.com/title/tt0325980/quotes?qt=qt0416724">∞</a>
-		</blockquote>
-		<p>The Spinning Arrow &middot;
-			<a href="http://feeds.feedburner.com/sahil">Feed</a> &middot;
-			<a href="http://feedburner.google.com/fb/a/mailverify?uri=sahil&amp;loc=en_US">Subscribe by email</a>
-		</p>
+	<footer class="footer-main">
+		The Spinning Arrow <i>by</i> Sahil Bajaj &middot;
+		<a href="http://feeds.feedburner.com/sahil">Feed</a> &middot;
+		<a href="http://feedburner.google.com/fb/a/mailverify?uri=sahil&amp;loc=en_US">Subscribe by email</a>
 	</footer>
 
 	<!-- Google Analytics -->
