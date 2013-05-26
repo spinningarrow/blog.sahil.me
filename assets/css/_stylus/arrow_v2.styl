@@ -1,0 +1,237 @@
+@import "mixins"
+@import "colours/norvegia"
+@import "type"
+// @import "baseline"
+
+// ====================================================================
+// Basic styles
+// ====================================================================
+
+body
+	background-color background_color
+	color text_color
+	font-family $bodyFont
+	font-size $bodyFontSize
+	line-height $baseLineHeight
+	margin 8px auto
+	max-width 600px
+	padding 0 20px
+
+h1, h2, h3, h4, h5, h6
+	font-weight normal
+	margin $baseLineHeight auto
+
+p
+	margin-bottom $baseLineHeight
+	margin-top 0
+
+a
+	text-decoration none
+	transition color 0.2s ease
+
+	&:link, &:visited
+		color accent_primary_color
+
+	&:hover
+		color accent_tertiary_color
+
+.content-main a
+	border-bottom 1px solid lighten(accent_secondary_color, 80%)
+
+figure
+	margin-bottom $baseLineHeight
+
+em em
+	font-style normal
+
+.acronym
+	font-size 0.8em
+
+.alert
+	background-color lighten(accent_secondary_color, 97%)
+	font-size 0.8em
+	padding 0.5em
+
+// ====================================================================
+// Blog Header
+// ====================================================================
+
+.header-main
+	margin-bottom $baseLineHeight
+	position relative
+
+.title-main
+	background-color subtle_secondary_color
+	border-bottom 1px solid subtle_primary_color
+	display inline-block
+	font-size 14px
+	letter-spacing 2px
+	line-height 1
+	margin-bottom 0 // override baseline
+	margin-right 1em
+	padding 4px
+	text-transform uppercase
+
+	a:link, a:visited
+		color text_color
+
+.description-main
+	color subtle_tertiary_color
+	font-size 45px
+	font-style italic
+	position absolute
+	top 10px
+	z-index -1
+
+// ====================================================================
+// Navigation Links
+// ====================================================================
+
+.nav-main
+	display inline-block
+	font-size 16px
+	text-transform lowercase
+
+	ul
+		list-style none
+		margin 0
+		padding 0
+
+	li
+		display inline-block
+		margin-left 1em
+
+		&:first-child
+			margin-left 0
+
+// ====================================================================
+// Footer
+// ====================================================================
+.footer-main
+	font-size 13px
+	letter-spacing 1px
+	margin-top $baseLineHeight
+	text-transform uppercase
+
+	i
+		text-transform none
+
+	&:before
+		color subtle_primary_color
+		content '❄'
+		font-size 28px
+		vertical-align middle
+
+// ====================================================================
+// Home
+// ====================================================================
+
+.home-latest, .home-archives
+	ul
+		list-style none
+		margin 0
+		padding 0
+
+	li
+		margin-bottom ($baseLineHeight/2)
+
+	.title-post
+		font-family $displayFont
+
+	@media only screen and (min-width: 768px)
+		.meta-post
+			display inline-block
+
+	time, .comment-count
+		font-size 0.8em
+		line-height 1 // fix for li height becoming 1px more than baselineheight
+		opacity 0.9
+
+	time
+		margin-right 0.5em
+
+	.comment-count
+		border 0
+
+	.see-all
+		font-style italic
+		margin-top $baseLineHeight
+
+		a
+			border 0
+
+// ====================================================================
+// Post
+// ====================================================================
+
+article
+	.header-post
+		margin-bottom 1em
+
+	.title-post
+		font-family $displayFont
+		font-weight 300
+		line-height 1.5 * $baseLineHeight
+		margin-bottom 0 // override baseline
+
+	.meta-post
+		font-size 0.8em
+		font-style italic
+
+		time, .labels-post
+			font-style normal
+			font-variant small-caps
+
+	a:visited
+		color accent_secondary_color
+
+	img
+		max-width 100%
+
+	figure
+		text-align center
+
+	figcaption
+		font-size 0.8em
+		font-style italic
+
+		em
+			font-style normal
+
+	hr
+		border 0
+
+		&:after
+			color $accentColor
+			content '* * *'
+			display block
+			text-align center
+
+	blockquote
+		border-left 0.5em solid subtle_secondary_color
+		margin 0
+		padding-left 1em
+
+	code
+		font-family $monospaceFont
+
+	pre code
+		border-left 0.5em solid subtle_secondary_color
+		display block
+		font-size 18px
+		line-height 1.2
+		padding-left 2em
+
+// ====================================================================
+// Comments
+// ====================================================================
+
+.comments
+	min-height 100px
+
+	&:before
+		color subtle_primary_color
+		content '↯'
+		display block
+		margin-bottom $baseLineHeight
+		text-align center
