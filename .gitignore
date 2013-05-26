@@ -1,2 +1,3 @@
 _site/
-assets/css/arrow.css
+assets/css/arrow*.css
+.ruby-version
