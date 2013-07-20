@@ -7,6 +7,10 @@ layout: default
 		<h1 class="title-post">{{ page.title }}</h1>
 		<p class="meta-post">
 			<time datetime="{{ page.date }}">{{ page.date | date: "%e.%m.%Y" }}</time>
+
+			{% if page.labels %}
+			in <span class="labels-post">{{ page.labels }}</span>
+			{% endif %}
 		</p>
 	</header>
 
