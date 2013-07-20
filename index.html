@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-<section class="content">
+<section class="home-latest">
 	<h2>Latest Posts</h2>
-	<ul class="listing home">
+	<ul>
 		{% for page in site.posts limit:5 %}
 		{% capture disqus_identifier %}http://sahil.me/blog{{ page.url }}{% endcapture %}
 		<li>
-			<a href="{{ site.baseurl }}{{ page.url }}" class="post-title">{{ page.title }}</a>
-			<time datetime="{{ page.date }}">{{ page.date | date: "%A, %e %B %Y" }}</time>
-			<a href="{{ site.baseurl }}{{ page.url }}#disqus_thread" class="post-comment-count" data-disqus-identifier="{{ disqus_identifier }}"></a>
+			<a href="{{ site.baseurl }}{{ page.url }}" class="title-post">{{ page.title }}</a>
+
+			<div class="meta-post">
+				<time datetime="{{ page.date }}">{{ page.date | date: "%e %B %Y" }}</time>
+				<a href="{{ site.baseurl }}{{ page.url }}#disqus_thread" class="comment-count" data-disqus-identifier="{{ disqus_identifier }}"></a>
+			</div>
 		</li>
 		{% endfor %}
 	</ul>
