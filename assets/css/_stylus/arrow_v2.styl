@@ -1,5 +1,5 @@
 @import "mixins"
-@import "colours/norvegia"
+@import "colours/delhi"
 @import "type"
 // @import "baseline"
 
@@ -32,8 +32,8 @@ a
 	&:link, &:visited
 		color accent_primary_color
 
-	&:hover
-		color accent_tertiary_color
+		&:hover
+			color accent_tertiary_color
 
 .content-main a
 	border-bottom 1px solid lighten(accent_secondary_color, 80%)
@@ -144,6 +144,10 @@ em em
 	@media only screen and (min-width: 768px)
 		.meta-post
 			display inline-block
+			margin-left 0.5em
+
+	.meta-post
+		font-variant small-caps
 
 	time, .comment-count
 		font-size 0.8em
