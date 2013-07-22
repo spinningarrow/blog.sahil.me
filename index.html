@@ -4,7 +4,7 @@ layout: default
 <section class="home-latest">
 	<h2>Latest Posts</h2>
 	<ul>
-		{% for page in site.posts limit:5 %}
+		{% for page in site.posts limit:7 %}
 		{% capture disqus_identifier %}http://sahil.me/blog{{ page.url }}{% endcapture %}
 		<li>
 			<a href="{{ site.baseurl }}{{ page.url }}" class="title-post">{{ page.title }}</a>
@@ -16,5 +16,6 @@ layout: default
 		</li>
 		{% endfor %}
 	</ul>
-	<p>To see all posts, take a look at the <a href="{{ site.baseurl }}/archives/">archives</a>.</p>
+
+	<p><em><small><a href="{{ site.baseurl }}/archives/">All posts</a> »</em></small></p>
 </section>
