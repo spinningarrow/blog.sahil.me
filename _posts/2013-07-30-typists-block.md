@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-07-30T05:25:54+05:30
-title: Typist's block?
+title: Typist’s block?
 ---
 
 The words… they refuse to appear!
