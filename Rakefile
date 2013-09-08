@@ -43,9 +43,10 @@ end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
 desc "Begin a new post in #{CONFIG['posts']}"
-task :post do
+task :post, [:draft] do |t, args|
 	abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
 
+	args.with_defaults(:draft => false)
 	isDraft = !!ENV['draft']
 	title = ENV['title'] || 'new-post'
 	slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
@@ -57,7 +58,7 @@ task :post do
 		exit -1
 	end
 
-	filename = File.join(CONFIG[isDraft ? 'drafts' : 'posts'], "#{date.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG['post_ext']}")
+	filename = File.join(CONFIG[!!args.draft ? 'drafts' : 'posts'], "#{date.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG['post_ext']}")
 
 	if File.exist?(filename)
 		abort('rake aborted!') if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -101,13 +102,13 @@ task :page do
 end # task :page
 
 desc "Compile Stylus files to CSS"
-task :stylus, [:nowatch] do |t, args|
-	args.with_defaults(:nowatch => '')
-	command = args.nowatch == 'nowatch' ? 'stylus' : 'stylus --watch'
-	system "#{command} assets/css/_stylus/arrow.styl --out assets/css/"
+task :stylus, [:watch] do |t, args|
+	args.with_defaults(:watch => false)
+	command = !!args.watch ? 'stylus --watch' : 'stylus'
+	system "#{command} assets/css/_stylus/arrow_v2.styl --out assets/css/"
 end # task :stylus
 
 desc "Launch preview environment"
 task :preview do
-	system "jekyll --auto --server"
+	system "jekyll serve --watch"
 end # task :preview
