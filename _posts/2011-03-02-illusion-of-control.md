@@ -4,7 +4,12 @@ date: 2011-03-02T04:00:00+08:00
 title: The illusion of control
 ---
 
-{% image http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg "You may wish for an apple or an orange, but you will get a peach." %}
+<figure>
+	<a href="http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg">
+		<img src="http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg" alt="You may wish for an apple or an orange, but you will get a peach.">
+	</a>
+	<figcaption>You may wish for an apple or an orange, but you will get a peach.</figcaption>
+</figure>
 
 > **Oogway**: ... until you let go of the illusion of control.
 >

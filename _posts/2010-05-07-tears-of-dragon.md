@@ -66,6 +66,11 @@ title: "Tears of the Dragon"
 >
 > —Bruce Dickinson, [<cite>Tears of the Dragon</cite>][totd]
 
-{% image http://farm4.static.flickr.com/3581/3451997181_fbb684f475.jpg "Love of black sand by <a href='http://www.flickr.com/photos/andriel/'>Andri Elfarsson</a>" %}
+<figure>
+	<a href="http://farm4.static.flickr.com/3581/3451997181_fbb684f475.jpg">
+		<img src="http://farm4.static.flickr.com/3581/3451997181_fbb684f475.jpg" alt="Love of black sand by <a href='http://www.flickr.com/photos/andriel/'>Andri Elfarsson</a>">
+	</a>
+	<figcaption>Love of black sand by <a href='http://www.flickr.com/photos/andriel/'>Andri Elfarsson</a></figcaption>
+</figure>
 
 [totd]: http://en.wikipedia.org/wiki/Tears_Of_The_Dragon

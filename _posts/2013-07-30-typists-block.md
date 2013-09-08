@@ -20,4 +20,9 @@ I give up.
 
 Graphite beats silicon yet again.
 
-{% image https://lh5.googleusercontent.com/-XCGZYwvkK_Q/Ufb_DnckbRI/AAAAAAAAAts/hkV9tYWEQFQ/s1600/keyboard_and_pencil.jpg "MacBook Pro – 0, Staedtler – 1" %}
+<figure>
+	<a href="https://lh5.googleusercontent.com/-XCGZYwvkK_Q/Ufb_DnckbRI/AAAAAAAAAts/hkV9tYWEQFQ/s1600/keyboard_and_pencil.jpg">
+		<img src="https://lh5.googleusercontent.com/-XCGZYwvkK_Q/Ufb_DnckbRI/AAAAAAAAAts/hkV9tYWEQFQ/s1600/keyboard_and_pencil.jpg" alt="MacBook Pro – 0, Staedtler – 1">
+	</a>
+	<figcaption>MacBook Pro – 0, Staedtler – 1</figcaption>
+</figure>

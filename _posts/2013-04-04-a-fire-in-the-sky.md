@@ -31,6 +31,11 @@ A silence.
 
 And a fire in the sky.
 
-{% image https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg "Northern Lights in Trondheim, Norway. Photograph by <a href='https://www.facebook.com/photo.php?fbid=424920897600485&set=a.424920894267152.1073741835.157145004378077&type=1&theater'>Øyvind Schei</a>" %}
+<figure>
+	<a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg">
+		<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg" alt="Northern Lights in Trondheim, Norway. Photograph by <a href='https://www.facebook.com/photo.php?fbid=424920897600485&set=a.424920894267152.1073741835.157145004378077&type=1&theater'>Øyvind Schei</a>">
+	</a>
+	<figcaption>Northern Lights in Trondheim, Norway. Photograph by <a href='https://www.facebook.com/photo.php?fbid=424920897600485&set=a.424920894267152.1073741835.157145004378077&type=1&theater'>Øyvind Schei</a></figcaption>
+</figure>
 
 **PS**: It turns out that I own a compass that actually doesn't point North. The *irony*.

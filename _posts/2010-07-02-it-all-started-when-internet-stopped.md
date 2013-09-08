@@ -16,7 +16,12 @@ Meanwhile, my internet started working at the rather strange cost of my other la
 
 Oh, and I also found that my house is infested with termites. Enchanting. Especially since they seem to like my room a whole lot. The trouble is, I do too and I'd really rather not have my cupboard door coming off in my hands the next time I open it.
 
-{% image http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg "Well, this does explain why I sense a larger number of earthquakes than my friends. (Image from <a href='http://www.paraabnormalthecomic.com/'>Para Abnormal</a>)" %}
+<figure>
+	<a href="http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg">
+		<img src="http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg" alt="Well, this does explain why I sense a larger number of earthquakes than my friends. (Image from <a href='http://www.paraabnormalthecomic.com/'>Para Abnormal</a>)">
+	</a>
+	<figcaption>Well, this does explain why I sense a larger number of earthquakes than my friends. (Image from <a href='http://www.paraabnormalthecomic.com/'>Para Abnormal</a>)</figcaption>
+</figure>
 
 Oh and *then* (you didn't think this was over, did you?) – the other night at 4 am, as I was searching for the realms of Sleep, I was suddenly made to (very very hastily) exit my room. My AC, in its attempt to one-up the others, decided it would try to make the stabilizer catch fire. The orange glow under my desk and a freakish number of huge orange sparks was quite a good attempt in my opinion.
 

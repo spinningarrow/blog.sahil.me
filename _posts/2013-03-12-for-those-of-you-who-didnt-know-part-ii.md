@@ -11,7 +11,12 @@ I'm here on exchange at the [Norwegian University of Science and Technology][ntn
 
 Oh, well. *The Road goes ever on and on.*
 
-{% image https://lh4.googleusercontent.com/-6UxNcZcUrwU/UT6nRbCcjXI/AAAAAAAAAeg/plXoc9BlV1c/s1200/2007-02-06%252021.57.17.jpg "The view from my room's window. Snow <em>and</em> red houses!" %}
+<figure>
+	<a href="https://lh4.googleusercontent.com/-6UxNcZcUrwU/UT6nRbCcjXI/AAAAAAAAAeg/plXoc9BlV1c/s1200/2007-02-06%252021.57.17.jpg">
+		<img src="https://lh4.googleusercontent.com/-6UxNcZcUrwU/UT6nRbCcjXI/AAAAAAAAAeg/plXoc9BlV1c/s1200/2007-02-06%252021.57.17.jpg" alt="The view from my room's window. Snow <em>and</em> red houses!">
+	</a>
+	<figcaption>The view from my room's window. Snow <em>and</em> red houses!</figcaption>
+</figure>
 
 **PS**: Why does time fly so fast?
 

@@ -10,13 +10,23 @@ Let me tell you a bit of what I've been up to since I got here. You'll realize i
 
 So on 27 August, I left Delhi by Jet Airways (which, by the way, happens to be my favourite airline right now because they reserved a seat on the plane just for my guitar – *for free*, might I add), finally reached this “fine” city sometime in the evening, got a taste of Singapore's exorbitant prices at the airport store, asked for a regular taxi that turned out to be a Mercedes, checked in to the hotel, went walking around looking for dinner (and found some at a place called “Queen's Tandoor”), and badly missed having my camera.
 
-{% image http://4.bp.blogspot.com/_eJimuJOoqL4/TOb5MQLAPQI/AAAAAAAAAPA/YQyWM_MreRc/s1600/Photo+0015.jpg "The view from the plane. Just like any view from a plane, really." %}
+<figure>
+	<a href="http://4.bp.blogspot.com/_eJimuJOoqL4/TOb5MQLAPQI/AAAAAAAAAPA/YQyWM_MreRc/s1600/Photo+0015.jpg">
+		<img src="http://4.bp.blogspot.com/_eJimuJOoqL4/TOb5MQLAPQI/AAAAAAAAAPA/YQyWM_MreRc/s1600/Photo+0015.jpg" alt="The view from the plane. Just like any view from a plane, really.">
+	</a>
+	<figcaption>The view from the plane. Just like any view from a plane, really.</figcaption>
+</figure>
 
 Two days later, I checked into my room on campus – I was assigned to one of the halls that were renovated for the [Youth Olympic Games][] (which is clearly good) but were only vacated the previous day and were consequently not cleaned properly (which is bad; I still find the occasional spider lurking in a corner sometimes).
 
 That was the week before Week 1.
 
-{% image http://4.bp.blogspot.com/_eJimuJOoqL4/TOb_ns9BHgI/AAAAAAAAAPE/orVbZVNuo4A/s1600/IMGP0097.JPG "Hall 13 and 14. Or well, my block in Hall 13 and some block of Hall 14." %}
+<figure>
+	<a href="http://4.bp.blogspot.com/_eJimuJOoqL4/TOb_ns9BHgI/AAAAAAAAAPE/orVbZVNuo4A/s1600/IMGP0097.JPG">
+		<img src="http://4.bp.blogspot.com/_eJimuJOoqL4/TOb_ns9BHgI/AAAAAAAAAPE/orVbZVNuo4A/s1600/IMGP0097.JPG" alt="Hall 13 and 14. Or well, my block in Hall 13 and some block of Hall 14.">
+	</a>
+	<figcaption>Hall 13 and 14. Or well, my block in Hall 13 and some block of Hall 14.</figcaption>
+</figure>
 
 **Week 1** started with the standard “Hello, welcome to this huge university in which you are going to be lost quite often, literally and figuratively” ceremonies, ended with an Indian Freshmen Orientation “Camp” and was greeted with great delight and excitement in the middle by my *finally* purchasing a Mac (well, MacBook Pro, but that's irrelevant). YES I FINALLY GOT A MAC AFTER WANTING ONE EVER SINCE I SAW IT FOR THE FIRST TIME IN CLASS **SEVEN** WHICH HAPPENS TO BE WAY TOO LONG AGO!
 
@@ -24,25 +34,50 @@ That led to **Weeks 2** and **3**, which basically consisted of the commencement
 
 **Week 4** brings back memories of the time when I heard [the F1 race][f1] while standing outside the City Hall MRT station (that was such a fail moment), after which I was accosted by the guard standing outside the City Hall MRT station, both of which kind of temporarily dampened the beauty of my just-purchased camera from the mall near the City Hall MRT station.
 
-{% image http://1.bp.blogspot.com/_eJimuJOoqL4/TOf_dNXalyI/AAAAAAAAAPY/g6Ccrg-EodY/s1600/PA030069.jpg "Pentax Optio H90. Taken with an Olympus." %}
+<figure>
+	<a href="http://1.bp.blogspot.com/_eJimuJOoqL4/TOf_dNXalyI/AAAAAAAAAPY/g6Ccrg-EodY/s1600/PA030069.jpg">
+		<img src="http://1.bp.blogspot.com/_eJimuJOoqL4/TOf_dNXalyI/AAAAAAAAAPY/g6Ccrg-EodY/s1600/PA030069.jpg" alt="Pentax Optio H90. Taken with an Olympus.">
+	</a>
+	<figcaption>Pentax Optio H90. Taken with an Olympus.</figcaption>
+</figure>
 
 Then **Week 6** ended with a trip to Sentosa (I say “trip” because we left at 6.30 in the morning and returned at 9 at night) for Red Cross Subcommittee Orientation. More on Red Cross later, but suffice to say, it was a *lot* of fun.
 
-{% image http://4.bp.blogspot.com/_eJimuJOoqL4/TOcBLO75J3I/AAAAAAAAAPI/0rYtvOYEhys/s1600/IMGP0237.JPG "“Follow the Footsteps”; one of the games I was in-charge of and cleverly used trees to complicate." %}
+<figure>
+	<a href="http://4.bp.blogspot.com/_eJimuJOoqL4/TOcBLO75J3I/AAAAAAAAAPI/0rYtvOYEhys/s1600/IMGP0237.JPG">
+		<img src="http://4.bp.blogspot.com/_eJimuJOoqL4/TOcBLO75J3I/AAAAAAAAAPI/0rYtvOYEhys/s1600/IMGP0237.JPG" alt="“Follow the Footsteps”; one of the games I was in-charge of and cleverly used trees to complicate.">
+	</a>
+	<figcaption>“Follow the Footsteps”; one of the games I was in-charge of and cleverly used trees to complicate.</figcaption>
+</figure>
 
 Then came **Week 7** (the Thursday of which was interesting) followed by **Recess Week** (which ended sooner than it began) in which I attended a fun Dandiya Night, went all the way to Marina Bay Sands to see the [Skypark][] but reached too late, and then camped for a night in East Coast Park. Okay, so I guess it wasn't camping because we had no tents or sleeping bags or campfires and didn't even actually sleep, but it was a hell lot of fun, despite my being dunked into the ocean some three times.
 
-{% image http://2.bp.blogspot.com/_eJimuJOoqL4/TOf1t-xJMAI/AAAAAAAAAPM/fZG8VsKxxGo/s1600/IMGP0481_edited.jpg "As we waited for the sunrise (which we didn't actually see thanks to <a href='http://www.bbc.co.uk/news/world-asia-pacific-11606711'>The Haze</a>)." %}
+<figure>
+	<a href="http://2.bp.blogspot.com/_eJimuJOoqL4/TOf1t-xJMAI/AAAAAAAAAPM/fZG8VsKxxGo/s1600/IMGP0481_edited.jpg">
+		<img src="http://2.bp.blogspot.com/_eJimuJOoqL4/TOf1t-xJMAI/AAAAAAAAAPM/fZG8VsKxxGo/s1600/IMGP0481_edited.jpg" alt="As we waited for the sunrise (which we didn't actually see thanks to <a href='http://www.bbc.co.uk/news/world-asia-pacific-11606711'>The Haze</a>).">
+	</a>
+	<figcaption>As we waited for the sunrise (which we didn't actually see thanks to <a href='http://www.bbc.co.uk/news/world-asia-pacific-11606711'>The Haze</a>).</figcaption>
+</figure>
 
 November 3, incidentally, happens to be the day I came to know that [**Iron Maiden is coming to Singapore**][maiden]. If you don't know why this was worth mentioning, may I direct your attention [somewhere][1] [else][2].
 
 The tickets were kinda expensive (especially if you consider the price they were in India) but what the heck, I have to make use of the money relatives give me sometime, don't I? Booking opened at 12 a.m. on 9 November and three of my friends and I kept refreshing the booking page in excitement, nearly booked eight tickets instead of four, and began yelling madly when we saw the “Booking Confirmation” page. Iron Maiden, oh *yes*.
 
-{% image http://1.bp.blogspot.com/_eJimuJOoqL4/TOf4DFvLyNI/AAAAAAAAAPQ/TPvuJOVwatQ/s1600/IMGP0558.JPG "Up the Irons! <em>Finally.</em>" %}
+<figure>
+	<a href="http://1.bp.blogspot.com/_eJimuJOoqL4/TOf4DFvLyNI/AAAAAAAAAPQ/TPvuJOVwatQ/s1600/IMGP0558.JPG">
+		<img src="http://1.bp.blogspot.com/_eJimuJOoqL4/TOf4DFvLyNI/AAAAAAAAAPQ/TPvuJOVwatQ/s1600/IMGP0558.JPG" alt="Up the Irons! <em>Finally.</em>">
+	</a>
+	<figcaption>Up the Irons! <em>Finally.</em></figcaption>
+</figure>
 
 Now 9 November happens to fall in **Week 10**, if my calendar is to be believed. Continuing along the same believe-the-calendar line of thought, the Harry Potter 7 outing yesterday (in which nearly 80 tickets for the show were booked) was the close of **Week 11**.
 
-{% image http://2.bp.blogspot.com/_eJimuJOoqL4/TOf6NChpd9I/AAAAAAAAAPU/u_bFxdrF_JM/s1600/IMGP0560.JPG "11 tickets. Of 80, yes." %}
+<figure>
+	<a href="http://2.bp.blogspot.com/_eJimuJOoqL4/TOf6NChpd9I/AAAAAAAAAPU/u_bFxdrF_JM/s1600/IMGP0560.JPG">
+		<img src="http://2.bp.blogspot.com/_eJimuJOoqL4/TOf6NChpd9I/AAAAAAAAAPU/u_bFxdrF_JM/s1600/IMGP0560.JPG" alt="11 tickets. Of 80, yes.">
+	</a>
+	<figcaption>11 tickets. Of 80, yes.</figcaption>
+</figure>
 
 Oh damn. It *has* been more than 3 months.
 
