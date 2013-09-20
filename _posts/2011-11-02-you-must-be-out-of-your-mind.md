@@ -36,4 +36,4 @@ More quizzes, a tottering pile of academic work that could easily substitute mos
 
 Exams are in *two weeks*.
 
-[1]: {{ site.baseurl }}/posts/post-production/
+[1]: {% post_url 2011-04-14-post-production %}

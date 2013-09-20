@@ -27,4 +27,4 @@ Oh and *then* (you didn't think this was over, did you?) – the other night at 
 
 <del>And that, is all.</del> Who knows what the future may behold?
 
-[1]: http://sahilb.blogspot.com/2010/02/when-guitar-meets-cellphone.html#comments
+[1]: {% post_url 2010-02-20-when-guitar-meets-cellphone %}
