@@ -1,5 +1,5 @@
 @import "mixins"
-@import "colours/delhi"
+@import "colours/middle-earth"
 @import "type"
 // @import "baseline"
 
@@ -36,7 +36,7 @@ a
 			color accent_tertiary_color
 
 .content-main a
-	border-bottom 1px solid lighten(accent_secondary_color, 80%)
+	border-bottom 2px solid lighten(accent_secondary_color, 80%)
 
 figure
 	margin-bottom $baseLineHeight
@@ -202,7 +202,7 @@ article
 	figure
 		text-align center
 
-		a[href$=jpg], a[href$=png]
+		a[href$='jpg'], a[href$='jpeg'], a[href$='png']
 			border-bottom 0
 
 	figcaption
@@ -217,7 +217,7 @@ article
 		margin-bottom $baseLineHeight
 
 		&:after
-			color $accentColor
+			color subtle_primary_color
 			content '* * *'
 			display block
 			text-align center
@@ -226,6 +226,10 @@ article
 		border-left 0.5em solid subtle_secondary_color
 		margin 0
 		padding-left 1em
+
+	ol
+		list-style-position inside
+		padding-left 0
 
 	code
 		font-family $monospaceFont
