@@ -6,11 +6,11 @@ layout: nil
 
 	<title>{{ site.title }}</title>
 
-	<link href="http://sahil.me/blog/atom.xml" rel="self"/>
-	<link href="http://sahil.me/blog/"/>
+	<link href="http://blog.sahil.me/atom.xml" rel="self"/>
+	<link href="http://blog.sahil.me/"/>
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://sahil.me/blog/</id>
+	<id>http://blog.sahil.me/</id>
 
 	<author>
 		<name>Sahil Bajaj</name>
@@ -20,9 +20,9 @@ layout: nil
 	{% for post in site.posts limit:6 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://sahil.me{{ site.baseurl }}{{ post.url }}/"/>
+		<link href="http://blog.sahil.me/{{ post.url }}/"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://sahil.me{{ site.baseurl }}{{ post.id }}</id>
+		<id>http://blog.sahil.me/{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 		<author>
 			<name>Sahil</name>

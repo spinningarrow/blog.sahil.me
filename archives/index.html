@@ -4,7 +4,6 @@ title: Archives
 ---
 <section class="content page-archives">
 	<h2>Archives</h2>
-	<p class="alert"><strong>Note</strong>: This is an incomplete list of past posts as I'm still working on importing all the posts from my <a href="http://sahilb.blogspot.com">previous blog.</a></p>
 
 	{% assign previous_post_year = "" %}
 	{% assign first_list = true %}
@@ -24,8 +23,14 @@ title: Archives
 		{% endif %}
 
 		<li>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+			<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
+
+			<div class="meta-post">
+				<time datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+			</div>
 		</li>
 	{% endfor %}
 	</ul>
+
+	<p class="alert"><strong>Note</strong>: This is an incomplete list of past posts as I'm still working on importing all the posts from my <a href="http://sahilb.blogspot.com">previous blog.</a></p>
 </section>
