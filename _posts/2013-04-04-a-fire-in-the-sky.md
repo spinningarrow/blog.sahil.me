@@ -32,7 +32,7 @@ A silence.
 And a fire in the sky.
 
 <figure>
-	<a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg">
+	<a rel="lightbox" href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg">
 		<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/6322_424920897600485_1376327586_n.jpg" alt="Northern Lights in Trondheim, Norway. Photograph by <a href='https://www.facebook.com/photo.php?fbid=424920897600485&set=a.424920894267152.1073741835.157145004378077&type=1&theater'>Øyvind Schei</a>">
 	</a>
 	<figcaption>Northern Lights in Trondheim, Norway. Photograph by <a href='https://www.facebook.com/photo.php?fbid=424920897600485&set=a.424920894267152.1073741835.157145004378077&type=1&theater'>Øyvind Schei</a></figcaption>

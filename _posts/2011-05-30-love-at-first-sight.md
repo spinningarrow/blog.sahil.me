@@ -6,7 +6,7 @@ labels: [guitar]
 ---
 
 <figure>
-	<a href="http://1.bp.blogspot.com/-m-KdSuB-_N8/TeLCMsM-oSI/AAAAAAAAARw/79SgG_gnF8k/s1600/guitar.jpg">
+	<a rel="lightbox" href="http://1.bp.blogspot.com/-m-KdSuB-_N8/TeLCMsM-oSI/AAAAAAAAARw/79SgG_gnF8k/s1600/guitar.jpg">
 		<img src="http://1.bp.blogspot.com/-m-KdSuB-_N8/TeLCMsM-oSI/AAAAAAAAARw/79SgG_gnF8k/s1600/guitar.jpg" alt="\m/">
 	</a>
 	<figcaption>\m/</figcaption>

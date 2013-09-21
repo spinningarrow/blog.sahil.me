@@ -13,7 +13,7 @@ Then yesterday I decided to take a look at How Things Stood in the mire of modde
 The result, you ask? Witness my *magnum opus* (for the day, that is):
 
 <figure>
-	<a href="http://2.bp.blogspot.com/-uUwyEwBs3MM/T99L44fzfGI/AAAAAAAAAZU/YUIVBAb2DKo/s1600/psp-gba.png">
+	<a rel="lightbox" href="http://2.bp.blogspot.com/-uUwyEwBs3MM/T99L44fzfGI/AAAAAAAAAZU/YUIVBAb2DKo/s1600/psp-gba.png">
 		<img src="http://2.bp.blogspot.com/-uUwyEwBs3MM/T99L44fzfGI/AAAAAAAAAZU/YUIVBAb2DKo/s1600/psp-gba.png" alt="<a href='http://en.wikipedia.org/wiki/Kirby_(series)'>Kirby</a>, <a href='http://en.wikipedia.org/wiki/Street_Fighter'>Street Fighter</a>, and <a href='http://en.wikipedia.org/wiki/Mario'>Mario</a>. Of the <em>GameBoy Advance</em> variety.">
 	</a>
 	<figcaption><a href='http://en.wikipedia.org/wiki/Kirby_(series)'>Kirby</a>, <a href='http://en.wikipedia.org/wiki/Street_Fighter'>Street Fighter</a>, and <a href='http://en.wikipedia.org/wiki/Mario'>Mario</a>. Of the <em>GameBoy Advance</em> variety.</figcaption>

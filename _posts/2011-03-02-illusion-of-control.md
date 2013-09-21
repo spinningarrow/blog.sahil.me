@@ -5,7 +5,7 @@ title: The illusion of control
 ---
 
 <figure>
-	<a href="http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg">
+	<a rel="lightbox" href="http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg">
 		<img src="http://4.bp.blogspot.com/-CKCQnoiYujg/TW1Ocfz_VlI/AAAAAAAAAQg/qdhP_oPvfSs/s1600/kung_fu_panda_peach_tree.jpg" alt="You may wish for an apple or an orange, but you will get a peach.">
 	</a>
 	<figcaption>You may wish for an apple or an orange, but you will get a peach.</figcaption>

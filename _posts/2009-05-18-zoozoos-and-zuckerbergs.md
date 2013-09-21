@@ -5,7 +5,7 @@ title: Zoozoos and Zuckerbergs
 ---
 
 <figure>
-	<a href="http://4.bp.blogspot.com/_eJimuJOoqL4/ShEqRyYFiFI/AAAAAAAAAG4/GKwC_8iI7xY/s1600-h/cellphone.jpg">
+	<a rel="lightbox" href="http://4.bp.blogspot.com/_eJimuJOoqL4/ShEqRyYFiFI/AAAAAAAAAG4/GKwC_8iI7xY/s1600-h/cellphone.jpg">
 		<img src="http://4.bp.blogspot.com/_eJimuJOoqL4/ShEqRyYFiFI/AAAAAAAAAG4/GKwC_8iI7xY/s1600-h/cellphone.jpg" alt="Say Cheese!">
 	</a>
 	<figcaption>Say Cheese!</figcaption>
@@ -22,7 +22,7 @@ LOL, really I mean, wth?!
 Oh, and Facebook Chat seems to be continuing with its agenda of trying its level best to prevent people from actually being able to use it. They recently updated it with this new feature of being able hide yourself from certain Friend Lists (I dunno how it works with people featuring in multiple friend lists), but they just ended up making it even more unstable. Now, alongwith its ability to spontaneously diconnect people and make browsers weep every time there's a new IM, it also does odd things when I try to appear online ... or well, use it really.
 
 <figure>
-	<a href="http://3.bp.blogspot.com/_eJimuJOoqL4/ShFQuOSTb4I/AAAAAAAAAHI/3zwAAlUZuks/s1600-h/fbchat.jpg">
+	<a rel="lightbox" href="http://3.bp.blogspot.com/_eJimuJOoqL4/ShFQuOSTb4I/AAAAAAAAAHI/3zwAAlUZuks/s1600-h/fbchat.jpg">
 		<img src="http://3.bp.blogspot.com/_eJimuJOoqL4/ShFQuOSTb4I/AAAAAAAAAHI/3zwAAlUZuks/s1600-h/fbchat.jpg">
 	</a>
 </figure>

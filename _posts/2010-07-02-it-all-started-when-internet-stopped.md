@@ -17,7 +17,7 @@ Meanwhile, my internet started working at the rather strange cost of my other la
 Oh, and I also found that my house is infested with termites. Enchanting. Especially since they seem to like my room a whole lot. The trouble is, I do too and I'd really rather not have my cupboard door coming off in my hands the next time I open it.
 
 <figure>
-	<a href="http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg">
+	<a rel="lightbox" href="http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg">
 		<img src="http://3.bp.blogspot.com/_lSkiR8I0oWk/SpNg5o3LqTI/AAAAAAAAG90/XzJ63nkE4Yk/s1600/PARAABdloweTermite.jpg" alt="Well, this does explain why I sense a larger number of earthquakes than my friends. (Image from <a href='http://www.paraabnormalthecomic.com/'>Para Abnormal</a>)">
 	</a>
 	<figcaption>Well, this does explain why I sense a larger number of earthquakes than my friends. (Image from <a href='http://www.paraabnormalthecomic.com/'>Para Abnormal</a>)</figcaption>

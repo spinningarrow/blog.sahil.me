@@ -25,7 +25,7 @@ As for the title, do they? I suppose it never really happens in the big cinemas?
 **P.S.** Don't eat McDonald's new Chicken McNuggets. They're yuck.
 
 <figure>
-	<a href="http://www.imagesfood.com/Images/newsimage/mcdonald-nuggets.jpg">
+	<a rel="lightbox" href="http://www.imagesfood.com/Images/newsimage/mcdonald-nuggets.jpg">
 		<img src="http://www.imagesfood.com/Images/newsimage/mcdonald-nuggets.jpg">
 	</a>
 </figure>

@@ -216,6 +216,9 @@ article figure a[href$='jpg'],
 article figure a[href$='jpeg'],
 article figure a[href$='png'] {
   border-bottom: 0;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
 }
 article figcaption {
   font-size: 0.8em;

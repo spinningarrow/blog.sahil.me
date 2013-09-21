@@ -7,7 +7,7 @@ title: Meh to you, Air India!
 And I'm back in <del>sunny</del> oh-my-god-it's-like-living-in-a-waterfall rainy Singapore with more than a week of college shamelessly waving me goodbye. What with college starting, the helplessly annoying course registration procedure, a Sumo wrestler-load of Red Cross work, casting calls for Hall 13's Production, being stranded in a remote industrial area of Singapore, the dramatic first batch outing of the new year, and all those small but add-to-the-list-of-things-you-ended-up-thinking-about things, it's a flaming miracle that my head is still intact. Thankfully, a couple of holidays for the Chinese New Year (rabbits!) are coming up, but nowadays even holidays think that it's their prerogative to be not devoid of work.
 
 <figure>
-	<a href="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh3RfSWlBI/AAAAAAAAAQE/z1Px3d2So5k/s1600/Daily_Life_by_Ennokni.jpg">
+	<a rel="lightbox" href="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh3RfSWlBI/AAAAAAAAAQE/z1Px3d2So5k/s1600/Daily_Life_by_Ennokni.jpg">
 		<img src="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh3RfSWlBI/AAAAAAAAAQE/z1Px3d2So5k/s1600/Daily_Life_by_Ennokni.jpg" alt="Round and round, here we go again.">
 	</a>
 	<figcaption>Round and round, here we go again.</figcaption>
@@ -18,7 +18,7 @@ Incidentally, my flight back via Air India – quite unlike Jet Airways' – was
 Oh, and I also managed to drop my guitar at the security check at the airport (I was annoyed at myself for forgetting that scissors are indeed sharp) and later found that it had cracked. It still sounds fine, thankfully. By the way, while we're on the subject of guitars, *guess* what someone bought in his winter holidays?!
 
 <figure>
-	<a href="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh2n9sLGII/AAAAAAAAAQA/VnWHHEU46JE/s1600/IMG_0034.JPG">
+	<a rel="lightbox" href="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh2n9sLGII/AAAAAAAAAQA/VnWHHEU46JE/s1600/IMG_0034.JPG">
 		<img src="http://2.bp.blogspot.com/_eJimuJOoqL4/TUh2n9sLGII/AAAAAAAAAQA/VnWHHEU46JE/s1600/IMG_0034.JPG" alt="Oh yes, I did.">
 	</a>
 	<figcaption>Oh yes, I did.</figcaption>
