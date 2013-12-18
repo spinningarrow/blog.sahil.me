@@ -21,4 +21,4 @@ Oh, well. *The Road goes ever on and on.*
 **PS**: Why does time fly so fast?
 
 [ntnu]: http://www.ntnu.edu/
-[1]: {% post_url 2010-09-23-for-those-of-you-who-didnt-know %}
+[1]: http://blog.sahil.me/posts/for-those-of-you-who-didnt-know/

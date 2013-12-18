@@ -40,4 +40,4 @@ And did I mention I have exams coming up in May? Four papers on three consecutiv
 **PS**: How in the world am I to fit all my stuff under a 20 kg luggage limit when I go back home for the summer?
 
 [Hall 13]: http://hall13.net/
-[1]: {% post_url 2010-11-21-week-12-is-starting-on-monday-seriously %}
+[1]: http://blog.sahil.me/posts/week-12-is-starting-on-monday-seriously/

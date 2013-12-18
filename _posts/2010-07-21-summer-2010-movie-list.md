@@ -31,4 +31,4 @@ I dislike writing reviews on account of redundancy so ...
 
 PS. My [cellphone woes][1] are *still* not over, can you believe that?
 
-[1]: {% post_url 2010-07-02-it-all-started-when-internet-stopped %}
+[1]: http://blog.sahil.me/posts/it-all-started-when-internet-stopped/

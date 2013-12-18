@@ -36,7 +36,7 @@ As for the title, do they? I suppose it never really happens in the big cinemas?
 [Shayeri]: http://freak-uency.blogspot.com/
 [1]: http://sahilb.blogspot.com/2007/06/of-rains-and-tata-skies.html
 [2]: http://sahilb.blogspot.com/2008/06/illimit.html
-[3]: {{ site.baseurl }}{% post_url 2009-06-02-its-like-dream-come-true-nadal-lost %}
+[3]: http://blog.sahil.me/posts/its-like-dream-come-true-nadal-lost/
 [Zodiac]: http://www.imdb.com/title/tt0443706/
 [Flyboys]: http://www.imdb.com/title/tt0454824/
 [alienate]: http://www.imdb.com/title/tt0455538/

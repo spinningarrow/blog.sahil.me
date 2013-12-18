@@ -35,7 +35,7 @@ Oh, and three hours later, I found that I had passed.
 [Java]: http://en.wikipedia.org/wiki/Java_(programming_language)
 [SCJP]: http://www.sun.com/training/catalog/courses/CX-310-065.xml
 [they]: http://they.urbanup.com/1224096
-[1]: {% post_url 2009-08-20-systemoutprintln %}
+[1]: http://blog.sahil.me/posts/systemoutprintln/
 [2]: http://stackoverflow.com/questions/14810/taking-the-scjp-exam/16042#16042
-[3]: {% post_url 2009-09-24-if-u-r-driving-in-wrong-direction-god %}
-[4]: {% post_url 2009-09-24-if-u-r-driving-in-wrong-direction-god %}#terrorist
+[3]: http://blog.sahil.me/posts/if-u-r-driving-in-wrong-direction-god/
+[4]: http://blog.sahil.me/posts/if-u-r-driving-in-wrong-direction-god/#terrorist
