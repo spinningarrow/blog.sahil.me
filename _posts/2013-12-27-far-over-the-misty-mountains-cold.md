@@ -6,11 +6,11 @@ labels: [exchange]
 ---
 Out of breath and time, Alessio and I sprinted towards the bus on the other side of the road. That is to say that I, with what can only be a rather Indian obliviousness to zebra crossings, cut across the middle of the road, while Alessio patiently waited for vehicles to pass by.
 
-A hurried transaction of two tickets followed at the steps of the bus (they didn't accept cards, contrary to the Stavanger Tourist Information guide's confident insistence from the day before). Fortunately, we had just enough crowns (what a lovely name for a currency!) between us and we hurried in.
+A hurried transaction of two tickets followed at the steps of the bus (they didn't accept cards, contrary to the [Stavanger][] Tourist Information guide's confident insistence from the day before). Fortunately, we had just enough crowns (what a lovely name for a currency!) between us and we hurried in.
 
 There were about thirty people seated inside – ranging from slightly to significantly older than the two of us. I noticed a group of Chinese people to one side, containing a coat-adorned man who looked like his business trip had been changed to a hiking one at the last minute.
 
-As the bus started, I found myself wondering how he planned to climb Kjerag in those patent leathers.
+As the bus started, I found myself wondering how he planned to climb [Kjerag][] in those patent leathers.
 
 ***
 
@@ -35,7 +35,7 @@ It didn't look all that dangerous.
 
 ***
 
-We had climbed Preikestolen the day before, partly in preparation for the much harder Kjerag hike. Preikestolen (which is a far more popular tourist destination – you can tell by the large amount of people and the fact that there is a bus every hour, whereas Kjerag only has the sound of your own breathing for company and a solitary bus) is fairly straightforward to climb. It is a little steep in places, but they have steps hewn out of the rock for the most part.
+We had climbed [Preikestolen][] the day before, partly in preparation for the much harder Kjerag hike. Preikestolen (which is a far more popular tourist destination – you can tell by the large amount of people and the fact that there is a bus every hour, whereas Kjerag only has the sound of your own breathing for company and a solitary bus) is fairly straightforward to climb. It is a little steep in places, but they have steps hewn out of the rock for the most part.
 
 Kjerag, on the other hand, is known to be a lot steeper and harder (though the hike isn't much longer).
 
@@ -69,7 +69,7 @@ The sun! All of a sudden, it was out! I exulted in a manner reminiscent of James
 
 ***
 
-The Kjeragbolten.
+The [Kjeragbolten][].
 
 <figure>
 	<a rel="lightbox" href="http://farm6.staticflickr.com/5546/11598380844_5ee5edd73b_h.jpg">
@@ -99,3 +99,8 @@ A couple of hours later, yours truly was back at the parking lot, delightedly de
 **PPS**: Shoutout to Alessio, without whom I couldn't have made this trip!
 
 **PPPS**: This post took way too long to write.
+
+[Stavanger]: http://en.wikipedia.org/wiki/Stavanger
+[Kjerag]: http://en.wikipedia.org/wiki/Kjerag
+[Kjeragbolten]: http://en.wikipedia.org/wiki/Kjeragbolten
+[Preikestolen]: http://en.wikipedia.org/wiki/Preikestolen
