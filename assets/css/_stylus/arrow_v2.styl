@@ -1,7 +1,8 @@
 @import "mixins"
-@import "colours/middle-earth"
+@import "colours/traffic-light-capsicum"
 @import "type"
-// @import "baseline"
+@import "mixins/fancy-list"
+//@import "baseline"
 
 // ====================================================================
 // Basic styles
@@ -50,6 +51,11 @@ figure
 em em
 	font-style normal
 
+strong, b
+	font-weight normal
+	font-variant small-caps
+	text-transform lowercase
+
 .acronym
 	font-size 0.8em
 
@@ -96,6 +102,7 @@ em em
 .nav-main
 	display inline-block
 	font-size 16px
+	font-style italic
 	text-transform lowercase
 
 	ul
@@ -113,6 +120,7 @@ em em
 // ====================================================================
 // Footer
 // ====================================================================
+
 .footer-main
 	font-size 13px
 	letter-spacing 1px
@@ -132,43 +140,57 @@ em em
 // Home
 // ====================================================================
 
-.home-latest, .page-archives, .page-links
-	ul
-		list-style none
-		margin 0
-		padding 0
+.home-latest
+	h2
+		display none
 
-	li
-		margin-bottom ($baseLineHeight/2)
+	ul
+		fancy-list()
+
+		li
+			margin-bottom $baseLineHeight
+
+			> a
+				border 0
+				font-size 1.3em
 
 	.title-post
-		font-family $displayFont
-
-	@media only screen and (min-width: 768px)
-		.meta-post
-			display inline-block
-			margin-left 0.5em
+		fancy-list-main()
 
 	.meta-post
-		font-variant small-caps
-
-	time, .comment-count
-		font-size 0.8em
-		line-height 1 // fix for li height becoming 1px more than baselineheight
-		opacity 0.9
+		fancy-list-meta(false)
 
 	time
 		margin-right 0.5em
 
-	.comment-count
-		border 0
+// ====================================================================
+// Archives
+// ====================================================================
 
-	.see-all
-		font-style italic
-		margin-top $baseLineHeight
+.page-archives
+	ul
+		fancy-list()
 
+	.title-post
+		fancy-list-main()
+
+	.meta-post
+		fancy-list-meta()
+
+// ====================================================================
+// Links
+// ====================================================================
+
+.page-links
+	ul
+		fancy-list()
+
+	li
 		a
-			border 0
+			fancy-list-main()
+
+		time
+			fancy-list-meta()
 
 // ====================================================================
 // Post

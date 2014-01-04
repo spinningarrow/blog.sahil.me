@@ -31,14 +31,14 @@ a {
 }
 a:link,
 a:visited {
-  color: #3f9bbd;
+  color: #c70618;
 }
 a:link:hover,
 a:visited:hover {
   color: #6da546;
 }
 .content-main a {
-  border-bottom: 2px solid #f8efd0;
+  border-bottom: 2px solid #faf1ca;
 }
 .content-main a[name] {
   border-bottom: 0;
@@ -52,11 +52,17 @@ figure {
 em em {
   font-style: normal;
 }
+strong,
+b {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
 .acronym {
   font-size: 0.8em;
 }
 .alert {
-  background-color: #fefdf8;
+  background-color: #fefdf7;
   font-size: 0.8em;
   padding: 0.5em;
 }
@@ -91,6 +97,7 @@ em em {
 .nav-main {
   display: inline-block;
   font-size: 16px;
+  font-style: italic;
   text-transform: lowercase;
 }
 .nav-main ul {
@@ -120,66 +127,87 @@ em em {
   font-size: 28px;
   vertical-align: middle;
 }
-.home-latest ul,
-.page-archives ul,
+.home-latest h2 {
+  display: none;
+}
+.home-latest ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home-latest ul li {
+  margin-bottom: 16px;
+}
+.home-latest ul li {
+  margin-bottom: 32px;
+}
+.home-latest ul li > a {
+  border: 0;
+  font-size: 1.3em;
+}
+.home-latest .title-post {
+  font-family: Galdeano, sans-serif;
+  line-height: 1;
+}
+.home-latest .meta-post {
+  font-variant: small-caps;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+.home-latest time {
+  margin-right: 0.5em;
+}
+.page-archives ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-archives ul li {
+  margin-bottom: 16px;
+}
+.page-archives .title-post {
+  font-family: Galdeano, sans-serif;
+  line-height: 1;
+}
+.page-archives .meta-post {
+  font-variant: small-caps;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+.page-archives .meta-post {
+  line-height: 1;
+}
+@media only screen and (min-width: 768px) {
+  .page-archives .meta-post {
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+}
 .page-links ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.home-latest li,
-.page-archives li,
-.page-links li {
+.page-links ul li {
   margin-bottom: 16px;
 }
-.home-latest .title-post,
-.page-archives .title-post,
-.page-links .title-post {
+.page-links li a {
   font-family: Galdeano, sans-serif;
+  line-height: 1;
+}
+.page-links li time {
+  font-variant: small-caps;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+.page-links li time {
+  line-height: 1;
 }
 @media only screen and (min-width: 768px) {
-  .home-latest .meta-post,
-  .page-archives .meta-post,
-  .page-links .meta-post {
+  .page-links li time {
     display: inline-block;
     margin-left: 0.5em;
   }
-}
-.home-latest .meta-post,
-.page-archives .meta-post,
-.page-links .meta-post {
-  font-variant: small-caps;
-}
-.home-latest time,
-.page-archives time,
-.page-links time,
-.home-latest .comment-count,
-.page-archives .comment-count,
-.page-links .comment-count {
-  font-size: 0.8em;
-  line-height: 1;
-  opacity: 0.9;
-}
-.home-latest time,
-.page-archives time,
-.page-links time {
-  margin-right: 0.5em;
-}
-.home-latest .comment-count,
-.page-archives .comment-count,
-.page-links .comment-count {
-  border: 0;
-}
-.home-latest .see-all,
-.page-archives .see-all,
-.page-links .see-all {
-  font-style: italic;
-  margin-top: 32px;
-}
-.home-latest .see-all a,
-.page-archives .see-all a,
-.page-links .see-all a {
-  border: 0;
 }
 article .header-post {
   margin-bottom: 1em;
@@ -200,7 +228,7 @@ article .meta-post .labels-post {
   font-variant: small-caps;
 }
 article a:visited {
-  color: #d3ab1d;
+  color: #c9a812;
 }
 article img {
   max-width: 100%;

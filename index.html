@@ -4,7 +4,7 @@ layout: default
 <section class="home-latest">
 	<h2>Latest Posts</h2>
 	<ul>
-		{% for post in site.posts limit:7 %}
+		{% for post in site.posts limit:5 %}
 		{% capture disqus_identifier %}http://sahil.me/blog{{ post.url }}{% endcapture %}
 		<li>
 			<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
