@@ -242,7 +242,10 @@ article figure {
 }
 article figure a[href$='jpg'],
 article figure a[href$='jpeg'],
-article figure a[href$='png'] {
+article figure a[href$='png'],
+article figure a[href$='JPG'],
+article figure a[href$='JPEG'],
+article figure a[href$='PNG'] {
   border-bottom: 0;
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
