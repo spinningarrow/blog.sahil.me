@@ -20,4 +20,4 @@ Apparently, short posts are [quite][1] [famous][2] as of now. Though this isn't 
 [opera]: http://www.opera.com/
 [1]: http://ishmeet.wordpress.com/2010/02/03/derivatives/
 [2]: http://vpande.wordpress.com/
-[3]: http://sahilb.blogspot.com/2008/12/to-succinctly-restate-obvious.html
+[3]: http://blog.sahil.me/posts/to-succinctly-restate-obvious/

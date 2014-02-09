@@ -29,7 +29,7 @@ There wasn't much to it after that. After the bookshop debacle, I was subsequent
 I suppose I shouldn't have rolled my eyes like that in the beginning.
 
 [om]: http://www.ombooks.com/
-[1]: http://sahilb.blogspot.com/2008/06/yuiop.html
+[1]: http://blog.sahil.me/posts/yuiop/
 [geb]: http://en.wikipedia.org/wiki/Godel,_Escher,_Bach
 [2]: http://www.dnaindia.com/lifestyle/report_jai-hind-says-tintin_1369625
 [subway]: http://www.subway.com/subwayroot/index.aspx

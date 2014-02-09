@@ -12,4 +12,4 @@ Cheers!
 
 PS. Yes, I know the design is unsurprisingly incomplete.
 
-[1]: http://sahilb.blogspot.com/2008/07/you-s-microsoft.html
+[1]: http://blog.sahil.me/posts/you-s-microsoft/
