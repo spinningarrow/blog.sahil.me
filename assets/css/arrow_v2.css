@@ -177,7 +177,7 @@ b {
 .page-archives .meta-post {
   line-height: 1;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .page-archives .meta-post {
     display: inline-block;
     margin-left: 0.5em;
@@ -203,7 +203,7 @@ b {
 .page-links li time {
   line-height: 1;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .page-links li time {
     display: inline-block;
     margin-left: 0.5em;
