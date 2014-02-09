@@ -15,7 +15,7 @@ I can currently be found in <del>sunny</del> rainy Singapore, majoring in Comput
 
 I love reading books (which I’ve been neglecting, thanks to university), the guitar (which I play half as well as I should considering how many years I’ve owned one), writing (which I like to do by hand), the web (which I code for in my free time), technology (which I don’t own much of), photography (the results of which I should really get around to uploading), getting to know people (and then guessing what they’re thinking in the hope that [this][psychic] happens), ruminating (life, the universe, everything!), and trying my hand at new things (or leg, if the new thing is skiing).
 
-A list of my favourite things would be incomplete without [JRR Tolkien][], [The Matrix][], [Iron Maiden][], [Chuck][], chocolate chip ice-cream, and the serial comma.
+A list of my favourite things would be incomplete without JRR Tolkien, *The Matrix*, Iron Maiden, *Chuck*, chocolate chip ice-cream, and the serial comma.
 
 ### The Spinning Arrow
 
