@@ -1,14 +1,15 @@
 <article class="post">
 	<header>
 		<h1>{{ include.post.title }}</h1>
-		<p class="meta-post">
-			<time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time>
-
-			{% if include.post.labels %}
-			in <span class="labels-post">{{ include.post.labels }}</span>
-			{% endif %}
-		</p>
+		<div class="post-meta">
+			<ul>
+				<li><time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time></li>
+				<li>{% if include.post.labels %}<span class="labels-post">{{ include.post.labels }}</span>{% endif %}uncategorised</li>
+			</ul>
+		</div>
 	</header>
 
-	{{ include.post.content }}
+	<div class="post-body">
+		{{ include.post.content }}
+	</div>
 </article>
