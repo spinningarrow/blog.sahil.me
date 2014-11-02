@@ -1,21 +1,7 @@
 ---
-layout: default
+layout: default2
 ---
-<section class="home-latest">
-	<h2>Latest Posts</h2>
-	<ul>
-		{% for post in site.posts limit:5 %}
-		{% capture disqus_identifier %}http://blog.sahil.me{{ post.url }}/{% endcapture %}
-		<li>
-			<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
 
-			<div class="meta-post">
-				<time datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
-				<a href="{{ post.url }}/#disqus_thread" class="comment-count" data-disqus-identifier="{{ disqus_identifier }}"></a>
-			</div>
-		</li>
-		{% endfor %}
-	</ul>
-
-	<p><em><small><a href="/archives/">All posts</a> »</em></small></p>
-</section>
+{% for post in site.posts limit:3 %}
+	{% include post2.html post=post %}
+{% endfor %}

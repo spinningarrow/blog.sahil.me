@@ -1,0 +1,14 @@
+<article class="post">
+	<header>
+		<h1>{{ include.post.title }}</h1>
+		<p class="meta-post">
+			<time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time>
+
+			{% if include.post.labels %}
+			in <span class="labels-post">{{ include.post.labels }}</span>
+			{% endif %}
+		</p>
+	</header>
+
+	{{ include.post.content }}
+</article>
