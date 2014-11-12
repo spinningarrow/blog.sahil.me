@@ -1,19 +1,14 @@
+/* General */
+
 html {
 	border-top: 4px solid;
 }
 
 body {
-	/* border-top: 4px solid; */
-	/* text-transform: lowercase; */
-	/* font-family: 'Gentium Basic'; */
-	font-family:  'Source Sans Pro';
-	/* font-size: 14px; */
 	width: 600px;
 	margin: 0 auto;
-	/* font-family: 'pt sans'; */
 	font-family: lato;
 	color: #444;
-	/* font-family: 'gentium basic'; */
 	font-size: 1.1em;
 	margin-top: 3em;
 }
@@ -22,53 +17,55 @@ h1 {
 	font-size: 1em;
 }
 
-.header-main {
-	/* margin-bottom: 3em; */
-	/* margin-top: 3em; */
+/* Header */
+
+.site-header {
 	font-size: 0.8em;
 	position: absolute;
-	/* top: 40%; */
 	left: 1em;
 	top: 4px;
 	background: black;
 	padding: 1em;
 }
 
-.header-main h1 {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 100;
-    margin-bottom: 1em;
-    padding-bottom: 0;
-    margin-top: 0;
+.site-header h1 {
+	font-family: source code pro;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 1em;
+	padding-bottom: 0;
+	margin-top: 0;
 }
 
-.header-main a[href] {
+.site-header a[href] {
 	text-decoration: none;
 	color: white;
 }
 
-nav {
+/* Footer */
+
+.site-footer {
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+/* Navigation */
+
+.site-header nav {
 	font-size: 0.8em;
 	text-transform: lowercase;
 	line-height: 1.6;
 }
 
-nav ul {
+.site-header nav ul {
 	list-style: none;
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-nav ul li {
-	/* display: inline-block; */
-	/* margin-right: 1em; */
-}
-
-.content-main {
-	/* margin-top: 3em; */
-}
+/* Posts */
 
 .post {
 	margin-bottom: 3em;
@@ -76,6 +73,15 @@ nav ul li {
 
 .post h1 {
 	font-weight: 900;
+}
+
+.post h1 a {
+	color: #444;
+	text-decoration: none;
+}
+
+.post h1 a:hover {
+	color: #999
 }
 
 .post-body {
@@ -90,12 +96,7 @@ nav ul li {
 	float: right;
 	padding-left: 30px;
 	width: 23%;
-	/* border-top: 1px dashed #ccc; */
-	/* padding-top: 10px; */
-	/* border-bottom: 1px dashed #ccc; */
-	/* padding-bottom: 10px; */
 	font-weight: 200;
-	/* margin-top: 2px; */
 }
 
 .post-meta ul {
@@ -103,9 +104,4 @@ nav ul li {
 	margin: 0;
 	padding: 0;
 	line-height: 2;
-}
-
-footer {
-	margin-bottom: 3em;
-	text-align: center;
 }
