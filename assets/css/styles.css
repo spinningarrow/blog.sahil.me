@@ -1,20 +1,35 @@
 /* General */
 
 html {
-	border-top: 4px solid;
+	/* border-top: 4px solid; */
 }
 
 body {
-	width: 600px;
-	margin: 0 auto;
-	font-family: lato;
+	width: 460px;
+	margin: 0 0 0 15em;
+	font-family: source sans pro;
 	color: #444;
-	font-size: 1.1em;
+	font-size: 16px;
 	margin-top: 3em;
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 3.4em;
+	font-family: source sans pro;
+	font-family: museo slab;
+	font-family: ostrich sans;
+	/* letter-spacing: -3px; */
+}
+
+a:link {
+	color: cornflowerblue;
+}
+
+a:hover {
+	/* color: crimson; */
+	text-decoration: none;
+	background: cornflowerblue;
+	color: white;
 }
 
 /* Header */
@@ -22,25 +37,39 @@ h1 {
 .site-header {
 	font-size: 0.8em;
 	position: absolute;
-	left: 1em;
-	top: 4px;
-	background: black;
-	padding: 1em;
+	right: 1em;
+	top: 1em;
+	/* background: black; */
+	padding: 0.5em;
+	/* border: 1px solid #ccc; */
+	/* background: red; */
+	font-family: 'm+ 1m';
 }
 
 .site-header h1 {
-	font-family: source code pro;
+	font-family: 'm+ 1m';
 	font-size: 1em;
 	text-transform: uppercase;
-	font-weight: 100;
-	margin-bottom: 1em;
+	font-weight: normal;
+	/* margin-bottom: 1em; */
 	padding-bottom: 0;
 	margin-top: 0;
+	margin: 0;
+	color: white;
+	/* background: red; */
+	/* padding: 0.5em; */
+	line-height: 2.4;
+	/* letter-spacing: 2px; */
 }
 
 .site-header a[href] {
 	text-decoration: none;
 	color: white;
+	/* color: #ccc; */
+	background: cornflowerblue;
+	display: inline-block;
+	margin-bottom: 0.5em;
+	padding: 0 0.5em;
 }
 
 /* Footer */
@@ -53,7 +82,7 @@ h1 {
 /* Navigation */
 
 .site-header nav {
-	font-size: 0.8em;
+	/* font-size: 0.8em; */
 	text-transform: lowercase;
 	line-height: 1.6;
 }
@@ -63,45 +92,58 @@ h1 {
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
+	text-align: right;
 }
 
 /* Posts */
 
 .post {
 	margin-bottom: 3em;
+	position: relative;
 }
 
 .post h1 {
-	font-weight: 900;
+	font-weight: 400;
 }
 
 .post h1 a {
-	color: #444;
+	color: rgb(245, 0, 56);
 	text-decoration: none;
 }
 
 .post h1 a:hover {
-	color: #999
+	color: cornflowerblue;
+	background: white;
 }
 
 .post-body {
-	width: 76%;
-	font-family: gentium basic;
-	line-height: 1.2;
+	/* width: 76%; */
+	font-family: georgia;
+	line-height: 1.4;
 }
 
 .post-meta {
 	box-sizing: border-box;
-	font-size: 0.7rem;
-	float: right;
-	padding-left: 30px;
+	/* font-size: 1.2rem; */
+	/* float: right; */
+	/* padding-left: 30px; */
 	width: 23%;
-	font-weight: 200;
+	/* font-weight: 200; */
+	position: absolute;
+	top: 0;
+	left: -30%;
+	text-align: right;
+	/* margin-top: 0.8em; */
+	font-family: 'm+ 1m';
+	font-weight: lighter;
+	/* font-family: source code pro; */
+	line-height: 1.4;
 }
 
 .post-meta ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	line-height: 2;
+	/* line-height: 2; */
+	color: #999;
 }
