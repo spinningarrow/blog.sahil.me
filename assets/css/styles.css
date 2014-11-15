@@ -77,6 +77,9 @@ a:hover {
 .site-footer {
 	margin-bottom: 3em;
 	text-align: center;
+	-webkit-text-stroke: 1px cornflowerblue;
+	-webkit-text-fill-color: white;
+	color: cornflowerblue;
 }
 
 /* Navigation */
