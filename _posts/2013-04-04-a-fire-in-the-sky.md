@@ -2,7 +2,7 @@
 layout: post
 date: 2013-04-04T21:54:15+02:00
 title: A Fire in the Sky
-labels: [exchange]
+category: exchange
 ---
 
 A dreary evening.

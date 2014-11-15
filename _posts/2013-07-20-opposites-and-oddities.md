@@ -2,7 +2,7 @@
 layout: post
 date: 2013-07-20T03:25:10+05:30
 title: Opposites and Oddities
-labels: [exchange]
+category: exchange
 ---
 
 Baffling or plain peculiar things observed over six months in a different continent (in no particular order):

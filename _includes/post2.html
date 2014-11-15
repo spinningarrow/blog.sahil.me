@@ -4,7 +4,7 @@
 		<div class="post-meta">
 			<ul>
 				<li><time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time></li>
-				<li>{% if include.post.labels %}<span class="labels-post">{{ include.post.labels }}</span>{% endif %}uncategorised</li>
+				<li>{% if include.post.category %}<span class="post-category">{{ include.post.category }}</span>{% endif %}</li>
 			</ul>
 		</div>
 	</header>

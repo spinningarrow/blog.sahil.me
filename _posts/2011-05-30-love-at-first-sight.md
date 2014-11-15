@@ -2,7 +2,7 @@
 layout: post
 date: 2011-05-30T01:30:00+05:30
 title: Love at first sight
-labels: [guitar]
+category: guitar
 ---
 
 <figure>

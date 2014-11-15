@@ -2,7 +2,7 @@
 layout: post
 date: 2013-12-28T16:18:23+08:00
 title: Far over the misty mountains cold
-labels: [exchange]
+category: exchange
 ---
 Out of breath and time, Alessio and I sprinted towards the bus on the other side of the road. That is to say that I, with what can only be a rather Indian obliviousness to zebra crossings, cut across the middle of the road, while Alessio patiently waited for vehicles to pass by.
 

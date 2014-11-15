@@ -2,7 +2,7 @@
 layout: post
 date: 2010-01-28T03:41:00+05:30
 title: Fists of Steel
-labels: [writing]
+category: writing
 ---
 
 He stood motionless, staring at the blank wall.

@@ -2,7 +2,7 @@
 layout: post
 date: 2013-03-12T04:24:51+01:00
 title: For those of you who didn't know... (Part II)
-labels: [exchange]
+category: exchange
 ---
 
 ...I'm in Norway.

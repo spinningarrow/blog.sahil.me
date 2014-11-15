@@ -2,7 +2,7 @@
 layout: post
 date: 2010-08-10T04:00:00+05:30
 title: "Standing Still"
-labels: [writing]
+category: writing
 ---
 
 There you stand, eyes closed, completely still. A bright morning sun shines on you from behind. A hint of a breeze tickles the tips of your ears. The smell of pine needles and grass. The soft sound of water running over pebbles.

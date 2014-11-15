@@ -2,7 +2,7 @@
 layout: post
 date: 2011-05-02T02:58:00+08:00
 title: Infinite Loop
-labels: [tech]
+category: tech
 ---
 
 What do we have here? Exams around the corner + a bored yours truly who doesn't want to study, of course.
