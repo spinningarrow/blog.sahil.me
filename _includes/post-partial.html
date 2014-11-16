@@ -4,12 +4,12 @@
 		<div class="post-meta">
 			<ul>
 				<li><time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time></li>
-				<li>{% if include.post.category %}<span class="post-category">{{ include.post.category }}</span>{% endif %}</li>
+				{% if include.post.category %}<li>{{ include.post.category }}</li>{% endif %}
 			</ul>
 		</div>
 	</header>
 
 	<div class="post-body">
-		{{ include.post.content }}
+		{{ include.post.content | markdownify }}
 	</div>
 </article>
