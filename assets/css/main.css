@@ -1,0 +1,178 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'M+ 1m';
+  font-style: normal;
+  font-weight: 100;
+  src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_thin_macroman/mplus-1m-thin-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'M+ 1m';
+  font-style: normal;
+  font-weight: 400;
+  src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_regular_macroman/mplus-1m-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'M+ 1m';
+  font-style: normal;
+  font-weight: 700;
+  src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_bold_macroman/mplus-1m-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Ostrich Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ostrich Sans'), url('http://sahil.me/fonts/ostrich-sans-master/webfonts/ostrich-sans-regular.woff') format('woff');
+}
+
+/* Variables */
+
+:root {
+  /* Colors */
+  /* Typefaces */
+}
+
+/* General */
+
+body {
+  color: #444;
+  font-family: georgia, serif;
+  font-size: 16px;
+  margin: 3em 0 3em 15em;
+  width: 460px;
+}
+
+h1 {
+  font-family: ostrich sans, sans-serif;
+  font-size: 3.4em;
+}
+
+a:link {
+  color: #6495ed;
+}
+
+a:hover {
+  background-color: #6495ed;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header */
+
+.site-header {
+  font-family: 'm+ 1m', monospace;
+  font-size: 0.8em;
+  padding: 0.5em;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.site-header h1 {
+  color: white;
+  font-family: 'm+ 1m', monospace;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 2.4;
+  margin: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+
+.site-header a[href] {
+  background: #6495ed;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  text-decoration: none;
+}
+
+.site-header a[href].external {
+  background: #444;
+}
+
+.site-header a[href]:hover {
+  background: #f50038;
+}
+
+/* Footer */
+
+.site-footer {
+  color: #6495ed;
+  text-align: center;
+  -webkit-text-stroke: 1px #6495ed;
+  -webkit-text-fill-color: #fff;
+}
+
+/* Navigation */
+
+.site-header nav {
+  line-height: 1.6;
+  text-transform: lowercase;
+}
+
+.site-header nav ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* Posts */
+
+.post {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.post h1 {
+  font-weight: 400;
+}
+
+.post h1 a {
+  color: #f50038;
+  text-decoration: none;
+}
+
+.post h1 a:hover {
+  background-color: #fff;
+  color: #6495ed;
+}
+
+.post-body {
+  line-height: 1.4;
+}
+
+.post-body hr {
+  width: 2em;
+}
+
+.post-body figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+}
+
+.post-meta {
+  box-sizing: border-box;
+  color: rgb(162, 162, 162);
+  font-family: 'm+ 1m', monospace;
+  font-weight: 100;
+  left: -30%;
+  line-height: 1.4;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 23%;
+}
+
+.post-meta ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
