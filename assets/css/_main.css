@@ -99,6 +99,14 @@ a:hover {
 	text-decoration: none;
 }
 
+.site-header a[href].external {
+	background: var(--primary-color);
+}
+
+.site-header a[href]:hover {
+	background: var(--accent-color);
+}
+
 /* Footer */
 
 .site-footer {
