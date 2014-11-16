@@ -1,14 +1,17 @@
 /* General */
 
-html {
-	/* border-top: 4px solid; */
+:root {
+	--primary-color: #444;
+	--secondary-color: #6495ed;
+	--accent-color: #f50038;
+	--offset-color: #fff;
 }
 
 body {
 	width: 460px;
 	margin: 0 0 0 15em;
 	font-family: source sans pro;
-	color: #444;
+	color: var(--primary-color);
 	font-size: 16px;
 	margin-top: 3em;
 }
@@ -18,18 +21,16 @@ h1 {
 	font-family: source sans pro;
 	font-family: museo slab;
 	font-family: ostrich sans;
-	/* letter-spacing: -3px; */
 }
 
 a:link {
-	color: cornflowerblue;
+	color: var(--secondary-color);
 }
 
 a:hover {
-	/* color: crimson; */
 	text-decoration: none;
-	background: cornflowerblue;
-	color: white;
+	background-color: var(--secondary-color);
+	color: var(--offset-color);
 }
 
 /* Header */
@@ -39,10 +40,7 @@ a:hover {
 	position: absolute;
 	right: 1em;
 	top: 1em;
-	/* background: black; */
 	padding: 0.5em;
-	/* border: 1px solid #ccc; */
-	/* background: red; */
 	font-family: 'm+ 1m';
 }
 
@@ -51,22 +49,17 @@ a:hover {
 	font-size: 1em;
 	text-transform: uppercase;
 	font-weight: normal;
-	/* margin-bottom: 1em; */
 	padding-bottom: 0;
 	margin-top: 0;
 	margin: 0;
 	color: white;
-	/* background: red; */
-	/* padding: 0.5em; */
 	line-height: 2.4;
-	/* letter-spacing: 2px; */
 }
 
 .site-header a[href] {
 	text-decoration: none;
-	color: white;
-	/* color: #ccc; */
-	background: cornflowerblue;
+	color: var(--offset-color);
+	background: var(--secondary-color);
 	display: inline-block;
 	margin-bottom: 0.5em;
 	padding: 0 0.5em;
@@ -77,15 +70,14 @@ a:hover {
 .site-footer {
 	margin-bottom: 3em;
 	text-align: center;
-	-webkit-text-stroke: 1px cornflowerblue;
-	-webkit-text-fill-color: white;
-	color: cornflowerblue;
+	-webkit-text-stroke: 1px var(--secondary-color);
+	-webkit-text-fill-color: var(--offset-color);
+	color: var(--secondary-color);
 }
 
 /* Navigation */
 
 .site-header nav {
-	/* font-size: 0.8em; */
 	text-transform: lowercase;
 	line-height: 1.6;
 }
@@ -110,17 +102,16 @@ a:hover {
 }
 
 .post h1 a {
-	color: rgb(245, 0, 56);
+	color: var(--accent-color);
 	text-decoration: none;
 }
 
 .post h1 a:hover {
-	color: cornflowerblue;
-	background: white;
+	background-color: var(--offset-color);
+	color: var(--secondary-color);
 }
 
 .post-body {
-	/* width: 76%; */
 	font-family: georgia;
 	line-height: 1.4;
 }
@@ -131,19 +122,13 @@ a:hover {
 
 .post-meta {
 	box-sizing: border-box;
-	/* font-size: 1.2rem; */
-	/* float: right; */
-	/* padding-left: 30px; */
 	width: 23%;
-	/* font-weight: 200; */
 	position: absolute;
 	top: 0;
 	left: -30%;
 	text-align: right;
-	/* margin-top: 0.8em; */
 	font-family: 'm+ 1m';
 	font-weight: lighter;
-	/* font-family: source code pro; */
 	line-height: 1.4;
 }
 
@@ -151,6 +136,5 @@ a:hover {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	/* line-height: 2; */
 	color: #999;
 }
