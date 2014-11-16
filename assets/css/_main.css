@@ -160,8 +160,15 @@ a:hover {
 	width: 2em;
 }
 
+.post-body figcaption {
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: center;
+}
+
 .post-meta {
 	box-sizing: border-box;
+	color: color(var(--primary-color) tint(50%));
 	font-family: var(--secondary-type);
 	font-weight: 100;
 	left: -30%;
@@ -173,7 +180,6 @@ a:hover {
 }
 
 .post-meta ul {
-	color: #999;
 	list-style: none;
 	margin: 0;
 	padding: 0;
