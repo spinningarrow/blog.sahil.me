@@ -62,6 +62,10 @@ a:link {
 	color: var(--secondary-color);
 }
 
+a:visited {
+	color: color(var(--secondary-color) tint(40%));
+}
+
 a:hover {
 	background-color: var(--secondary-color);
 	color: var(--offset-color);

@@ -54,6 +54,10 @@ a:link {
   color: #6495ed;
 }
 
+a:visited {
+  color: rgb(162, 191, 244);
+}
+
 a:hover {
   background-color: #6495ed;
   color: #fff;
