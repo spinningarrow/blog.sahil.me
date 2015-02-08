@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2012-12-20-T02:30:00+05:30
+date: 2012-12-20T02:30:00+05:30
 title: "Omelettes and Trees"
 ---
 
