@@ -1,7 +1,7 @@
 # Jekyll configuration
 exclude: ["Rakefile", "CNAME"]
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 permalink: /posts/:title
 
 # Site configuration
