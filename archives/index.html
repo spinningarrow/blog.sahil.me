@@ -2,8 +2,8 @@
 layout: default
 title: Archives
 ---
-<section class="content page-archives">
-	<h2>Archives</h2>
+<section class="page-archives">
+	<h1>Archives</h1>
 
 	{% assign previous_post_year = "" %}
 	{% assign first_list = true %}
@@ -15,22 +15,19 @@ title: Archives
 			{% if first_list %}
 				{% assign first_list = false %}
 			{% else %}
-				</ul>
+		</ul>
 			{% endif %}
-			<h3>{{ current_post_year }}</h3>
-			<ul class="listing listing-stylish">
+		<h2>{{ current_post_year }}</h2>
+		<ul class="list-collapsible">
 			{% assign previous_post_year = current_post_year %}
 		{% endif %}
 
-		<li>
-			<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
-
-			<div class="meta-post">
-				<time datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
-			</div>
-		</li>
+			<li>
+				<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
+				<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+			</li>
 	{% endfor %}
-	</ul>
+		</ul>
 
-	<p class="alert"><strong>Note</strong>: Older posts from 2007 and 2006 can be found at <a href="http://sahilb.blogspot.com">sahilb.blogspot.com</a>.</p>
+	<p class="box box-info"><strong>Note</strong>: Older posts from 2007 and 2006 can be found at <a href="http://sahilb.blogspot.com">sahilb.blogspot.com</a>.</p>
 </section>

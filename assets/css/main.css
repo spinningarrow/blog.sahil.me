@@ -57,6 +57,7 @@ body {
 h1 {
   font-family: ostrich sans, sans-serif;
   font-size: 3.4em;
+  font-weight: 400;
 }
 
 @media (max-width: 940px) {
@@ -162,10 +163,6 @@ a:hover {
   position: relative;
 }
 
-.post h1 {
-  font-weight: 400;
-}
-
 .post h1 a {
   color: #f50038;
   text-decoration: none;
@@ -215,4 +212,34 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* Archives */
+
+.page-archives h2 {
+  font-family: 'm+ 1m', monospace;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.list-collapsible {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0 0 0 0.5em;
+}
+
+.list-collapsible li {
+  margin: 0.5em 0;
+}
+
+.list-collapsible .meta-post {
+  font-size: 0.8em;
+}
+
+.box {
+  padding: 0.5em;
+}
+
+.box-info {
+  background-color: rgba(100, 149, 237, 0.1);
 }
