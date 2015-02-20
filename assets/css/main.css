@@ -214,6 +214,18 @@ a:hover {
   padding: 0;
 }
 
+/* Code blocks */
+
+.highlight {
+  background-color: rgba(100, 149, 237, 0.05);
+  padding: 0.5em 1em;
+}
+
+.highlight code {
+  font-family: 'm+ 1m', monospace;
+  font-size: 0.85em;
+}
+
 /* Archives */
 
 .page-archives h2 {
