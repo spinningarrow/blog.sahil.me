@@ -85,10 +85,8 @@ a:hover {
 .site-header {
   font-family: 'm+ 1m', monospace;
   font-size: 0.8em;
-  padding: 0.5em;
   position: absolute;
   right: 1em;
-  top: 1em;
 }
 
 @media (max-width: 940px) {

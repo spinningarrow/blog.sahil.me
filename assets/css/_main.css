@@ -94,10 +94,8 @@ a:hover {
 .site-header {
 	font-family: var(--secondary-type);
 	font-size: 0.8em;
-	padding: 0.5em;
 	position: absolute;
 	right: 1em;
-	top: 1em;
 }
 
 @media (--smaller-screen) {
