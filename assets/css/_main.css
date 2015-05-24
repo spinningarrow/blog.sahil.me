@@ -96,6 +96,7 @@ a:hover {
 	font-size: 0.8em;
 	position: absolute;
 	right: 1em;
+	text-align: right;
 }
 
 @media (--smaller-screen) {
@@ -133,6 +134,23 @@ a:hover {
 	background: var(--accent-color);
 }
 
+.site-header input[type="search"] {
+	border: 1px solid var(--secondary-color);
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+
+.site-header input[type="search"]:focus {
+	border-color: var(--accent-color);
+	outline: none;
+}
+
+@media (--smaller-screen) {
+	.site-header input[type="search"] {
+		text-align: inherit;
+	}
+}
+
 /* Footer */
 
 .site-footer {
@@ -154,7 +172,6 @@ a:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
-	text-align: right;
 }
 
 @media (--smaller-screen) {

@@ -87,6 +87,7 @@ a:hover {
   font-size: 0.8em;
   position: absolute;
   right: 1em;
+  text-align: right;
 }
 
 @media (max-width: 940px) {
@@ -124,6 +125,23 @@ a:hover {
   background: #f50038;
 }
 
+.site-header input[type="search"] {
+  border: 1px solid #6495ed;
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+
+.site-header input[type="search"]:focus {
+  border-color: #f50038;
+  outline: none;
+}
+
+@media (max-width: 940px) {
+  .site-header input[type="search"] {
+    text-align: inherit;
+  }
+}
+
 /* Footer */
 
 .site-footer {
@@ -145,7 +163,6 @@ a:hover {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  text-align: right;
 }
 
 @media (max-width: 940px) {
