@@ -5,10 +5,9 @@ title: Skinny Love
 ---
 
 <iframe
-	width="420"
-	height="315"
 	src="https://www.youtube.com/embed/ssdgFoHLwnk"
 	frameborder="0"
+	style="width: 100%;"
 	allowfullscreen>
 </iframe>
 
