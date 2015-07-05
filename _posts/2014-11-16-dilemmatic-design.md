@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2014-11-16T19:48:39+08:00
+category: journal
 title: Dilemmatic design
 ---
 

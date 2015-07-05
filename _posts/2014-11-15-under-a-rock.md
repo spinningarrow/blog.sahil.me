@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2014-11-15T23:04:39+08:00
+category: journal
 title: Under a rock
 ---
 
