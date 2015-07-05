@@ -242,6 +242,14 @@ img {
 	padding: 0;
 }
 
+.post-meta .post-category {
+	background-color: color(var(--primary-color) tint(50%));
+	border-radius: 2px;
+	color: var(--offset-color);
+	display: inline-block;
+	padding: 0 0.1em;
+}
+
 /* Code blocks */
 .highlight {
 	background-color: color(var(--secondary-color) alpha(0.05));

@@ -234,6 +234,14 @@ img {
   padding: 0;
 }
 
+.post-meta .post-category {
+  background-color: rgb(162, 162, 162);
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  padding: 0 0.1em;
+}
+
 /* Code blocks */
 
 .highlight {
