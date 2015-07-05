@@ -21,7 +21,9 @@ I started putting things together in <a href="http://bohemiancoding.com/sketch/"
 I moved to the Jekyll code, simplifying the blog’s existing HTML. After many iterations (mostly typographic), I came up with a layout that I was quite satisfied with.
 
 <figure>
-	<img src="https://lh6.googleusercontent.com/-WA6l0Xd07og/VGiRXaFE6NI/AAAAAAAABmU/ML_zkRbgN-w/s1600/spinningarrow%2520-%2520discarded%2520design.png">
+	<a href="https://lh6.googleusercontent.com/-WA6l0Xd07og/VGiRXaFE6NI/AAAAAAAABmU/ML_zkRbgN-w/s1600/spinningarrow%2520-%2520discarded%2520design.png">
+		<img src="https://lh6.googleusercontent.com/-WA6l0Xd07og/VGiRXaFE6NI/AAAAAAAABmU/ML_zkRbgN-w/s1600/spinningarrow%2520-%2520discarded%2520design.png">
+	</a>
 	<figcaption>Good – but not good enough</figcaption>
 </figure>
 
@@ -30,7 +32,9 @@ I let it mature for a bit – by now I’ve realised I end up disliking my stuff
 Then, in another spurt of messing around, I suddenly saw something that just ‘clicked’. This was it! A few tweaks here and there – and the current layout was done! 
 
 <figure>
-	<img src="https://lh6.googleusercontent.com/-DAfv3vvBp9c/VGiRXW2IECI/AAAAAAAABmQ/CxHTfbDp9uU/s1600/spinningarrow%2520-%2520almost%2520there.png">
+	<a href="https://lh6.googleusercontent.com/-DAfv3vvBp9c/VGiRXW2IECI/AAAAAAAABmQ/CxHTfbDp9uU/s1600/spinningarrow%2520-%2520almost%2520there.png">
+		<img src="https://lh6.googleusercontent.com/-DAfv3vvBp9c/VGiRXW2IECI/AAAAAAAABmQ/CxHTfbDp9uU/s1600/spinningarrow%2520-%2520almost%2520there.png">
+	</a>
 	<figcaption>Almost there…</figcaption>
 </figure>
 
@@ -39,7 +43,9 @@ On the whole, I’m pretty happy with the current design. Note the use of monosp
 By the way, one of the things that really speeded work up this time was using <a href="https://developer.chrome.com/devtools/docs/workspaces">Chrome DevTools’ workspaces</a> feature – I often edit the CSS directly in the browser (instant feedback is really helpful) and this way I didn’t have to manually copy all the styles back to the source file.
 
 <figure>
-	<img src="https://lh5.googleusercontent.com/-trxYK7ZzIqM/VGiYxFvU0sI/AAAAAAAABmk/0VmPuhvnWpM/s720/devtools%2520workspaces.png">
+	<a href="https://lh5.googleusercontent.com/-trxYK7ZzIqM/VGiYxFvU0sI/AAAAAAAABmk/0VmPuhvnWpM/s720/devtools%2520workspaces.png">
+		<img src="https://lh5.googleusercontent.com/-trxYK7ZzIqM/VGiYxFvU0sI/AAAAAAAABmk/0VmPuhvnWpM/s720/devtools%2520workspaces.png">
+	</a>
 	<figcaption>DevTools is brilliant</figcaption>
 </figure>
 

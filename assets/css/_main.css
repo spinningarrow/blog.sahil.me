@@ -89,6 +89,10 @@ a:hover {
 	text-decoration: none;
 }
 
+img {
+	background-color: white; /* for non-rectangular image links on hover */
+}
+
 /* Header */
 
 .site-header {
