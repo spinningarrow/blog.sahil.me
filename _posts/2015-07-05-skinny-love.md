@@ -7,7 +7,6 @@ title: Skinny Love
 <iframe
 	src="https://www.youtube.com/embed/ssdgFoHLwnk"
 	frameborder="0"
-	style="width: 100%;"
 	allowfullscreen>
 </iframe>
 

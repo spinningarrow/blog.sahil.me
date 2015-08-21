@@ -216,6 +216,11 @@ img {
 	text-align: center;
 }
 
+.post-body iframe {
+	height: 15em;
+	width: 100%;
+}
+
 .post-meta {
 	box-sizing: border-box;
 	color: mix($primary-color, white, 50%);
