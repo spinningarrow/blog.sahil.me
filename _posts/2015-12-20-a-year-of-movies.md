@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2015-12-20T16:49:49+0800
+category: journal
 title: A year of movies
 ---
 

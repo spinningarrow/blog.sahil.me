@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2015-07-05T19:33:58+08:00
+category: music
 title: Skinny Love
 ---
 
