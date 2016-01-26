@@ -145,6 +145,12 @@ img {
 	max-width: 10em;
 }
 
+@media #{$smaller-screen} {
+	.site-header .description {
+		max-width: unset;
+	}
+}
+
 .site-header input[type="search"] {
 	border: 1px solid $secondary-color;
 	line-height: 1.4;
