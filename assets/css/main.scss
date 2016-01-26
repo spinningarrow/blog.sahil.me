@@ -99,9 +99,10 @@ img {
 .site-header {
 	font-family: $secondary-type;
 	font-size: 0.8em;
-	position: absolute;
+	position: fixed;
 	right: 1em;
 	text-align: right;
+	top: 1em;
 }
 
 @media #{$smaller-screen} {
@@ -127,7 +128,7 @@ img {
 	color: $offset-color;
 	display: inline-block;
 	margin-bottom: 0.5em;
-	padding: 0 0.5em;
+	padding: 0 0.7em;
 	text-decoration: none;
 }
 
@@ -139,8 +140,14 @@ img {
 	background: $accent-color;
 }
 
+.site-header .description {
+	margin-top: 0;
+	max-width: 10em;
+}
+
 .site-header input[type="search"] {
 	border: 1px solid $secondary-color;
+	line-height: 1.4;
 	margin-bottom: 0.5em;
 	text-align: right;
 }
