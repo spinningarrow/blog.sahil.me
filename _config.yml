@@ -1,7 +1,5 @@
 # Jekyll configuration
 exclude: ["new_post.sh", "CNAME", "README.md"]
-markdown: kramdown
-highlighter: pygments
 permalink: /posts/:title
 
 # Site configuration
