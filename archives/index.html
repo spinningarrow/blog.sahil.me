@@ -23,7 +23,7 @@ title: Archives
 		{% endif %}
 
 			<li>
-				<a href="{{ post.url }}/" class="title-post">{{ post.title }}</a>
+				<a href="{{ post.url }}" class="title-post">{{ post.title }}</a>
 				<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
 			</li>
 	{% endfor %}

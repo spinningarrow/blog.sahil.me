@@ -1,6 +1,6 @@
 # Jekyll configuration
 exclude: ["new_post.sh", "CNAME", "README.md"]
-permalink: /posts/:title
+permalink: /posts/:title/
 
 # Site configuration
 title: The Spinning Arrow
