@@ -3,7 +3,7 @@ layout: default
 ---
 	{% assign post_year = page.date | date: "%Y" %}
 	{% assign post_month = page.date | date: "%m" %}
-	{% capture disqus_identifier %}http://blog.sahil.me{{ page.url }}/{% endcapture %}
+	{% capture disqus_identifier %}http://blog.sahil.me{{ page.url }}{% endcapture %}
 
 	{% include post-partial.html post=page %}
 
@@ -15,7 +15,7 @@ layout: default
 			var disqus_shortname = 'thespinningarrow'; // required: replace example with your forum shortname
 			var disqus_developer = 1;
 			var disqus_identifier = '{{ disqus_identifier }}';
-			var disqus_url = 'http://blog.sahil.me{{ page.url }}/';
+			var disqus_url = 'http://blog.sahil.me{{ page.url }}';
 			var disqus_title = '{{ page.title | replace: "'", "\\'" | replace: '"', '\\"' }}';
 
 			/* * * DON'T EDIT BELOW THIS LINE * * */
