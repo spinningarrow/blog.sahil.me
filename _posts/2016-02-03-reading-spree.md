@@ -49,9 +49,7 @@ times (I've almost never _not_ finished a book in the past). Some of them are
 non-fiction ones though – can I pretend that they don't count?
 
 <figure>
-	<a href="https://lh3.googleusercontent.com/-UScCmyeIqro/VrDeUJWCvUI/AAAAAAAACEI/yQ2YoJugxnU/s1600-Ic42/books%252520on%252520bed.jpg">
-		<img src="https://lh3.googleusercontent.com/-UScCmyeIqro/VrDeUJWCvUI/AAAAAAAACEI/yQ2YoJugxnU/s1600-Ic42/books%252520on%252520bed.jpg">
-	</a>
+	<img data-action="zoom" src="https://lh3.googleusercontent.com/-UScCmyeIqro/VrDeUJWCvUI/AAAAAAAACEI/yQ2YoJugxnU/s1600-Ic42/books%252520on%252520bed.jpg">
 </figure>
 
 Oh well. Time for Susan Sontag’s _On Photography_!
