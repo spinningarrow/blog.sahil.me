@@ -219,19 +219,23 @@ img {
 	line-height: 1.4;
 }
 
-.post-body hr {
-	width: 2em;
-}
-
 .post-body figcaption {
 	font-size: 0.8em;
 	font-style: italic;
 	text-align: center;
 }
 
+.post-body hr {
+	width: 2em;
+}
+
 .post-body iframe {
 	height: 15em;
 	width: 100%;
+}
+
+.post-body ol {
+	padding-left: 1.5em;
 }
 
 .post-meta {
