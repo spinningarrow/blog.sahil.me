@@ -2,6 +2,7 @@
 layout: post
 date: 2016-05-15T22:50:15+0800
 title: Writing anxiety
+category: journal
 ---
 
 The longer I go without <del>writing</del> posting on my blog, the more
