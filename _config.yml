@@ -1,6 +1,7 @@
 # Jekyll configuration
 exclude: ["new_post.sh", "CNAME", "README.md"]
 permalink: /posts/:title/
+future: true
 
 # Site configuration
 title: The Spinning Arrow
