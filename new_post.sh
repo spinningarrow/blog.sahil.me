@@ -12,5 +12,6 @@ cat > _posts/$filename << EOF
 layout: post
 date: `date +%FT%T%z`
 title: $post_title
+category: ????
 ---
 EOF
