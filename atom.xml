@@ -19,9 +19,7 @@
 
 	{% for post in site.posts %}
 	<entry>
-		{% capture category_display_date %}{{ '2016-06-01' | date: '%s' }}{% endcapture %}
-		{% capture post_date %}{{ post.date | date: '%s' }}{% endcapture %}
-		<title>{% if post_date > category_display_date and post.category %}[{{post.category}}] {% endif %}{{ post.title }}</title>
+		<title>{{ post.title }}</title>
 		<link href="http://blog.sahil.me{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://blog.sahil.me/{{ post.id }}</id>
