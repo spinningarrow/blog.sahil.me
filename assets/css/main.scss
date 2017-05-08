@@ -4,31 +4,10 @@
 /* Fonts */
 
 @font-face {
-	font-family: 'M+ 1m';
-	font-style: normal;
-	font-weight: 100;
-	src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_thin_macroman/mplus-1m-thin-webfont.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'M+ 1m';
-	font-style: normal;
-	font-weight: 400;
-	src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_regular_macroman/mplus-1m-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'M+ 1m';
-	font-style: normal;
-	font-weight: 700;
-	src: local('M+ 1m'), url('http://sahil.me/fonts/m-1m/m+1m_bold_macroman/mplus-1m-bold-webfont.woff') format('woff');
-}
-
-@font-face {
 	font-family: 'Ostrich Sans';
 	font-style: normal;
 	font-weight: 400;
-	src: local('Ostrich Sans'), url('http://sahil.me/fonts/ostrich-sans-master/webfonts/ostrich-sans-regular.woff') format('woff');
+	src: local('Ostrich Sans'), url('http://sahil.nfshost.com/fonts/ostrich-sans-master/webfonts/ostrich-sans-regular.woff') format('woff');
 }
 
 /* Variables */
@@ -41,7 +20,7 @@ $offset-color: #fff;
 
 // Typefaces
 $primary-type: georgia, serif;
-$secondary-type: 'm+ 1m', monospace;
+$secondary-type: 'm-1m', 'm+ 1m', monospace;
 $tertiary-type: ostrich sans, sans-serif;
 
 // Responsiveness
