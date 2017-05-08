@@ -14,8 +14,8 @@
 
 // Colors
 $primary-color: #444;
-$secondary-color: #6495ed;
-$accent-color: #f50038;
+$secondary-color: #4CAF50;
+$accent-color: #FF5722;
 $offset-color: #fff;
 
 // Typefaces
@@ -246,13 +246,12 @@ img {
 
 /* Code blocks */
 .highlight {
-	background-color: rgba($secondary-color, 0.05);
+	background-color: rgba($secondary-color, 0.03);
 	padding: 0.5em 1em;
 }
 
 .highlight code {
 	font-family: $secondary-type;
-	font-size: 0.85em;
 }
 
 /* Comments */
