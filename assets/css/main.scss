@@ -1,15 +1,6 @@
 ---
 ---
 
-/* Fonts */
-
-@font-face {
-	font-family: 'Ostrich Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Ostrich Sans'), url('http://sahil.nfshost.com/fonts/ostrich-sans-master/webfonts/ostrich-sans-regular.woff') format('woff');
-}
-
 /* Variables */
 
 // Colors
@@ -21,7 +12,6 @@ $offset-color: #fff;
 // Typefaces
 $primary-type: georgia, serif;
 $secondary-type: 'm-1m', 'm+ 1m', monospace;
-$tertiary-type: ostrich sans, sans-serif;
 
 // Responsiveness
 $smaller-screen: "(max-width: 940px)";
@@ -33,7 +23,7 @@ body {
 	font-family: $primary-type;
 	font-size: 16px;
 	margin: 3em 0 3em 15em;
-	width: 460px;
+	width: 480px;
 }
 
 @media #{$smaller-screen} {
@@ -44,9 +34,10 @@ body {
 }
 
 h1 {
-	font-family: $tertiary-type;
-	font-size: 3.4em;
-	font-weight: 400;
+	font-family: $secondary-type;
+	font-size: 2.4em;
+	font-weight: 200;
+	text-transform: uppercase;
 }
 
 @media #{$smaller-screen} {
@@ -92,7 +83,6 @@ img {
 }
 
 .site-header h1 {
-	font-family: $secondary-type;
 	font-size: 1.2em;
 	font-weight: normal;
 	line-height: 2.4;
@@ -194,6 +184,10 @@ img {
 	position: relative;
 }
 
+.post h1 {
+	letter-spacing: -1px;
+}
+
 .post h1 a {
 	color: $accent-color;
 	text-decoration: none;
@@ -227,11 +221,14 @@ img {
 	padding-left: 1.5em;
 }
 
+.post-body ol p:first-child {
+	font-style: italic;
+}
+
 .post-meta {
 	box-sizing: border-box;
 	color: mix($primary-color, white, 50%);
 	font-family: $secondary-type;
-	font-weight: 100;
 	left: -30%;
 	line-height: 1.4;
 	position: absolute;
