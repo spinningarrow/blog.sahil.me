@@ -5,7 +5,9 @@ read post_title
 
 filename=`date +%F`-`echo -n $post_title | \
 	tr '[:upper:]' '[:lower:]' | \
-	sed s/\ /-/g`.md
+	tr '[:punct:]' '-' | \
+	tr '[:space:]' '-' | \
+	tr -s '-'`.md
 
 cat > _posts/$filename << EOF
 ---
