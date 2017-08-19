@@ -251,6 +251,21 @@ img {
 	padding: 0;
 }
 
+.post-quote blockquote {
+	border-left: 0.8rem solid rgba($accent-color, 0.05);
+	font-size: 2.4rem;
+	margin: 0;
+	padding-left: 1rem;
+}
+
+.post-quote blockquote p {
+	margin: 0;
+}
+
+.post-quote blockquote cite {
+	font-size: 1rem;
+}
+
 /* Code blocks */
 .highlight {
 	background-color: rgba($secondary-color, 0.03);

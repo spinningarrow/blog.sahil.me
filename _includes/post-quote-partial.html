@@ -1,0 +1,14 @@
+<article class="post post-quote">
+	<header>
+		<div class="post-meta">
+			<ul>
+				<li><time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time></li>
+				{% if include.post.category %}<li class="post-category">{{ include.post.category }}</li>{% endif %}
+			</ul>
+		</div>
+	</header>
+
+	<div class="post-body">
+		{{ include.post.content | markdownify }}
+	</div>
+</article>

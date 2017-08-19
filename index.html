@@ -3,7 +3,11 @@ layout: default
 ---
 
 {% for post in site.posts limit:2 %}
+	{% if post.category == 'quotes' %}
+	{% include post-quote-partial.html post=post %}
+	{% else %}
 	{% include post-partial.html post=post %}
+	{% endif %}
 {% endfor %}
 
 <p class="box box-info">
