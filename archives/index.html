@@ -4,19 +4,47 @@ title: Archives
 ---
 <section class="page-archives">
 	<h1>Archives</h1>
-	{% assign years = site.posts | group_by_exp: 'item', 'item.date | date: "%Y"' %}
 
-	{% for year in years %}
-	<h2>{{ year.name }}</h2>
-	<ul class="list-collapsible">
-		{% for post in year.items %}
-		<li>
-			<a href="{{ post.url }}" class="title-post">{{ post.title }}</a>
-			<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
-		</li>
+	<section id="by-category">
+		<menu class="box box-info">
+			Viewing archives by <strong>category</strong>.
+			<a href="#by-year">View by year</a>.
+		</menu>
+
+		{% assign categories = site.posts | group_by: 'category' | sort: 'name' %}
+		{% for category in categories %}
+		<h2>{{ category.name | default: 'uncategorized' }}</h2>
+		<ul class="list-collapsible">
+			{% for post in category.items %}
+			<li>
+				<a href="{{ post.url }}" class="title-post">{{ post.title }}</a>
+				<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+			</li>
+			{% endfor %}
+		</ul>
 		{% endfor %}
-	</ul>
-	{% endfor %}
+	</section>
+
+	<section id="by-year">
+		<menu class="box box-info">
+			Viewing archives by <strong>year</strong>.
+			<a href="#by-category">View by category</a>.
+		</menu>
+
+		{% assign years = site.posts | group_by_exp: 'item', 'item.date | date: "%Y"' %}
+
+		{% for year in years %}
+		<h2>{{ year.name }}</h2>
+		<ul class="list-collapsible">
+			{% for post in year.items %}
+			<li>
+				<a href="{{ post.url }}" class="title-post">{{ post.title }}</a>
+				<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+			</li>
+			{% endfor %}
+		</ul>
+		{% endfor %}
+	</section>
 
 	<p class="box box-info"><strong>Note</strong>: Older posts from 2007 and 2006 can be found at <a href="http://sahilb.blogspot.com">sahilb.blogspot.com</a>.</p>
 </section>

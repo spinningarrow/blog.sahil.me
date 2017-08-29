@@ -282,10 +282,33 @@ img {
 }
 
 /* Archives */
+@keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
 .page-archives h2 {
 	font-family: $secondary-type;
 	font-size: 1em;
 	font-weight: 400;
+}
+
+.page-archives section {
+	display: none;
+}
+
+.page-archives section:last-of-type {
+	display: block;
+}
+
+.page-archives section:target {
+	display: block;
+	animation: fade 0.1s linear 1;
+}
+
+.page-archives section:target ~ section {
+	display: none;
 }
 
 .list-collapsible {
@@ -304,6 +327,7 @@ img {
 
 .box {
 	padding: 0.5em;
+	margin-bottom: 2rem;
 }
 
 .box-info {
