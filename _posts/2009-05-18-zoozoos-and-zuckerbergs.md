@@ -2,6 +2,7 @@
 layout: post
 date: 2009-05-18T20:24:00+05:30
 title: Zoozoos and Zuckerbergs
+category: journal
 ---
 
 <figure>

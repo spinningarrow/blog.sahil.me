@@ -2,6 +2,7 @@
 layout: post
 date: 2013-07-30T05:25:54+05:30
 title: Typist’s block?
+category: journal
 ---
 
 The words… they refuse to appear!

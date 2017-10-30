@@ -2,6 +2,7 @@
 layout: post
 date: 2014-02-10T19:03:50+08:00
 title: More magic
+category: music
 ---
 
 Strange, [more beautiful][magic] music. Headphones are nice, but speakers are just something else.

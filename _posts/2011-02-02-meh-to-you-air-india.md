@@ -2,6 +2,7 @@
 layout: post
 date: 2011-02-02T05:19:00+08:00
 title: Meh to you, Air India!
+category: travel
 ---
 
 And I'm back in <del>sunny</del> oh-my-god-it's-like-living-in-a-waterfall rainy Singapore with more than a week of college shamelessly waving me goodbye. What with college starting, the helplessly annoying course registration procedure, a Sumo wrestler-load of Red Cross work, casting calls for Hall 13's Production, being stranded in a remote industrial area of Singapore, the dramatic first batch outing of the new year, and all those small but add-to-the-list-of-things-you-ended-up-thinking-about things, it's a flaming miracle that my head is still intact. Thankfully, a couple of holidays for the Chinese New Year (rabbits!) are coming up, but nowadays even holidays think that it's their prerogative to be not devoid of work.

@@ -2,6 +2,7 @@
 layout: post
 date: 2014-04-23T21:46:00+08:00
 title: Acronym day
+category: singapore
 ---
 
 The other day, I woke up in my <abbr class="acronym" title="Nanyang Tehcnological University">NTU</abbr> room in sunny <abbr class="acronym" title="Singapore">SG</abbr>, all ready for an interview later that afternoon. Taking the <abbr class="acronym" title="Campus Rider - Red line">CR-R</abbr> bus past <abbr class="acronym" title="National Institute of Education">NIE</abbr> to the <abbr class="acronym" title="Lee Wee Nam">LWN</abbr> bus stop made me realise it was a little _too_ sunny though, a fact underscored by my progressively soaking shirt. I had originally planned to travel by the <abbr class="acronym" title="Mass Rapid Transit">MRT</abbr>, but while sitting in <abbr class="acronym" title="Singapore Bus Service">SBS</abbr> Transit's bus 179 and passing by the <abbr class="acronym" title="School of Chemical and Biomedical Engineering">SCBE</abbr>, <abbr class="acronym" title="Research Techno Plaza">RTP</abbr>, <abbr class="acronym" title="Wee Kim Wee School of Communication and Information">WKWSCI</abbr>, <abbr class="acronym" title="Humanities and Social Sciences">HSS</abbr> and other buildings, I decided instead to head to <abbr class="acronym" title="Jurong Point">JP</abbr>. Reaching there, I made a beeline for <abbr class="acronym" title="G2000">G2K</abbr> and bought another shirt (or two, actually, thanks to a sale and my dearth of fitted shirts).

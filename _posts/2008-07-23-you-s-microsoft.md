@@ -2,6 +2,7 @@
 layout: post
 date: 2008-07-23T20:41:00+05:30
 title: This is what happens when you regularly update Windows
+category: computing
 ---
 
 I'm not, [UPDATE: Oops ... I meant to say 'unlike' and not 'like'. Silly me.] <del>like</del> unlike many people I know, some kind of anti-Microsoft person (in general). But stuff like this (almost) makes me flip over to the Other Side.

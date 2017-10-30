@@ -2,6 +2,7 @@
 layout: post
 date: 2010-11-21T01:32:00+08:00
 title: Week 12 is starting on Monday, seriously?!
+category: journal
 ---
 
 Whoa there. You're kidding right? Of course you are! Because if Week 12 is starting (the entire semester here is divided into numbered weeks), it means I've been in Singapore for more than 13 weeks, and 13 weeks is a little over 3 months and 3 months is ... well, *impossible*. I mean, okay, I know I've been here at least a month, but come on, *three*? I don't think so.

@@ -2,6 +2,7 @@
 layout: post
 date: 2014-02-22T01:35:05+08:00
 title: “And I felt I was in a trance, and my spirit was lifted from me”
+category: music
 ---
 
 Three years and a week ago (it's been _three_ years?!), I saw [one of my favourite bands][maiden] live. I had started listening to them when I was fifteen (thanks to a newspaper supplement and a friend on a bus), but I only dreamt of ever seeing them for real. Then the impossible happened – they came to India, _twice_. And I [missed][1] [both][2] those times, thanks to that period of tedious rote learning and furious scribbling otherwise known as exams.

@@ -2,6 +2,7 @@
 layout: post
 date: 2009-04-29T18:27:00+05:30
 title: Aaand ... *drumroll*
+category: journal
 ---
 
 In yet another unexpected (or largely so, I'm sure) turn of events, I'm back! It feels really odd to be writing a blog post after *so* long - my last post was more than (zomg!) *nine* months ago! As surprising as it might not be, a lot of stuff has happened since [that fateful day][1]. However, unlike previous times, I'm not going to make any promises of some day being able to write all about it :P.

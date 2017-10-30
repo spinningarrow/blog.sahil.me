@@ -2,7 +2,7 @@
 layout: post
 date: 2016-02-03T00:40:38+0800
 title: Reading spree
-category: journal
+category: books
 ---
 
 It was with great purpose that I packed my suitcases when I left Delhi last

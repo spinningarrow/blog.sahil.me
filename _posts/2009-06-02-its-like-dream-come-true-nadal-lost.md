@@ -2,6 +2,7 @@
 layout: post
 date: 2009-06-02T01:48:00+05:30
 title: Will he? Or won't he?
+category: sports
 ---
 
 It's like a dream come true - NADAL *lost*. On *clay*. In the *French Open*. In the *fourth round*. *Nadal* lost, did I mention? Yes, *Nadal*. It's like so ZOMGWOW! =D If Federer *still* somehow manages to make a hames of it when Nadal has been ever so nice to have handed him the keys, then as one of my friends said, he probably doesn't deserve it anyway :P. He hasn't been playing all that well and nearly gave us a scare in his five-setter today. Oh! that reminds me, check out this *awesome* video of Federer playing air guitar (well, kind of).

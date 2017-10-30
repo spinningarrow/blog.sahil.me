@@ -2,6 +2,7 @@
 layout: post
 date: 2009-09-24T19:39:00+05:30
 title: “If u r driving in the wrong direction, God will provide ‘U’ turns”
+category: journal
 ---
 
 So I finally, finally, *finally* went and got my [Learner's License][ll]. (From the Vasant Vihar RTO. Which says it's open on weekdays till 1 pm, except not really.) You have to go to this counter-thingy inside the gate which has “Learner's License” written above it in large, not-so-friendly letters (although that could just be my imagination and their rain-washed character). There's a guy sitting there eating biscuits and drinking tea, on finishing which, he'll say that there are only ten minutes before the counter closes. You simultaneously stare at your watch and all the people <del>in the queue</del> in front of you (tricky, btw) while wondering whether the guy sniffling and coughing behind you has [swine flu][sf] or not. If you eventually reach the counter, the guy will glance through your form, circle a few things (which can be disconcerting for those who aren't used to Physics teachers circling lab experiment readings), ask you to sign in a dozen places, and also casually mention that those sweet *biskuts* get stuck in his teeth. Incidentally, mentioning that he may have cavities is rather futile. Oh and for the residence proof, though the passport is — in His own (translated) words — “the quintessential age and residence proof”, take it only if you want to field requests for taking him along on your next trip abroad.

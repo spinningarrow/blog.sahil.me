@@ -2,6 +2,7 @@
 layout: post
 date: 2014-02-04T01:27:30+08:00
 title: From Amazon to Singapore
+category: music
 ---
 
 [Koss Porta Pro][kpp] headphones – that was the combined result of a quest for sonic satisfaction, a pair of rather shallow pockets, and the lack of my own room to play loud music in. These headphones are usually described as both inexpensive and far exceeding the value of the rectangular sheets of paper they're often exchanged for. Unfortunately, Singapore's habitual marking up of electronic goods all but struck off *inexpensive* from the description, and the realisation that I prefer room-filling speakers as opposed to head-filling earphones made me refrain from buying them when I first heard of them a few years ago.

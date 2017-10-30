@@ -2,6 +2,7 @@
 layout: post
 date: 2010-07-21T00:00:00+05:30
 title: "The Summer 2010 Movie List"
+category: movies
 ---
 
 I have a strong strange feeling that this list should be somewhat longer, but oh well, this will have to do.

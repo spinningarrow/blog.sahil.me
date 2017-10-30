@@ -2,6 +2,7 @@
 layout: post
 date: 2010-02-20T01:05:00+05:30
 title: When a guitar meets a cellphone
+category: journal
 ---
 
 Pretty things do *not* happen.

@@ -2,6 +2,7 @@
 layout: post
 date: 2012-06-19T04:17:00+08:00
 title: Hang on... don't I have a PSP?
+category: computing
 ---
 
 I'm not much of a gamer (unless you count occasional bouts of Quake III, Portal or Counter Strike), but I do own one of those oldfangled handheld consoles, i.e., the [PlayStation Portable](http://en.wikipedia.org/wiki/Playstation_portable#PSP-3000). It was my eternal seventh-grade dream to own a [GameBoy Advance](http://en.wikipedia.org/wiki/Gba#Game_Boy_Advance_SP); I finally realized it three years ago by buying a PSP instead and promptly spent the subsequent three years not purchasing a single game for the platform.

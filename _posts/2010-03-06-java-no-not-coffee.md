@@ -2,6 +2,7 @@
 layout: post
 date: 2010-03-06T03:59:00+05:30
 title: Java (no, not the coffee)
+category: computing
 ---
 
 Remember those [Java][] classes I took [once upon a time][1]? Of course you do(n't).

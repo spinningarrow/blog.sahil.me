@@ -2,6 +2,7 @@
 layout: post
 date: 2010-01-16T02:29:00+05:30
 title: “Elementary, my dear Watson – it's Hollywood!”
+category: movies
 ---
 
 With that — and my love for the *The Adventures of Sherlock Holmes* — put out of the way, I have to (no, really) say that [Sherlock Holmes][] turned out to be a pretty great movie. It's true that they pretty much reinvented every character — heck they have [Irene Adler][] in it, as a *femme fatale* and Holmes' *love interest* (Sherlock Holmes in *love*?) — but it still has more than its fair share of 'Oooh's and 'Aaah's.

@@ -2,6 +2,7 @@
 layout: post
 date: 2011-11-02T04:44:00+08:00
 title: You must be out of your mind
+category: journal
 ---
 
 Scene: G-Max Reverse Bungee at Clarke Quay.<br>

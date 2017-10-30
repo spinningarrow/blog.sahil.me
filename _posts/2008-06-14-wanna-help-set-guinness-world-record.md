@@ -2,6 +2,7 @@
 layout: post
 date: 2008-06-14T18:36:00+05:30
 title: Wanna help set a Guinness World Record?
+category: computing
 ---
 
 How would you like to be a part of setting a Guinness World Record? It isn't even difficult - you don't even need to get off this chair you're sitting on :). All you have to do is download Firefox 3 on Tuesday, June 17, 2008 and help set the record for Most Software Downloaded in 24 hours.

@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2014-11-16T19:48:39+08:00
-category: journal
 title: Dilemmatic design
+category: computing
 ---
 
 Back in the <a href="http://www.exunclan.com/">Exun</a> days, I went for my first web designing competition with DJ. It was a Saturday morning and we had to design a promo page for Windows Vista. I fired up Photoshop (this surprises some people, perhaps because ‘web design’ has very little to do with the words ‘photo’ and ‘shopping’), did some funky things to a sample image they gave us, created some glass-styled elements (I had just learnt how to – they were all the rage those days), whipped up some HTML, and we were done. An hour or so later, we were enjoying the sweet taste of victory.

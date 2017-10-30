@@ -2,6 +2,7 @@
 layout: post
 date: 2008-01-02T23:31:00+05:30
 title: Happy New Year!
+category: journal
 ---
 
 First of all, here's wishing all of you a *very* happy New Year! May this year bring you joy, success, health, happiness and basically everything you want it to :).

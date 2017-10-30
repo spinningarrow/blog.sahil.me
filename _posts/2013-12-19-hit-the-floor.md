@@ -2,6 +2,7 @@
 layout: post
 date: 2013-12-19T01:54:52+08:00
 title: Hit the Floor
+category: music
 ---
 Linkin Park's *Hybrid Theory* and *Meteora* are *so* good. They bring back many memories – the first audio CD I owned, the start of discovering the heavier side of music, arguing whether *In the End* was better than *Somewhere I Belong* way back in class six, the first time I obsessively read liner notes and lyrics (hah iTunes, there are some things you can never match!), drawing the LP logo during the Computers class in school...
 

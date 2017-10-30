@@ -2,6 +2,7 @@
 layout: post
 date: 2012-12-20T02:30:00+05:30
 title: "Omelettes and Trees"
+category: journal
 ---
 
 As it turns out, a whole year *is* a tad too long to be away from home [for](http://en.wikipedia.org/wiki/Hypercorrection). I landed in Delhi last night (*“Twenty two degrees on a winter night?!”* and *“Immigration officials in India are <em>mean</em> to foreigners”*), made my way out of the airport without any incident (quite unlike last year, when I was asked for a bribe by the customs official at the [Green Channel](http://en.wikipedia.org/wiki/Customs#Red_and_Green_channels) while he dipped his moustache in tea), found my sister and dad at the gate and talked non-stop to them on the way home (between mouthfulls of [Dairy Milk](http://en.wikipedia.org/wiki/Cadbury_Dairy_Milk), that is), hugged my mom at the door (who thankfully forgot to ask who brought the luggage up the four flights of stairs), and proceeded to peer around the [drawing room](http://en.wikipedia.org/wiki/Drawing_room) to see if anything had changed (“Where's the TV gone?!”).

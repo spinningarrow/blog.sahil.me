@@ -2,7 +2,7 @@
 layout: post
 date: 2016-05-24T23:51:54+0800
 title: The non-rules of table tennis
-category: journal
+category: sports
 ---
 
 One thing I miss about working at Autodesk (yeah, that happened) is playing

@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-20T20:15:00+05:30
 title: "Why you should not enter a mall from an unfamiliar entrance"
+category: journal
 ---
 
 Last week (or the week before, or perhaps the week before that) I decided to go to one of the malls near my house, because (a) I hadn't been there for some time (the fact that I've *never* been to the mall right beside this one is irrelevant), and (b) I wanted to buy something.

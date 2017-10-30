@@ -2,6 +2,7 @@
 layout: post
 date: 2009-06-05T23:22:00+05:30
 title: Wait for Sleep
+category: journal
 ---
 
 Last night I finally went for the [Iron Maiden][] concert. I didn't enjoy it that much actually: for some reason, the audience was made to sit on chairs (there were chairs!) and the crowd was *quite* unenthusiastic — no one was singing and only a few of them picked up after I started ...

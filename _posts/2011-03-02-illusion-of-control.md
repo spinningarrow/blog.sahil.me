@@ -2,6 +2,7 @@
 layout: post
 date: 2011-03-02T04:00:00+08:00
 title: The illusion of control
+category: journal
 ---
 
 <figure>

@@ -2,6 +2,7 @@
 layout: post
 date: 2010-09-23T04:20:00+08:00
 title: For those of you who didn't know ...
+category: singapore
 ---
 
 ...I'm in Singapore.

@@ -2,6 +2,7 @@
 layout: post
 date: 2008-01-09T00:00:00+05:30
 title: Why doesn't my alarm clock work?
+category: journal
 ---
 
 <figure>

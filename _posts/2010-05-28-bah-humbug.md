@@ -2,6 +2,7 @@
 layout: post
 date: 2010-05-28T01:15:00+05:30
 title: "Bah, humbug"
+category: journal
 ---
 
 It's just one of Those Days, you know?

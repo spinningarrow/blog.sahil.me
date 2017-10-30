@@ -2,6 +2,7 @@
 layout: post
 date: 2014-03-31T02:00:01+08:00
 title: Bonjour! Bonjour?
+category: travel
 ---
 
 <figure>

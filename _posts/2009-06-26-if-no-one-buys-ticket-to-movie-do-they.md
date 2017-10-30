@@ -2,6 +2,7 @@
 layout: post
 date: 2009-06-26T00:17:00+05:30
 title: If no one buys a ticket to a movie, do they still show it?
+category: journal
 ---
 
 You can credit that three-week drought to my general laziness and a lack of any Grand Blogging Ideas. Incidentally, there seems to be a real drought waiting to happen, thanks to the monsoon's complete refusal to making its presence felt. Perhaps somebody should get hold of that Rain God chap from [Hitchhiker's][h2g2]. Heat, of course, means power cuts, and power cuts mean heat, which in turn exponentially increases my inertia of rest. We got a new inverter recently since the old one was on its deathbed. Unfortunately, the new one is more like a power-crazy megalomaniac — it seizes every opportunity to switch itself on and pretends it can't tell the difference between the electricity fluctuating and actually going away. Or at least, it *did*, until the repairguy came, gave it a look that probably turned the acid in its batteries to water and then walked off. It's been most well-behaved since then.

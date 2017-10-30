@@ -2,6 +2,7 @@
 layout: post
 date: 2014-01-02T13:19:03+08:00
 title: And whither then, I cannot say
+category: journal
 ---
 > The Road goes ever on and on<br>
 > Down from the door where it began.<br>

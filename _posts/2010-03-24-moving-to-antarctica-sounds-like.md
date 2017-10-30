@@ -2,6 +2,7 @@
 layout: post
 date: 2010-03-24T16:54:00+05:30
 title: Moving to Antarctica sounds like a fabulous plan right about now
+category: journal
 ---
 
 It's 39 degrees.<br>

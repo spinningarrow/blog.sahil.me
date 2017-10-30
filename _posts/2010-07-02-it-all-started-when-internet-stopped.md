@@ -2,6 +2,7 @@
 layout: post
 date: 2010-07-02T01:40:00+05:30
 title: "It all started when the internet stopped working"
+category: journal
 ---
 
 Sometime last week, my internet stopped working in the middle of the night. Apparently the phone was dead. You know why? Because someone, in a stroke of genius, decided that it would be a rather neat idea to walk off with MTNL's telephone cables. Yes, seriously, *telephone cables* which – of all things – I have no idea why anyone would bother to steal. Maybe it was to prove that telephones cannot in fact work without them. We knew that already, thank you very much.

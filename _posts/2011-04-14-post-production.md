@@ -2,6 +2,7 @@
 layout: post
 date: 2011-04-14T07:31:00+08:00
 title: Post Production
+category: journal
 ---
 
 [Hall 13][] Production!
