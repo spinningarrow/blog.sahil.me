@@ -5,16 +5,16 @@ title: Colophon
 
 # Colophon
 
-I started this blog years ago when I was in class ten, writing about things
-I’ve been up to and those I find interesting, with an occasional creative piece
-thrown in.
+I started this blog when I was fifteen. I write about things I’ve been up to
+and things I find interesting, with an occasional creative piece thrown in.
 
-If you’re amongst the negligibly few pondering over the inspiration
-behind the name, I can provide two clues: computer mice, and a movie called
-*Pocahontas*. The tagline is from a poem in *The Lord of the Rings*.
+The inspiration for the name of the blog came from the movie *Pocahontas* (one
+of my favourites when I was a kid), and from my love of computers.
 
-This blog is hosted on GitHub, with the assistance of [Jekyll][], [Vim][], and
-several notebooks.
+The tagline is from a poem in *The Lord of the Rings*.
 
-[Jekyll]: http://jekyllrb.com/
-[Vim]: http://www.vim.org/
+This blog is generated using [Jekyll][]. The source code can be found on
+[GitHub][source].
+
+[Jekyll]: https://jekyllrb.com/
+[source]: https://github.com/spinningarrow/blog.sahil.me
