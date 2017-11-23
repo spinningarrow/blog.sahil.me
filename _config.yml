@@ -1,5 +1,5 @@
 # Jekyll configuration
-exclude: ["new_post.sh", "CNAME", "README.md"]
+exclude: ["CNAME", "Makefile", "README.md", "default.nix", "new"]
 permalink: /posts/:title/
 future: true
 
