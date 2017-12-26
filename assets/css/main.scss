@@ -16,6 +16,7 @@ $tertiary-type: 'm-1m', 'm+ 1m', monospace;
 
 // Responsiveness
 $smaller-screen: "(max-width: 940px)";
+$smaller-screen-body-margin: 1em;
 
 /* General */
 
@@ -29,7 +30,7 @@ body {
 
 @media #{$smaller-screen} {
 	body {
-		margin: 1em;
+		margin: $smaller-screen-body-margin;
 		width: auto;
 	}
 }
@@ -64,6 +65,12 @@ img {
 	background-color: white; /* for non-rectangular image links on hover */
 }
 
+@media #{$smaller-screen} {
+	img {
+		margin-left: -$smaller-screen-body-margin;
+		width: 100vw;
+	}
+}
 /* Header */
 
 .site-header {
@@ -278,6 +285,13 @@ img {
 
 .highlight code {
 	font-family: $tertiary-type;
+}
+
+@media #{$smaller-screen} {
+	.highlight {
+		margin-left: -$smaller-screen-body-margin;
+		margin-right: -$smaller-screen-body-margin;
+	}
 }
 
 /* Comments */
