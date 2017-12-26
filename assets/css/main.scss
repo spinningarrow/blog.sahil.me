@@ -278,17 +278,14 @@ img {
 }
 
 /* Code blocks */
-.highlight {
+.highlight code {
 	background-color: rgba($secondary-color, 0.03);
+	font-family: $tertiary-type;
 	padding: 0.5em 1em;
 }
 
-.highlight code {
-	font-family: $tertiary-type;
-}
-
 @media #{$smaller-screen} {
-	.highlight {
+	.highlight code {
 		margin-left: -$smaller-screen-body-margin;
 		margin-right: -$smaller-screen-body-margin;
 	}
