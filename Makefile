@@ -1,4 +1,4 @@
-.PHONY: up build post
+.PHONY: up build post date
 
 up:
 	jekyll serve
@@ -8,3 +8,6 @@ build:
 
 post:
 	_scripts/new-post
+
+date:
+	@@ date +%FT%T%z
