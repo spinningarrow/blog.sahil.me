@@ -16,7 +16,11 @@ I stashed it in a drawer and promptly forgot all about it.
 
 <figure>
 	<img data-action="zoom"
-		src="https://i.imgur.com/OYtpAv8.png"
+		src="https://c1.staticflickr.com/5/4647/38646242784_094ed37527_o.png"
+		srcset="https://c1.staticflickr.com/5/4647/38646242784_094ed37527_o.png
+		1282w, https://c1.staticflickr.com/5/4647/38646242784_783dd6b110_c.jpg
+		776w, https://c1.staticflickr.com/5/4647/38646242784_783dd6b110.jpg
+		485w"
 		alt="Particle Photon box">
 	<figcaption>The Particle Photon box</figcaption>
 </figure>
@@ -42,7 +46,11 @@ monitor. A few minutes of plugging in components later, the circuit was done!
 
 <figure>
 	<img data-action="zoom"
-		src="https://i.imgur.com/jP46ltQ.png"
+		src="https://c1.staticflickr.com/5/4641/39353811641_e38a31e21c_o.png"
+		srcset="https://c1.staticflickr.com/5/4641/39353811641_e38a31e21c_o.png
+		970w, https://c1.staticflickr.com/5/4641/39353811641_03144346cc_c.jpg
+		559w, https://c1.staticflickr.com/5/4641/39353811641_03144346cc.jpg
+		349w"
 		alt="Particle Photon sample circuit schematic">
 	<figcaption>The schematic diagram showing a sample circuit on the Photon</figcaption>
 </figure>
@@ -80,8 +88,12 @@ the Photon publishes an event, and voilà, I was done!
 
 <figure>
 	<img data-action="zoom"
-		src="https://i.imgur.com/fUg9Fzr.png"
-		alt="Particle Photon geyser status monitor">
+		src="https://c1.staticflickr.com/5/4680/39324570442_fdb1a08bab_o.png"
+		srcset="https://c1.staticflickr.com/5/4680/39324570442_dd8a35c137_z.jpg
+		640w, https://c1.staticflickr.com/5/4680/39324570442_dd8a35c137_n.jpg
+		320w, https://c1.staticflickr.com/5/4680/39324570442_fdb1a08bab_o.png
+		970w"
+		alt="Particle Photon box">
 	<figcaption>We're all done!</figcaption>
 </figure>
 
