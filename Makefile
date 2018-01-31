@@ -1,6 +1,6 @@
-.PHONY: up build post date
+.PHONY: start build post date
 
-up:
+start:
 	jekyll serve
 
 build:
