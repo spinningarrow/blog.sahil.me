@@ -288,6 +288,7 @@ blockquote {
 /* Code blocks */
 .highlight code {
 	background-color: rgba($secondary-color, 0.03);
+	display: block;
 	font-family: $tertiary-type;
 	padding: 0.5em 1em;
 }
