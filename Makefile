@@ -1,4 +1,4 @@
-.PHONY: start build post date
+.PHONY: start build post date photos
 
 start:
 	jekyll serve
@@ -11,3 +11,6 @@ post:
 
 date:
 	@@ date +%FT%T%z
+
+photos:
+	_scripts/photos.cljs | jq .
