@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-03-28:38:45+0800
+date: 2018-03-28T10:38:45+0800
 title: Shell Scripting in ClojureScript using Planck
 category: computing
 ---
