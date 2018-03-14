@@ -285,12 +285,17 @@ blockquote {
 	padding: 0 2rem;
 }
 
-/* Code blocks */
+/* Code blocks and inline code */
 .highlight code {
 	background-color: rgba($secondary-color, 0.03);
 	display: block;
 	font-family: $tertiary-type;
 	padding: 0.5em 1em;
+}
+
+p code {
+	color: lighten($primary-color, 15%);
+	font-family: $tertiary-type;
 }
 
 @media #{$smaller-screen} {
