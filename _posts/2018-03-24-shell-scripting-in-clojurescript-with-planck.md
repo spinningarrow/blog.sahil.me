@@ -1,28 +1,26 @@
 ---
 layout: post
-date: 2018-03-28T10:38:45+0800
-title: Shell Scripting in ClojureScript using Planck
+date: 2018-03-24T10:38:45+0800
+title: Shell Scripting in ClojureScript with Planck
 category: computing
 ---
 
-I've been doing a fair bit of shell-scripting recently, mostly data munging for
-some of my [side][vinylwhere] [projects][twsg-clinics].  While I quite enjoy
-working with command line tools, dealing with structured data (JSON) isn't too
-pleasant.  [jq][] is nice but it defines its own DSL, which I've never found
-very intuitive except for simple tasks.
+I've been doing a fair bit of shell-scripting recently, mostly of the data
+munging variety for some of my [side][vinylwhere] [projects][twsg-clinics]. I
+quite enjoy working with command line tools, but dealing with structured data
+(JSON) isn't too pleasant. [jq][] is nice but it defines a DSL that I've never
+found intuitive except for simple tasks.
 
-In looking for a chance do use more Clojure for Real Stuff &trade;, I thought why
-not try it out for those shell scripts? Clojure, has a fantastic standard
-library of functions for data transformation so I recently began to look at
-using Clojure for writing those scripts. The startup time for Clojure is
-notoriously prohibitive (I’m trying to replace shell scripts after all), but I
-had some fun playing around with the Planck REPL, and decided to take that for
-a spin. Turns out that it’s actually has really good support for writing shell
-scripts I've been so happy with it that I've started converting some more
-gnarly scripts to use Planck + ClojureScript.
+In looking for opportunities to use Clojure for Real Stuff&trade;, I thought --
+why not try it out for those shell scripts? It has a fantastic standard library
+specifically for transforming data. The only downside is the interpreter's
+notoriously prohibitive startup time (I’m trying to replace shell scripts after
+all). I've also been playing with [Planck][] (a ClojureScript REPL), which I
+found super snappy in comparison, so I decided to give that a shot.
 
-Here are some of the useful tools Planck provides for dealing with some of the
-tasks I commonly use shell scripts for:
+As it turns out, Planck has great support for shell scripting. I've been so
+happy with it that I thought I'd share some of the features that make it really
+useful. Here goes:
 
 #### Invoking external shell commands with sh
 
@@ -47,25 +45,6 @@ It returns a map containing the exit code and the results of `stdout` and
 Remember to separate the command name from its arguments (i.e. `(sh "ls"
 "-al")` instead of `(sh "ls -al")`); otherwise a cryptic "launch path is not
 accessible" error is shown.
-
-#### Reading from standard input
-
-In my scripts, I try to read from standard input and write to standard output
-as far as possible. This makes it easy to compose multiple shell scripts.
-
-```clojure
-(require '[planck.core :refer [*in* slurp]])
-
-(pr (str "Planck says: " (slurp *in*) "!"))
-```
-
-Saving this as `script.cljs` and running
-
-```shell
-echo -n whoa | planck script.cljs
-```
-
-will print `Planck says: whoa!` on the terminal.
 
 #### Passing arguments to the script
 
@@ -99,6 +78,26 @@ and it'll return the response body as a string.
 ```clojure
 (slurp "https://myresourc.es/data.json")
 ```
+
+#### Reading from standard input
+
+In my scripts, I try to read from standard input and write to standard output
+as far as possible. This makes it easy to compose multiple shell scripts.
+`slurp`ing `*in*` does the trick:
+
+```clojure
+(require '[planck.core :refer [*in* slurp]])
+
+(pr (str "Planck says: " (slurp *in*) "!"))
+```
+
+Saving this as `script.cljs` and running
+
+```shell
+echo -n whoa | planck script.cljs
+```
+
+will print `Planck says: whoa!` on the terminal.
 
 #### JSON parsing and serialisation
 
@@ -200,8 +199,8 @@ should print `4` on the terminal.
 That's it! Besides what I've described here, Planck has many more nifty
 features -- check them out on the [Planck User Guide][] and give it a spin!
 
+[Planck]: http://planck-repl.org/
 [vinylwhere]: https://github.com/spinningarrow/vinylwhere
 [twsg-clinics]: https://github.com/spinningarrow/twsg-clinics-map
 [jq]: https://stedolan.github.io/jq/
 [Planck User Guide]: http://planck-repl.org/guide.html
-
