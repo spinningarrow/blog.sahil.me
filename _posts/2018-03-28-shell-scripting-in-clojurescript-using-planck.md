@@ -5,18 +5,11 @@ title: Shell Scripting in ClojureScript using Planck
 category: computing
 ---
 
-Even though I've been playing with Clojure for a really long time, I realised I
-don’t feel entirely as comfortable with it because of never having used it in a
-proper project. Clojure’s still pretty niche when it comes to taking over the
-programming world, especially in the conservative confines of the Singapore
-enterprise space. My recent side projects have also mostly been of the tiny
-frontend app variety, for which Clojure[Script] wasn't a great fit.
-
-I do a fair bit of shell-scripting though — mostly for data munging for the
-aforementioned side projects. While I quite enjoy working with shell scripts,
-dealing with structured data (usually JSON) with Unix tools isn't too pleasant.
-I’m a fan of jq but it defines its own DSL, which I've never found very
-intuitive except for simple tasks.
+I've been doing a fair bit of shell-scripting recently, mostly data munging for
+some of my [side][vinylwhere] [projects][twsg-clinics].  While I quite enjoy
+working with command line tools, dealing with structured data (JSON) isn't too
+pleasant.  [jq][] is nice but it defines its own DSL, which I've never found
+very intuitive except for simple tasks.
 
 In looking for a chance do use more Clojure for Real Stuff &trade;, I thought why
 not try it out for those shell scripts? Clojure, has a fantastic standard
@@ -31,92 +24,94 @@ gnarly scripts to use Planck + ClojureScript.
 Here are some of the useful tools Planck provides for dealing with some of the
 tasks I commonly use shell scripts for:
 
-#### Shebang-support
+#### Invoking external shell commands with sh
 
-Not surprisingly, Planck supports the shebang.
+Planck can easily execute other shell tools and return the results using the
+`sh` function.
+
+```clojure
+(require '[planck.shell :refer [sh]])
+
+(sh "echo" "hello")
+```
+
+It returns a map containing the exit code and the results of `stdout` and
+`stderr`.
+
+```clojure
+{:exit 0
+ :out "hello\n",
+ :err ""}
+```
+
+Remember to separate the command name from its arguments (i.e. `(sh "ls"
+"-al")` instead of `(sh "ls -al")`); otherwise a cryptic "launch path is not
+accessible" error is shown.
+
+#### Reading from standard input
+
+In my scripts, I try to read from standard input and write to standard output
+as far as possible. This makes it easy to compose multiple shell scripts.
+
+```clojure
+(require '[planck.core :refer [*in* slurp]])
+
+(pr (str "Planck says: " (slurp *in*) "!"))
+```
+
+Saving this as `script.cljs` and running
 
 ```shell
-#!/usr/bin/env planck
+echo -n whoa | planck script.cljs
 ```
 
-and a `chmod +x script.cljs` and you can invoke it with `./script.cljs`.
+will print `Planck says: whoa!` on the terminal.
 
-#### Invoking shell commands with sh
+#### Passing arguments to the script
 
-Planck can easily execute shell tools and return the result using the `sh`
-function.
+If you invoke a script with arguments, all the arguments are stored in
+`*command-line-args*`.
 
 ```clojure
-(require '[planck.something :refer sh])
-
-(sh "ls -al")
+(pr *command-line-args*)
 ```
 
-It returns a map containing the exit code and...
-
-```clojure
-{:thing 1
- :thing-2 :hi}
-```
+When saved and run as `planck script.cljs time for an argument`, this will
+print `("time" "for" "an" "argument")`.
 
 #### Reading files
 
-Unlike Clojure, ClojureScript doesn't have the `slurp` builtin, since it
-was originally aimed at running in browsers. Planck however includes
-`slurp` in the `planck.core` namespace. To use it in a script, it can be
-required like so:
+ClojureScript -- unlike Clojure -- doesn't have the `slurp` builtin since it
+mainly targets browser JavaScript. Planck helpfully includes this in the
+`planck.core` namespace, which can be used like so:
 
 ```clojure
-(require '[planck.core :refer slurp])
+(require '[planck.core :refer [slurp]])
 
 (slurp "path/to/myfile")
 ```
 
-#### Bonus: fetching web pages with slurp
+#### Fetching web pages with slurp
 
-While `sh` allows you to use `curl` or any other tool to fetch URLs, an easy
-way to `GET` remote resources is with `slurp`. Just give it a URL and it'll
-return the response body as a string.
-
-```clojure
-(slurp "https://myremoteresourc.es/data.json")
-```
-
-#### Reading from standard input
-
-I love the pipeline nature of Unix command line tools and try to write scripts
-that would fit in such a pipeline (i.e. reading from standard input and writing
-to standard output/standard error) as far as possible, which allows for much
-nicer composition JSON manipulation with all of the Clojure standard library
-goodness.
+A nice bonus feature of `slurp` is its support for URLs -- just give it a URL
+and it'll return the response body as a string.
 
 ```clojure
-(require '[planck.sh :refer *in*])
-
-(pr (str "Hello from Planck! You said: " *in*)
+(slurp "https://myresourc.es/data.json")
 ```
-
-If you save this as `script.cljs` and make it executable, it'll read whatever
-is piped in and then print it back out. For example:
-
-```shell
-echo "whoa!" | ./echo.cljs
-```
-
-will print `Hello from Planck! You said: whoa!` on the terminal.
 
 #### JSON parsing and serialisation
 
-This is where Planck being a Clojure_Script_ REPL actually helps a lot -- you
-don't need an external module to parse and serialise JSON! Just use the good
-old `JSON.parse` and `JSON.stringify` from JS-land.
+This is where Planck being a Clojure<em>Script</em> REPL helps a lot -- you
+don't need an external dependency to parse and serialise JSON! Good old
+`JSON.parse` and `JSON.stringify` from JS-land are available directly.
 
 ```clojure
-;; result: #js [1 2 3 4]
 (JSON.parse "[1, 2, 3, 4]")
+;; => #js [1 2 3 4]
 
-;; result: "[1,2,3,4]"
 (JSON.stringify #js [1 2 3 4])
+;; => "[1,2,3,4]"
 ```
 
 #### Converting JS objects to Clojure data structures
@@ -126,30 +121,31 @@ want to deal with those! We want to be able to use all of the lovely Clojure
 vector and map manipulation functions in our scripts. Luckily, ClojureScript
 comes with two aptly-named helpers for just that.
 
+`js->clj` converts JS objects to equivalent Clojure ones:
+
 ```clojure
-; js->clj converts JS objects to equivalent Clojure ones
-
-;; result: [1 2 3 4]
 (js->clj #js [1 2 3 4])
+;; => [1 2 3 4]
 
-;; result: {"x" 1, "y" 2}
 (js->clj #js {:x 1, :y 2})
+;; => {"x" 1, "y" 2}
 
 ;; keywordizing map keys is super useful
-;; result: {:x 1, :y 2}
 (js->clj #js {:x 1, :y 2} :keywordize-keys true)
-
-; clj->js works similarly, but in the opposite direction
-
-;; result: #js [1, 2, 3, 4]
-(clj->js [1 2 3 4])
+;; => {:x 1, :y 2}
 ```
 
-#### Threading macro wins
+`clj->js` works similarly, but in the opposite direction:
 
-A nice thing about Unix tools is being able to transform data by successively
-piping it through various tools. Threading macro emulates this pattern, and I
-do most of my manipulations this way
+```clojure
+(clj->js [1 2 3 4])
+;; => #js [1, 2, 3, 4]
+```
+
+#### Using the threading macro
+
+The Clojure threading macro inverts nested function calls to "flatten" them
+out. I do most of my manipulations this way.
 
 ```clojure
 ;; instead of
@@ -171,8 +167,41 @@ It reads a lot better, making it much easier to visualise the data
 transformations, and is also more consistent with how you'd pipe the data
 through various Unix tools.
 
-#### Example script that does stuff
+#### Putting it all together
 
-Here's a script that reads in some JSON input from `stdin`, and does stuff
+Here's a script that reads in a JSON string, parses it, and returns the sum of
+the values of the `"x"` key from every object in the list.
 
-That's it! If you liked this, check Planck's other useful features here.
+```clojure
+#!/usr/bin/env planck
+
+(require '[planck.core :refer [*in* slurp]])
+
+(def in (-> *in*
+            slurp
+            JSON.parse
+            (js->clj :keywordize-keys true)))
+
+(->> in
+     (map :x)
+     (apply +)
+     pr)
+```
+
+Save this as `script.cljs` and make it executable using `chmod +x script.cljs`.
+Running the following command
+
+```shell
+echo '[{"x": 1, "y": 2}, {"x": 3, "y": 4}]' | ./script.cljs
+```
+
+should print `4` on the terminal.
+
+That's it! Besides what I've described here, Planck has many more nifty
+features -- check them out on the [Planck User Guide][] and give it a spin!
+
+[vinylwhere]: https://github.com/spinningarrow/vinylwhere
+[twsg-clinics]: https://github.com/spinningarrow/twsg-clinics-map
+[jq]: https://stedolan.github.io/jq/
+[Planck User Guide]: http://planck-repl.org/guide.html
+
