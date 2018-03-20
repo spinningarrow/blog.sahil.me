@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-03-24T10:38:45+0800
+date: 2018-03-31T10:38:45+0800
 title: Shell Scripting in ClojureScript with Planck
 category: computing
 ---
@@ -106,12 +106,17 @@ don't need an external dependency to parse and serialise JSON! Good old
 `JSON.parse` and `JSON.stringify` from JS-land are available directly.
 
 ```clojure
-(JSON.parse "[1, 2, 3, 4]")
+(.parse js/JSON "[1, 2, 3, 4]")
 ;; => #js [1 2 3 4]
 
-(JSON.stringify #js [1 2 3 4])
+(.stringify js/JSON #js [1 2 3 4])
 ;; => "[1,2,3,4]"
 ```
+
+Note that while `(.parse js/JSON "[]")` is the better syntax for JS interop,
+`(JSON.parse "[]")` also works with the caveat that it doesn't warn you if
+`JSON` has been overridden in your code somewhere. I often find myself using
+the latter though since it is more succinct.
 
 #### Converting JS objects to Clojure data structures
 
