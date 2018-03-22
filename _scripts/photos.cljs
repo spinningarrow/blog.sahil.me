@@ -14,6 +14,8 @@
 (def useful-keys [:title
                   :url_o
                   :width_o
+                  :url_h
+                  :width_h
                   :url_c
                   :width_c
                   :url_m
@@ -23,7 +25,7 @@
              "&method=flickr.people.getPublicPhotos"
              "&user_id=161773835@N07"
              "&per_page=500"
-             "&extras=url_o,url_m,url_c"])
+             "&extras=url_o,url_m,url_c,url_h"])
 
 (def photos (-> (slurp (str api-url (apply str params)))
                 JSON.parse
