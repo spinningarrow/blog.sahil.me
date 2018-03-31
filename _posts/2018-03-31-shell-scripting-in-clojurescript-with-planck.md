@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-03-31T10:38:45+0800
+date: 2018-03-31T21:38:45+0800
 title: Shell Scripting in ClojureScript with Planck
 category: computing
 ---
@@ -15,8 +15,9 @@ In looking for opportunities to use Clojure for Real Stuff&trade;, I thought --
 why not try it out for those shell scripts? It has a fantastic standard library
 specifically for transforming data. The only downside is the interpreter's
 notoriously prohibitive startup time (I’m trying to replace shell scripts after
-all). I've also been playing with [Planck][] (a ClojureScript REPL), which I
-found super snappy in comparison, so I decided to give that a shot.
+all). Then I remembered that I have [Planck][] (a ClojureScript REPL)
+installed, which is super snappy in comparison, so I decided to give that a
+shot.
 
 As it turns out, Planck has great support for shell scripting. I've been so
 happy with it that I thought I'd share some of the features that make it really
@@ -48,7 +49,7 @@ accessible" error is shown.
 
 #### Passing arguments to the script
 
-If you invoke a script with arguments, all the arguments are stored in
+If you invoke your script with arguments, all the arguments are stored in
 `*command-line-args*`.
 
 ```clojure
@@ -168,8 +169,8 @@ out. I do most of my manipulations this way.
 ```
 
 It reads a lot better, making it much easier to visualise the data
-transformations, and is also more consistent with how you'd pipe the data
-through various Unix tools.
+transformations. It's also more consistent with how you'd use pipes on the
+command line when manipulating input with various Unix tools.
 
 #### Putting it all together
 
@@ -202,7 +203,7 @@ echo '[{"x": 1, "y": 2}, {"x": 3, "y": 4}]' | ./script.cljs
 should print `4` on the terminal.
 
 That's it! Besides what I've described here, Planck has many more nifty
-features -- check them out on the [Planck User Guide][] and give it a spin!
+features -- check them out on the [Planck User Guide][] and take it for a spin!
 
 [Planck]: http://planck-repl.org/
 [vinylwhere]: https://github.com/spinningarrow/vinylwhere
