@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-04-07T10:45:33+0800
+date: 2018-04-14T18:45:33+0800
 title: How to buy a record player
 category: music
 ---
@@ -45,7 +45,7 @@ category: music
 8. Finally buy [a beautiful one][rega-planar-1] and bring it home.
 
 9. Don’t forget to buy some records too! It’s okay if the record store guy
-   convinces you to buy an album that you’d never normally listen to because
+   convinces you to buy [an album that you’d never normally listen to][x] because
    "it sounds so good!"
 
 10. Agonise over the poor wiring in your house causing your new equipment to
@@ -69,3 +69,4 @@ safely ignored. Most importantly, enjoy the music!
 [Robinson's]: https://www.robinsons.com.sg/
 [rega-planar-1]: https://www.whathifi.com/rega/planar-1/review
 [my-discogs]: https://www.discogs.com/user/spinningarrow/collection
+[x]: https://en.wikipedia.org/wiki/X_%28Ed_Sheeran_album%29
