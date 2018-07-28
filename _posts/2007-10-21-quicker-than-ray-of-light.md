@@ -1,0 +1,7 @@
+---
+layout: post
+title: Quicker than a Ray of Light
+date: '2007-10-21T00:25:00.000+08:00'
+---
+
+<div style="text-align: left;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_eJimuJOoqL4/RxosR9VJHYI/AAAAAAAAABs/BF9CaqjbXvo/s1600-h/Fire.JPG"><img style="margin: 0px auto 10px; display: block; text-align: left; cursor: pointer;" src="http://1.bp.blogspot.com/_eJimuJOoqL4/RxosR9VJHYI/AAAAAAAAABs/BF9CaqjbXvo/s200/Fire.JPG" alt="" id="BLOGGER_PHOTO_ID_5123456213119999362" border="0" /></a><br /></div><p>I finally got my new computer! The second <span style="font-style: italic;">significant</span> one after <span style="font-style: italic;">seven</span> years.<br /></p>
