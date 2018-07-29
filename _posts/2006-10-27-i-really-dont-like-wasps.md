@@ -2,6 +2,7 @@
 layout: post
 title: I really don't like wasps
 date: '2006-10-27T19:20:00.000+08:00'
+category: journal
 ---
 
 Excerpts:
