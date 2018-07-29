@@ -23,9 +23,9 @@ $smaller-screen-body-margin: 1em;
 body {
 	color: $primary-color;
 	font-family: $primary-type;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 3em 0 3em 15em;
-	width: 480px;
+	width: 600px;
 }
 
 @media #{$smaller-screen} {
@@ -208,7 +208,7 @@ img {
 }
 
 .post-body {
-	line-height: 1.4;
+	line-height: 1.5;
 	margin-top: 2rem;
 }
 
