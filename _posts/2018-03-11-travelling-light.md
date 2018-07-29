@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2018-03-17T08:30:34+0800
-title: Travelling Light
+title: Travelling light
 category: travel
 ---
 

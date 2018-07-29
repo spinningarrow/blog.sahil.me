@@ -2,7 +2,7 @@
 layout: post
 date: 2009-08-20T00:16:45+05:30
 title: System.out.println
-category: journal
+category: computing
 ---
 
 So I'm taking these [Java][] classes.

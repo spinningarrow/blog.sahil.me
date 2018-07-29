@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: journal
+category: meta
 ---
 
 Please hold on while I conduct an experiment.
