@@ -2,6 +2,7 @@
 layout: post
 title: A Piece of Hiker
 date: '2007-12-09T23:27:00.000+08:00'
+category: books
 ---
 
 From the Reader's Digest:<br />
