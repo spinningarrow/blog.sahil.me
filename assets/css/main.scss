@@ -52,7 +52,7 @@ a:link {
 }
 
 a:visited {
-	color: mix($secondary-color, white, 60%);
+	color: mix($secondary-color, $offset-color, 60%);
 }
 
 a:hover {
@@ -62,7 +62,7 @@ a:hover {
 }
 
 img {
-	background-color: white; /* for non-rectangular image links on hover */
+	background-color: $offset-color; /* for non-rectangular image links on hover */
 }
 
 @media #{$smaller-screen} {
@@ -84,10 +84,50 @@ img {
 
 @media #{$smaller-screen} {
 	.site-header {
-		margin-bottom: 2rem;
-		position: static;
-		text-align: left;
+		background: $offset-color;
+		border-left: 1px solid rgba($accent-color, 0.2);
+		bottom: 0;
+		display: none;
+		padding: 1rem 4.5rem 1rem 1rem;
+		right: 0;
+		top: 0;
+		z-index: 1;
 	}
+
+	.site-header:target {
+		display: initial;
+	}
+
+	.site-header:target ~ .content-main {
+		opacity: 0.4;
+	}
+
+	.site-header:target ~ .menu-close-link {
+		display: initial;
+	}
+
+	a.menu-open-link, a.menu-close-link {
+		background: $offset-color;
+		border: 1px solid rgba($accent-color, 0.7);
+		color: rgba($accent-color, 0.7);
+		display: block;
+		font-family: $tertiary-type;
+		font-size: 2rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		position: fixed;
+		right: 1rem;
+		text-align: center;
+		text-decoration: none;
+		top: 1rem;
+		width: 2.5rem;
+		z-index: 1;
+	}
+
+	a.menu-close-link {
+		display: none;
+	}
+
 }
 
 .site-header h1 {
@@ -130,12 +170,6 @@ img {
 .site-header .description {
 	margin-top: 0;
 	max-width: 13em;
-}
-
-@media #{$smaller-screen} {
-	.site-header .description {
-		max-width: unset;
-	}
 }
 
 .site-header input[type="search"] {
@@ -232,7 +266,7 @@ img {
 }
 
 .post-meta {
-	color: mix($primary-color, white, 50%);
+	color: mix($primary-color, $offset-color, 50%);
 
 	ul {
 		list-style: none;

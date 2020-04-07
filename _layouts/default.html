@@ -3,7 +3,8 @@
 	{% include head.html %}
 
 	<body>
-		<header class="site-header">
+		<a href="#menu" class="menu-open-link">←</a>
+		<header class="site-header" id="menu">
 			<h1>
 				<a href="/">{{ site.title }}</a>
 			</h1>
@@ -36,6 +37,7 @@
 				</ul>
 			</nav>
 		</header>
+		<a href="#" class="menu-close-link">→</a>
 
 		<!-- Start main content -->
 		<div class="content-main">
