@@ -3,9 +3,19 @@
 		<h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
 		<div class="post-meta">
 			<ul>
-				<li><time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time></li>
-				{% if include.post.category %}<li class="post-category">{{ include.post.category }}</li>{% endif %}
-				<li><a href="{% unless page.url == include.post.url %}{{ include.post.url }}{% endunless %}#comments">comments</a></li>
+				<li>
+					<time datetime="{{ include.post.date }}">{{ include.post.date | date: "%e.%m.%Y" }}</time>
+				</li>
+
+				{% if include.post.category %}
+				<li>
+					<a class="post-category" href="/categories/#{{ include.post.category }}">{{ include.post.category }}</a>
+				</li>
+				{% endif %}
+
+				<li>
+					<a href="{% unless page.url == include.post.url %}{{ include.post.url }}{% endunless %}#comments">comments</a>
+				</li>
 			</ul>
 		</div>
 	</header>
