@@ -1,0 +1,34 @@
+---
+layout: default
+title: Categories
+---
+
+{% assign categories = site.posts | group_by: 'category' | sort: 'name' %}
+
+<h1>Categories</h1>
+
+<ul class="categories-list">
+	{% for category in categories %}
+	{% assign category_name = category.name | default: 'uncategorized' %}
+	<li><a href="#{{ category_name }}">{{ category_name }}</a></li>
+	{% endfor %}
+</ul>
+
+<section class="page-categories">
+	<ul>
+		{% for category in categories %}
+		{% assign category_name = category.name | default: 'uncategorized' %}
+		<li id="{{ category_name }}">
+			<span class="category-name">{{ category_name }}</span>
+			<ul>
+				{% for post in category.items %}
+				<li>
+					<a href="{{ post.url }}" class="title-post">{{ post.title }}</a>
+					<time class="meta-post" datetime="{{ post.date }}">{{ post.date | date: "%e %B %Y" }}</time>
+				</li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

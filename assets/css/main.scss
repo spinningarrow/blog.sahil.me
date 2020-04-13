@@ -404,3 +404,43 @@ p code {
 .box-info {
 	background-color: rgba($secondary-color, 0.1);
 }
+
+/* Categories */
+.categories-list {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.categories-list li {
+    display: inline-block;
+}
+
+.categories-list li::after {
+	content: ' /';
+	opacity: 0.1;
+}
+
+.categories-list li:last-child::after {
+    display: none;
+}
+
+.page-categories ul {
+	margin: 0;
+	padding: 0;
+}
+
+.page-categories li {
+	display: none;
+	margin: 0.5rem 0;
+}
+
+.page-categories li:target, .page-categories li:target li {
+	display: block;
+}
+
+.page-categories .category-name {
+	display: inline-block;
+	font-family: $tertiary-type;
+	margin: 1rem 0;
+}
