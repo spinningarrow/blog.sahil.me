@@ -3,7 +3,9 @@
 	{% include head.html %}
 
 	<body>
-		<a href="#menu" class="menu-open-link">←</a>
+		<input id="menu-toggle" class="menu-toggle" type="checkbox">
+		<label for="menu-toggle" class="menu-open-link">←</label>
+		<label for="menu-toggle" class="menu-close-link">→</label>
 		<header class="site-header" id="menu">
 			<h1>
 				<a href="/">{{ site.title }}</a>
@@ -37,7 +39,6 @@
 				</ul>
 			</nav>
 		</header>
-		<a href="#" class="menu-close-link">→</a>
 
 		<!-- Start main content -->
 		<div class="content-main">
