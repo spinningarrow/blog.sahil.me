@@ -62,7 +62,7 @@
 
 @media (prefers-color-scheme: dark) {
 	/*! Base16 Tomorrow Dark by Chris Kempson; https://github.com/idleberg */
-	.highlight, .highlight pre, .highlight table { background: #1d1f21; color: #ffffff }
+	.highlight, .highlight pre, .highlight table { color: #ffffff }
 	.highlight .hll { background-color: #373b41 }
 	.highlight .c { color: #969896 } /* Comment */
 	.highlight .err { color: #cc6666 } /* Error */
