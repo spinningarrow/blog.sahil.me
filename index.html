@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts limit:2 %}
+{% for post in site.posts limit:3 %}
 	{% if post.category == 'quotes' %}
 	{% include post-quote-partial.html post=post %}
 	{% else %}
