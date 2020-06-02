@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="post">
+	<header>
+		<h1 contenteditable>{{ page.title }}</h1>
+		<div class="post-meta">
+			<ul>
+				<li>
+					<time contenteditable>{{ "now" | date_to_xmlschema }}</time>
+				</li>
+
+				<li>
+					<span class="post-category" contenteditable>journal</span>
+				</li>
+
+				<li>
+					<a href="#" class="action-publish">publish</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="post-body" contenteditable>
+		<p>Post content.</p>
+	</div>
+</article>
+
+<script type="module">
+	const publish = async (event) => {
+		event.preventDefault()
+
+		const date = document.querySelector('.post time').textContent
+		const title = document.querySelector('.post h1').textContent
+		const body = document.querySelector('.post-body').innerText
+		const filename = `${date.split('T')[0]}-${title.toLowerCase().replace(/\W+/g, '-')}.md`
+		const category = document.querySelector('.post-category').textContent
+
+		const frontMatter = `---
+layout: post
+date: ${date}
+title: ${title}
+category: ${category}
+---`
+
+		const content = btoa(`${frontMatter}
+
+${body}`)
+
+		const message = `Draft: "${title}"`
+
+		console.log({ filename, message, content })
+
+		const password = prompt("Password?")
+		if (!password) {
+			return
+		}
+
+		const response = await fetch(`https://api.github.com/repos/spinningarrow/blog.sahil.me/contents/_drafts/${filename}`, {
+			method: 'PUT',
+			headers: {
+				Authorization: `Basic ${btoa(`spinningarrow:${password}`)}`
+			},
+			body: JSON.stringify({
+				message,
+				content,
+			})
+		})
+
+		console.log(await response.json())
+	}
+
+	document.querySelector('.action-publish').addEventListener('click', publish)
+</script>
