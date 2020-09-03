@@ -1,0 +1,74 @@
+---
+layout: default
+title: Images
+---
+
+<p>
+	<input autofocus placeholder="Flickr API Key" id="insert-api-key">
+	<button onClick="handleSubmit(event)">Submit</button>
+</p>
+
+<output></output>
+
+<script>
+	const render = (photos) => {
+		const html = photos.map(({url_c, url_h, url_o, url_m, width_o, width_h, width_m, width_c})=> {
+			return `
+				<div style="margin-bottom: 1rem;">
+					<img src="${url_c}" width="100" style="width: 100px">
+					<textarea style="font-family: monospace; font-size: 0.5rem; height: 7rem; width: 30rem">
+<figure>
+	<img data-action="zoom"
+		src="${url_h}"
+		srcset="${url_o} ${width_o}w, ${url_h} ${width_h}w, ${url_c} ${width_c}w, ${url_m} ${width_m}w"
+		alt="ALT_TEXT">
+	<figcaption>CAPTION_TEXT</figcaption>
+</figure>
+
+					</textarea>
+				</div>
+				`
+		}).join("\n")
+		document.querySelector("output").innerHTML = html
+	}
+
+	const getPhotosData = async (apiKey) => {
+		const url = `https://api.flickr.com/services/rest/` +
+			`?format=json` +
+			`&nojsoncallback=1` +
+			`&api_key=${apiKey}` +
+			`&method=flickr.people.getPublicPhotos` +
+			`&user_id=161773835@N07` +
+			`&per_page=500` +
+			`&extras=url_o,url_m,url_c,url_h`
+
+		const response = await fetch(url).then(response => response.json())
+
+		return response.photos.photo.map(({
+			title,
+			url_o,
+			width_o,
+			url_h,
+			width_h,
+			url_c,
+			width_c,
+			url_m,
+			width_m
+		}) => ({
+			title,
+			url_o,
+			width_o,
+			url_h,
+			width_h,
+			url_c,
+			width_c,
+			url_m,
+			width_m
+		}))
+	}
+
+	const handleSubmit = async (event) => {
+		const apiKey = document.querySelector("#insert-api-key").value
+		render(await getPhotosData(apiKey))
+	}
+</script>
