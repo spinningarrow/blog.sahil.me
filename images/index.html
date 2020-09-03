@@ -3,20 +3,38 @@ layout: default
 title: Images
 ---
 
+<h1>Images Helper</h1>
+
 <p>
-	<input autofocus placeholder="Flickr API Key" id="insert-api-key">
-	<button onClick="handleSubmit(event)">Submit</button>
+	<form onSubmit="handleSubmit(event)">
+		<input
+		  required
+		  autofocus
+		  placeholder="Flickr API Key"
+		  id="images-api-key"
+		  style="font-family: 'm-1m', 'm+ 1m', monospace;">
+		<button id="images-button" style="font-family: 'm-1m', 'm+ 1m', monospace; text-transform: uppercase;">Fetch Images</button>
+	</form>
 </p>
 
 <output></output>
 
 <script>
 	const render = (photos) => {
-		const html = photos.map(({url_c, url_h, url_o, url_m, width_o, width_h, width_m, width_c})=> {
+		const html = photos.map(({
+			url_c,
+			url_h,
+			url_m,
+			url_o,
+			width_c,
+			width_h,
+			width_m,
+			width_o,
+		})=> {
 			return `
 				<div style="margin-bottom: 1rem;">
 					<img src="${url_c}" width="100" style="width: 100px">
-					<textarea style="font-family: monospace; font-size: 0.5rem; height: 7rem; width: 30rem">
+					<textarea style="font-family: 'm-1m', 'm+ 1m', monospace; font-size: 0.5rem; height: 7rem; width: 30rem">
 <figure>
 	<img data-action="zoom"
 		src="${url_h}"
@@ -29,6 +47,7 @@ title: Images
 				</div>
 				`
 		}).join("\n")
+
 		document.querySelector("output").innerHTML = html
 	}
 
@@ -44,31 +63,22 @@ title: Images
 
 		const response = await fetch(url).then(response => response.json())
 
-		return response.photos.photo.map(({
-			title,
-			url_o,
-			width_o,
-			url_h,
-			width_h,
-			url_c,
-			width_c,
-			url_m,
-			width_m
-		}) => ({
-			title,
-			url_o,
-			width_o,
-			url_h,
-			width_h,
-			url_c,
-			width_c,
-			url_m,
-			width_m
-		}))
+		return response.photos.photo
 	}
 
 	const handleSubmit = async (event) => {
-		const apiKey = document.querySelector("#insert-api-key").value
-		render(await getPhotosData(apiKey))
+		event.preventDefault()
+		const button = document.querySelector("#images-button")
+		button.disabled = true
+
+		const apiKey = document.querySelector("#images-api-key").value
+
+		try {
+			render(await getPhotosData(apiKey))
+		} catch (e) {
+			throw e
+		} finally {
+			button.disabled = false
+		}
 	}
 </script>
