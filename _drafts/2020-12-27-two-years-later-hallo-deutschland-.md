@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-12-27T12:19:05+00:00
-title: Two years later: Hallo, Deutschland!
+title: "Two years later: Hallo, Deutschland!"
 category: germany
 ---
 
