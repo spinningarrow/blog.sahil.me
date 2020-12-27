@@ -1,3 +1,6 @@
 _site/
 .ruby-version
 .jekyll-cache/
+vendor/
+.bundle/
+Gemfile.lock
