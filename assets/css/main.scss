@@ -463,6 +463,10 @@ p code {
 	margin: 0.5rem 0;
 }
 
+:target ~ .page-categories li {
+	display: inherit;
+}
+
 .page-categories li:target, .page-categories li:target li {
 	display: block;
 }

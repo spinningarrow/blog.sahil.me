@@ -5,14 +5,22 @@ title: Categories
 
 {% assign categories = site.posts | group_by: 'category' | sort: 'name' %}
 
-<h1>Categories</h1>
+<h1 id="all">Categories</h1>
 
-<ul class="categories-list">
-	{% for category in categories %}
-	{% assign category_name = category.name | default: 'uncategorized' %}
-	<li><a href="#{{ category_name }}">{{ category_name }}</a></li>
-	{% endfor %}
-</ul>
+<menu class="box box-info">
+	Viewing archives by <strong>category</strong>.
+	<a href="/archives/">View by year</a>.
+</menu>
+
+<menu class="box box-info">
+	<ul class="categories-list">
+		{% for category in categories %}
+		{% assign category_name = category.name | default: 'uncategorized' %}
+		<li><a href="#{{ category_name }}">{{ category_name }}</a></li>
+		{% endfor %}
+		<li><a href="#all">(see all)</a></li>
+	</ul>
+</menu>
 
 <section class="page-categories">
 	<ul>
