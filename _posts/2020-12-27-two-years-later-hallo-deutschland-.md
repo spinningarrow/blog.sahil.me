@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-12-27T12:19:05+00:00
+date: 2021-01-31T12:17:05+00:00
 title: "Two years later: Hallo, Deutschland!"
 category: germany
 ---
@@ -40,6 +40,16 @@ one of the most oft-cited reasons for people [preferring cash payments instead
 of cards][cash-payment], and also why - unlike most of its neighbours - [Germany
 has terrible coverage of Google street view][street-view]).
 
+<figure>
+	<img data-action="zoom"
+		src="https://live.staticflickr.com/65535/50893118488_2980ed6e1f_h.jpg"
+		srcset="https://live.staticflickr.com/65535/50893118488_8a98172d77_o.jpg 3024w, https://live.staticflickr.com/65535/50893118488_2980ed6e1f_h.jpg 1200w, https://live.staticflickr.com/65535/50893118488_aa0f55d98d_c.jpg 600w, https://live.staticflickr.com/65535/50893118488_aa0f55d98d.jpg 375w"
+		alt="Names on doorbells">
+	<figcaption>It doesn't say which floor the person lives on, which means I
+	have to leave my building, ring a doorbell, ask for the floor, and re-enter
+	my building whenever Amazon conveniently leaves my parcels at a neighbour's</figcaption>
+</figure>
+
 ####  Carbonated water
 
 It's everywhere. Woe betide you if you order water and forget to specify that
@@ -51,6 +61,14 @@ labelled in a variety of ways -- ohne, naturelle, still, classic, medium,
 sprudel, original, mild, and probably more! Also most water dispensing machines
 feature carbonated as the largest, easiest to press button, to which of course
 yours truly fell victim more than once.
+
+<figure>
+	<img data-action="zoom"
+		src="https://live.staticflickr.com/65535/50893118613_f4e797fb0f_h.jpg"
+		srcset="https://live.staticflickr.com/65535/50893118613_d6fa8319e1_o.jpg 3371w, https://live.staticflickr.com/65535/50893118613_f4e797fb0f_h.jpg 1600w, https://live.staticflickr.com/65535/50893118613_5b845c1854_c.jpg 800w, https://live.staticflickr.com/65535/50893118613_5b845c1854.jpg 500w"
+		alt="Types of carbonated water">
+	<figcaption>Sometimes variety is not a good thing</figcaption>
+</figure>
 
 #### Prost!
 
@@ -64,6 +82,14 @@ common to clink glasses/bottles _individually_ with every person present, which
 is quite a feat. Another rule is to look the other person in their eyes while
 doing so -- forgetting to do this comes with the curse of seven years of bad
 sex -- a rather disproportionate retaliation if you think about it.
+
+<figure>
+	<img data-action="zoom"
+		src="https://live.staticflickr.com/65535/50893947517_1d8ac77673_o.jpg"
+		srcset="https://live.staticflickr.com/65535/50893947517_1d8ac77673_o.jpg 905w, https://live.staticflickr.com/65535/50893947517_785b68432b_c.jpg 640w, https://live.staticflickr.com/65535/50893947517_785b68432b.jpg 400w"
+		alt="Prost">
+	<figcaption>So many people in one place!</figcaption>
+</figure>
 
 #### Different greetings
 
