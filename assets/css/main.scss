@@ -42,6 +42,10 @@ $smaller-screen-body-margin: 1em;
 
 		--offset-color: #222;
 	}
+
+	div.zoom-overlay {
+		background: var(--offset-color);
+	}
 }
 
 /* General */
