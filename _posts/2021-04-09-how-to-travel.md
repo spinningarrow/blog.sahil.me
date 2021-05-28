@@ -7,7 +7,7 @@ category: travel
 
 In 2019, fueled by my excitement at having Finally Moved to Europe, I traveled
 a lot. Perhaps a little too much in retrospect (but also not enough -- there's
-so many places!). One one such trip, I spied this book at an airport:
+so many places!). On one such trip, I spied this book at an airport:
 
 <figure>
 	<img data-action="zoom"
